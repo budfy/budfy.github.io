@@ -1,0 +1,683 @@
+@import 'vars';
+@import 'fonts';
+@import 'global';
+//START OF STYLES
+@import 'header';
+
+//==========Start of welcome sectuon style==========
+.welcome{
+  
+  &__text{
+    max-width: 424px;
+    text-align: left;
+    margin-right: 72px;
+    @include robo;
+    font-size: 30px;
+    padding-top: 20px;
+  }
+
+  &__inner{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 8px;
+    border-bottom: 1px solid #e7e7e7;
+    padding-bottom: 58px;
+  }
+  &__wrapper{
+    display: flex;
+    margin-top: 77px;
+    justify-content: space-between;
+    min-width: 100%;
+
+    &-item{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 163px;
+    }
+  }
+
+  .item__icon{
+    background-color: $violet;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    margin: 0 auto;
+    
+    .welcome__item-icon{
+      margin: auto;
+    }
+  }
+
+
+  .item__title{
+    color: $violet;
+    text-transform: uppercase;
+    max-width: 120px;
+    padding: 34px 0 28px 0;
+    @include monbold;
+    font-size: 14px;
+  }
+
+  .item__text{
+    color: #040405;
+    font-family: 'Myriad Pro', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    padding-bottom: 35px;
+  }
+}
+//==========End of welcome sectuon style==========
+
+
+
+//==========Start of Projects sectuon style==========
+.projects{
+  
+  &__wrapper{
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 1400px;
+  }
+
+  &__item{
+    max-width: 25%;
+    background-color: $lgrey;
+    text-align: left;
+    transition: all .3s;
+    overflow: hidden;
+    &-top{
+      background-color: $grey;
+    }
+
+    &:hover{
+      background-color: $yellow;
+      .projects__item-img{
+        overflow: hidden;
+        &-inner{
+         transform: scale(1.1);
+        }
+      }
+      .projects__btn{
+        background-color: $violet;
+        color: white;
+      }
+    }
+
+    &-img{
+      height: 485px;
+      width: 350px;
+      
+      &-inner{
+        background-color: #656568;
+        min-height: 100%;
+        min-width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    }
+
+    &-title{
+      @include monbold;
+      font-size: 15px;
+      text-transform: uppercase;
+      margin: 46px 35px 17px 44px;
+    }
+
+    &-text{
+      margin: 0 35px 0 43px;
+    }
+  }
+
+  &__btn{
+    margin: 15px auto 47px 44px;
+  }
+}
+//==========End of Projects sectuon style==========
+
+
+
+//==========Start of Pricing sectuon style==========
+.pricing{
+  margin-bottom: 87px;
+  
+  &__inner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+
+  &__item{
+    display: block;
+    text-align: center;
+    align-items: center;
+    width: 33%;
+    &+div{
+      border-left: 2px solid $lgrey;
+    }
+
+    &-title{
+      @include monbold;
+      text-transform: uppercase;
+      font-size: 15px;
+      margin-bottom: 22px;
+    }
+
+    &-price{
+      @include monbold;
+      color: #9d9d9d;
+      margin-bottom: 22px;
+    }
+
+    &-description{
+      font-family: 'Helvetoca' sans-serif;
+      font-size: 10px;
+      line-height: 23px;
+      margin: 0 auto;
+      span{
+        display: block;
+      }
+    }
+
+    .btn__link{
+      padding: 10px 30px;
+      font-size: 10px;
+      margin-top: 26px;
+    }
+  }
+}
+//==========End of Pricing sectuon style==========
+
+
+
+//==========Start of Video sectuon style==========
+.video{
+  background-color: $violet;
+  padding-bottom: 150px;
+  .section__title{
+    color: white;
+  }
+
+  &__popup{
+    width: 70%;
+    max-width: 700px;
+    background-color: $lgrey;
+    padding: 20px;
+    margin: 0 auto;
+
+    &-link{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 690px;
+      height: 460px;
+      transition: all 0.3s;
+      background-color: rgba(0, 0, 0, 0);
+      &:hover{
+        background-color: rgba(0, 0, 0, .68);
+        
+      }
+    }
+  }
+
+  &__content{
+    max-width: 100%;
+  }
+
+  &__slide{
+    min-width: 100%;
+    height: 500px;
+    position: relative;
+
+    &-inner{
+      min-width: 690px;
+      height: 460px;
+      @include bg;
+      margin: 0 18px;
+      position: relative;
+      
+    }
+  }
+
+  &__text{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding:23px 18px;
+    color: #fefefe;
+    text-transform: uppercase;
+    @include monbold;
+    font-size: 10px;
+    
+  }
+
+  .slick-arrow{
+    position: absolute;
+    top:50%;
+    z-index: 1;
+    font-size: 0;
+    border: none;
+    height: 32px;
+    width: 32px;
+    background: transparent;
+    @include bg;
+  }
+
+  .slick-prev{
+    left: 20px;
+    background-image: url(../images/icons/prev-arrow.png);
+  }
+
+  .slick-next{
+    right: 20px;
+    background-image: url(../images/icons/next-arrow.png);
+  }
+}
+//==========End of Video sectuon style==========
+
+
+
+//==========Start of Team sectuon style==========
+.team{
+  margin-bottom: 136px;
+
+  &__inner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  &__item{
+    margin-bottom: 64px;
+
+    +div{
+      margin-left: 88px;
+    }
+
+    &:nth-child(4){
+      margin-left: 0;
+    }
+
+    &:nth-child(n+4){
+      margin-bottom: 0;
+    }
+
+    &-photo{
+      height: 173px;
+      width: 173px;
+      border-radius: 50%;
+      border: none;
+
+      .team__avatar-wrapper{
+        height: 173px;
+        width: 173px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        opacity: 0;
+        padding: 0 27px;
+        transition: all .5s;
+        &:hover{
+          opacity: 1;
+          background-color: rgba(98, 73, 124, .7);
+        }
+        a{
+          font-family: 'icomoon';
+          font-size: 30px;
+          color: white;
+          &:nth-child(2n){
+            margin-left: 26px;
+            margin-right: 15px;
+          }
+        }
+      }
+    }
+
+    &-name{
+      @include monbold;
+      font-size: 15px;
+      padding-top: 30px;
+      padding-bottom: 15px;
+      text-transform: uppercase;
+    }
+
+    &-position{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      font-size: 15px;
+      color: #a1a1a2;
+    }
+  }
+}
+//==========End of Team sectuon style==========
+
+
+
+//==========Start of Lifein sectuon style==========
+.lifein{
+  background-color: $lgrey;
+  padding-bottom: 109px;
+
+  &__gallery{
+    margin-bottom: 13px;
+    
+    &-item{
+      @include bg;
+      width: 700px;
+      height: 430px;
+    }
+  }
+
+  &__nav{
+    max-width: 606px;
+    width: 83%;
+    margin: 0 auto;
+    position: relative;
+
+    &-item{
+      width: 111px !important;
+      height: 69px;
+      margin: 0 13px;
+      @include bg;
+    }
+  }
+
+  .slick-arrow{
+    position: absolute;
+    bottom: -116px;
+    z-index: 1;
+    height: 69px;
+    width: 31px;
+    background-color: #2a2a2a;
+    transform: translateY(-50%);
+    font-size: 0;
+    border: none;
+    
+    &::before{
+      content: '';
+      display: block;
+      margin: 0 auto;
+      height: 14px;
+      width: 9px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      z-index: 2;
+    }
+
+    &:hover{
+      background-color: $violet;
+    }
+
+      &.slick-prev{
+        left: 0;
+        &::before{
+          background-image: url(../images/icons/galery-arrow-prev.png);
+        }
+      }
+
+      &.slick-next{
+        right: 0;
+        &::before{
+          background-image: url(../images/icons/galery-arrow-next.png);
+        }
+      }
+    }
+}
+//==========End of Lifein sectuon style==========
+
+
+
+//==========Start of Newsletter signup sectuon style==========
+.signup{
+  background-color: #efefef;
+    
+  &__inner{
+    position: relative;
+
+    form{
+      position: relative;
+    }
+    
+    h2{
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+    }
+
+    &-input, &-button{
+      border:none;
+      height: 53px;
+    }
+
+    &-input{
+      width: 415px;
+      border-radius: 3px 0 0 3px;
+      padding: 18px 16px;
+      margin-right: 131px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 19px;
+      font-weight: 400;
+      line-height: 40px;
+      color: $txtcol;
+      &::placeholder{
+        color:#d8d8d8;
+      }
+    }
+    
+    &-button{
+      position: absolute;
+      border-radius:0 3px 3px 0;
+      padding: 23px 43px;
+      color:#323232;
+      background-color: $yellow;
+      @include monbold;
+      font-size: 11px;
+      text-transform: uppercase;
+      line-height: 11px;
+      right: 75px;
+
+      &:hover{
+        background-color: $violet;
+        color: #fefefe;
+      }
+    }
+  }
+}
+
+#signup__bg {
+  width: 100%;
+  min-height: 100%;
+  @include bg;
+  background-size: auto 200%;
+  padding-bottom: 150px;
+}
+//==========End of Newsletter signup sectuon style==========
+
+
+
+//==========Start of Blog sectuon style==========
+.blog{
+  margin-bottom: 88px;
+
+  &__wrapper{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item{
+    max-width: 208px;
+    &+div{
+      margin-left: 36px;
+    }
+
+    &-picture{
+      @include bg;
+      width: 208px;
+      height: 112px;
+      margin-bottom: 39px;
+    }
+
+    &-title a{
+      @include monbold;
+      font-size: 15px;
+      text-transform: uppercase;
+      color: $txtcol;
+      padding-bottom: 25px;
+    }
+
+    &-date, &-lead{
+      font-family: "Helvetica", sans-serif;
+      font-size: 13px;
+      color: #8a8a8b;
+      padding-bottom: 25px;
+    }
+
+    &-lead{
+      color: $txtcol;
+    }
+
+    a.btn__link{
+      padding: 17px 30px;
+      background-color: $sgrey;
+      &:hover{
+        background-color: $yellow;
+        color: $txtcol; 
+      }
+    }
+  }
+}
+//==========End of Blog sectuon style==========
+
+
+
+//==========Start of Contact sectuon style==========
+.contact{
+  &__wrapper{
+    min-width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  &__map{
+    min-width: 50%;
+    min-height: 100%;
+  }
+
+  &__form{
+    min-width: 50%;
+    padding: 50px 45px 50px 45px;
+    background-color: $yellow;
+    text-align: left;
+    h2{
+      padding-top: 0;
+    }
+
+    &-name{
+      display: block;
+      padding-bottom: 13px;
+      @include monbold;
+      font-size: 10px;
+      text-transform: uppercase;
+    }
+
+    &-inner{
+      max-width: 311px;
+      width: 100%;
+    }
+
+    input, textarea{
+      box-shadow: 0px 1px 1px 0px rgba(22, 22, 23, 0.09);
+      width: 100%;
+      height: 44px;
+      border: none;
+      margin-bottom: 20px;
+      padding: 10px;
+    }
+
+    textarea{
+      height: 144px;
+      margin-bottom: 15px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 19px;
+      font-weight: 400;
+      line-height: 40px;
+      color: $txtcol;
+    }
+
+    button{
+      width: 100%;
+      box-shadow: 0px 1px 1px 0px rgba(22, 22, 23, 0.09);
+      background-color: $violet;
+      color: $bgcolor;
+      @include monbold;
+      font-size: 11px;
+      text-transform: uppercase;
+      border:none;
+      padding: 18px;
+      &:active{
+        background-color: $lnkcol;
+      }
+    }
+  }
+}
+//==========End of Contact sectuon style==========
+
+
+
+//==========Start of Footer sectuon style==========
+.footer{
+  padding: 80px 40px 130px;
+
+  &__inner{
+    display: flex;
+    justify-content: space-between;
+
+    .social{
+      max-width: 110px;
+    }
+  }
+
+  &__item{
+    text-align: center;
+    max-width: 150px;
+
+    &-content{
+      font-family: 'Helvetica', sans-serif;
+      font-size: 13px;
+      line-height: 24px;
+      font-weight: 400;
+
+      a{
+        color:$txtcol;
+      }
+    }
+
+    &-title{
+      @include monbold;
+      font-size: 10px;
+      text-transform: uppercase;
+      padding-bottom: 25px;
+    }
+
+    &-soc{
+      font-family: 'icomoon';
+      color:$txtcol;
+      margin-left: 25px;
+      font-size: 18px;
+
+      &:nth-child(1), &:nth-child(4){
+        margin-left: 0;
+      }
+      &:hover{
+        color: $violet;
+      }
+    }
+  }
+}
+//==========End of Footer sectuon style==========
+
+//END OF STYLES
+@import 'media';

@@ -1,0 +1,25 @@
+$yellow: #ffe26d;
+$violet: #62497c;
+$grey: #e4e4e4;
+$sgrey: #ececec;
+$lgrey: #efefef;
+$bggrey: #bdbdbd;
+$txtcol: #040405;
+$lnkcol: #323232;
+$bgcolor: #fefefe;
+
+@mixin monbold {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+@mixin robo {
+  font-family: 'Roboto',sans-serif;
+  font-weight: 100;
+}
+
+@mixin bg{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
