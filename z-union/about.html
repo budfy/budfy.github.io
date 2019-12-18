@@ -388,7 +388,7 @@
   <script src="js/libs.min.js"></script>
 <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
 <script src="js/main.min.js"></script>
-  <script>
+  <!-- <script>
     $(function () {
       $.scrollify({
         section: ".slide-section",
@@ -407,12 +407,12 @@
         afterRender: function () {}
       });
     });
-  </script>
+  </script> -->
   <script>
     $(function () {
       $(window).scroll(function () {
         var url = window.location.hash;
-        if ($(this).scrollTop() >= window.innerHeight * 0.8 && url != '#8') {
+        if ($(this).scrollTop() >= window.innerHeight * 0.8) {
           $('.top__menu').addClass('scrolled');
           $('.header-black').hide();
           $('.header').show();
