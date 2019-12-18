@@ -14,7 +14,7 @@
 
 </head>
 
-<body class="wow slideInUp">
+<body>
 
   <nav class="header__nav mobile__nav header__nav-white">
   <ul>
@@ -189,39 +189,125 @@
               </p>
               <div class="swiper-container">
                 <div class="swiper-wrapper">
-                  <div class="swiper-slide science__slide"><img src="img/content/science-logo-1.png" alt=""></div>
-                  <div class="swiper-slide science__slide"><img src="img/content/science-logo-2.png" alt=""></div>
-                  <div class="swiper-slide science__slide"><img src="img/content/science-logo-3.png" alt=""></div>
-                  <div class="swiper-slide science__slide"><img src="img/content/science-logo-4.png" alt=""></div>
-                  <div class="swiper-slide science__slide"><img src="img/content/science-logo-5.png" alt=""></div>
-                  <div class="swiper-slide science__slide"><img src="img/content/science-logo-1.png" alt=""></div>
-                  <div class="swiper-slide science__slide"><img src="img/content/science-logo-2.png" alt=""></div>
+                  <div class="swiper-slide science__slide"><img class="science__tab-button" data-id="1" src="img/content/science-logo-1.png" alt=""></div>
+                  <div class="swiper-slide science__slide"><img class="science__tab-button" data-id="2" src="img/content/science-logo-2.png" alt=""></div>
+                  <div class="swiper-slide science__slide"><img class="science__tab-button" data-id="3" src="img/content/science-logo-3.png" alt=""></div>
+                  <div class="swiper-slide science__slide"><img class="science__tab-button" data-id="4" src="img/content/science-logo-4.png" alt=""></div>
+                  <div class="swiper-slide science__slide"><img class="science__tab-button" data-id="5" src="img/content/science-logo-5.png" alt=""></div>
+                  <div class="swiper-slide science__slide"><img class="science__tab-button" data-id="6" src="img/content/science-logo-1.png" alt=""></div>
+                  <div class="swiper-slide science__slide"><img class="science__tab-button" data-id="7" src="img/content/science-logo-2.png" alt=""></div>
                 </div>
                 <div class="swiper-scrollbar">
                   <div class="swiper-scrollbar-drag"></div>
                 </div>
               </div>
 
-              <div class="science__tags">
-                <span class="science__tag tag__item">Нейронные сети</span>
-                <span class="science__tag tag__item">Машинное обучение</span>
-                <span class="science__tag tag__item">AR/VR проекты</span>
-                <span class="science__tag tag__item">BI - аналитика</span>
-                <span class="science__tag tag__item">back-end разработка</span>
-                <span class="science__tag tag__item">front-end разработка</span>
-              </div>
-              <div class="science__contracts">
-                <div class="science__contracts-img">
-                  <img src="img/content/contract-1.jpg" alt="">
+              <div class="science__tabs">
+                <div class="science__tab science__tab--active" id="science__tab-1">
+                  <div class="science__tags">
+                    <span class="science__tag tag__item">Нейронные сети</span>
+                    <span class="science__tag tag__item">Машинное обучение</span>
+                    <span class="science__tag tag__item">AR/VR проекты</span>
+                    <span class="science__tag tag__item">front-end разработка</span>
+                  </div>
+                  <div class="science__contracts">
+                    <div class="science__contracts-img">
+                      <img src="img/content/contract-1.jpg" alt="">
+                    </div>
+                    <div class="science__contracts-img">
+                      <img src="img/content/contract-2.jpg" alt="">
+                    </div>
+                    <div class="science__contracts-img">
+                      <img src="img/content/contract-3.jpg" alt="">
+                    </div>
+                    <div class="science__contracts-img">
+                      <img src="img/content/contract-4.jpg" alt="">
+                    </div>
+                  </div>
                 </div>
-                <div class="science__contracts-img">
-                  <img src="img/content/contract-2.jpg" alt="">
+                <div class="science__tab" id="science__tab-2">
+                  <div class="science__tags">
+                    <span class="science__tag tag__item">Нейронные сети</span>
+                    <span class="science__tag tag__item">Машинное обучение</span>
+                    <span class="science__tag tag__item">AR/VR проекты</span>
+                  </div>
+                  <div class="science__contracts">
+                    <div class="science__contracts-img">
+                      <img src="img/content/contract-1.jpg" alt="">
+                    </div>
+                    <div class="science__contracts-img">
+                      <img src="img/content/contract-2.jpg" alt="">
+                    </div>
+                    <div class="science__contracts-img">
+                      <img src="img/content/contract-3.jpg" alt="">
+                    </div>
+                    <div class="science__contracts-img">
+                      <img src="img/content/contract-4.jpg" alt="">
+                    </div>
+                  </div>
                 </div>
-                <div class="science__contracts-img">
-                  <img src="img/content/contract-3.jpg" alt="">
+                <div class="science__tab" id="science__tab-3">
+                  <div class="science__tags">
+                    <span class="science__tag tag__item">BI - аналитика</span>
+                    <span class="science__tag tag__item">back-end разработка</span>
+                    <span class="science__tag tag__item">front-end разработка</span>
+                  </div>
+                  <div class="science__contracts">
+                    <div class="science__contracts-img">
+                      <img src="img/content/contract-1.jpg" alt="">
+                    </div>
+                    <div class="science__contracts-img">
+                      <img src="img/content/contract-2.jpg" alt="">
+                    </div>
+                    <div class="science__contracts-img">
+                      <img src="img/content/contract-3.jpg" alt="">
+                    </div>
+                    <div class="science__contracts-img">
+                      <img src="img/content/contract-4.jpg" alt="">
+                    </div>
+                  </div>
                 </div>
-                <div class="science__contracts-img">
-                  <img src="img/content/contract-4.jpg" alt="">
+                <div class="science__tab" id="science__tab-4">
+                  <div class="science__tags">
+                    <span class="science__tag tag__item">BI - аналитика</span>
+                    <span class="science__tag tag__item">back-end разработка</span>
+                    <span class="science__tag tag__item">front-end разработка</span>
+                  </div>
+                  <div class="science__contracts">
+                    <div class="science__contracts-img">
+                      <img src="img/content/contract-1.jpg" alt="">
+                    </div>
+                    <div class="science__contracts-img">
+                      <img src="img/content/contract-2.jpg" alt="">
+                    </div>
+                    <div class="science__contracts-img">
+                      <img src="img/content/contract-3.jpg" alt="">
+                    </div>
+                    <div class="science__contracts-img">
+                      <img src="img/content/contract-4.jpg" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div class="science__tab" id="science__tab-5">
+                  <div class="science__tags">
+                    <span class="science__tag tag__item">BI - аналитика</span>
+                    <span class="science__tag tag__item">back-end разработка</span>
+                    <span class="science__tag tag__item">front-end разработка</span>
+                  </div>
+                  <div class="science__contracts">
+                    <div class="science__contracts-img">
+                      <img src="img/content/contract-1.jpg" alt="">
+                    </div>
+                    <div class="science__contracts-img">
+                      <img src="img/content/contract-2.jpg" alt="">
+                    </div>
+                    <div class="science__contracts-img">
+                      <img src="img/content/contract-3.jpg" alt="">
+                    </div>
+                    <div class="science__contracts-img">
+                      <img src="img/content/contract-4.jpg" alt="">
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
