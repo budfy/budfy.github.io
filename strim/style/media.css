@@ -1,0 +1,3204 @@
+@media only screen and (max-width: 1700px) and (min-width: 320px) {
+
+    .item-stream {
+        max-width: 294px;
+    }
+    .title-stream{
+        max-width: 67%;
+    }
+    .wrapper-list-afisha{
+        width: 80vw;
+    }
+    .content-list-chat {
+        height: 525px;
+    }
+    .whatch-stream-player .name-stream {
+        font-size: 25px;
+    }
+    .chat-wrapper{
+        max-width: 485px;
+    }
+    .no-bg .about-frame {
+        height: 54vh;
+    }
+    .active-frame-height{
+        height: 33vh;
+    }
+    .whatch-stream-player {
+        width: 100%;
+        max-width: 838px;
+    }
+    .first-strim-video .big-player {
+        max-width: 880px;
+    }
+    .active-small-height .container-info-about-strim-video{
+        max-width: 385px;
+    }
+    .name-whatcher {
+        font-size: 18px;
+        color: #CCFF00;
+    }
+    .active-small-height .no-bg .about-frame {
+        height: 23vh;
+    }
+    .active-small-height .bottom-pay-info{
+        right: 30px;
+    }
+    .description-block {
+        max-width: 366px;
+        width: 100%;
+    }
+    .container-afisha{ 
+        height: 80vw;
+     }
+     .list-item{
+        height: 603px !important;
+     }
+     .container-video, .container-video img,
+     .video-strim{
+        max-width: 305px;
+     }
+     .next-strim .video-strim {
+        max-width: 267px;
+    }
+    .arrow-down,
+    .arrow-up{
+        width: 15px;
+        height: 15px;
+    }
+    #review_stars2 label, #review_stars3 label {
+        width: 8px;
+        height: 15px;
+    }
+    .checkbox-custom + .checkbox-custom-label::before,
+    .checkbox-custom:checked + .checkbox-custom-label::after{
+        width: 15px;
+        height: 15px;
+    }
+    .question-btn{
+        width: 25px;
+        height: 20px;
+    }
+    .camera-before::before,
+    .microfone-before::before{
+        width: 25px;
+        height: 25px;
+    }
+    .edit-poster p{
+        font-size: 20px;
+    }
+    .start-translation-btn{
+        font-size: 30px;
+    }
+    .item-strim-about{
+        max-width: 500px;
+    }
+}
+@media only screen and (max-width: 1585px) and (min-width: 320px) {
+    .content-list-chat {
+        height: 352px;
+    }
+    .scroll-payment-js{
+        width: 410px !important;
+    }
+    .scroll-payment-js .jspPane {
+        position: absolute;
+        width: 400px !important;
+    }
+    .wrapper-pay-option{
+        padding: 8px;
+    }
+}
+@media only screen and (max-width: 1440px) and (min-width: 320px) {
+
+    .first-strim-video .big-player {
+        max-width: 715px;
+    }
+    .chat-wrapper {
+        max-width: 390px;
+    }
+    .content-list-chat {
+        height: 455px;
+    }
+    .big-stream-container{
+        width: 72%;
+    }
+    .item-stream {
+        max-width: 315px;
+    }
+    .violations::placeholder {
+        font-size: 20px;
+    }
+    .active-small-height .wrapper-content-player {
+        height: 21vh;
+    }
+    .active-small-height .container-info-about-strim-video {
+        max-width: 346px;
+    }
+    .active-small-height .bottom-pay-info {
+        right: 19px;
+    }
+    .active-small-height .bottom-pay-info {
+        width: 200px;
+    }
+    .gray-btn span {
+        font-size: 20px;
+        color: #000000;
+    }
+    .text-donut{
+        font-size: 11px !important;
+    }
+    .active-small-height .first-strim-video .big-player {
+        max-width: 266px;
+    }
+    .active-small-height .whatch-stream-player .item-footer {
+        width: 265px;
+    }
+    .active-small-height .block-write {
+        position: absolute;
+        bottom: 10px;
+    }
+    .theme-notification {
+        max-width: 219px; 
+    }
+    .text-theme{
+        line-height: 15px;
+    }
+    .date-broadcast {
+        max-width: 131px;
+       
+    }
+    .description-block {
+        max-width: 270px;
+        width: 100%;
+    }
+    .choice {
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+    .close-frame{
+        width: 20px;
+        height: 20px;
+    }
+    .list-item h3{
+        color: #CCFF00;
+        font-size: 18px;
+        text-align: center;
+        line-height: 19px;
+    }
+    .block-about-traslation p{
+        font-size: 14px;
+    }
+    .and-translation {
+        font-size: 16px;
+    }
+    .item-info h4, .item-info span {
+        font-size: 14px;
+    }
+    .edit-poster-item {
+        height: 185px;
+    }
+    .edit-data label, .edit-time label, .edit-price label {
+        color: #737270;
+        font-size: 16px;
+    }
+    .edit-name, .edit-data-input, .edit-time-input, .edit-price-input, .edit-about-translation, .nick-name, .one-nick-name {
+        font-size: 16px;
+    }
+    .free-status-price {
+        font-size: 16px;
+    }
+    .title-end-translation {
+        font-size: 18px !important;
+        color: #ffffff !important;
+    }
+    .list-item h3 {
+        color: #CCFF00;
+        font-size: 16px;
+        text-align: center;
+        line-height: 16px;
+    }
+    .list-item {
+        height: 517px !important;
+        width: 372px !important;
+    }
+    .container-list-item{
+        width: 366px;
+    }
+    .list-item.scroll-pane{
+        border-right: 1px solid #597210;
+    }
+    .reiting-commentators{
+        width: 35px;
+        height: 35px;
+        font-size: 20px;
+    }
+    .date-broadcast span {
+        font-size: 16px;
+        text-align: center;
+    }
+    .cancel-text {
+        font-size: 16px;
+    }
+    .list-strim-about{
+        justify-content: space-around;
+    }
+    .container-emodgi{
+        width: 54px;
+        height: 54px;
+        margin-top: 10px;
+    }
+    .list-emodgi{
+        width: 530px;
+        max-height: 200px;
+    }
+    .card-number{
+        font-size: 12px;
+    }
+    .payment-cart {
+        height: 80px;
+        border-radius: 10px;
+        padding: 7px;
+        border: 1px solid #ffffff;
+    }
+    .wrapper-card{
+        width: 170px;
+    }
+    .wrapper-payment-list{
+        height: 96px;
+        overflow: hidden;
+        position: relative;
+        min-width: 240px;
+    }
+    .close-donute-pay{
+        width: 20px;
+        height: 20px;
+    }
+    .container-input-write{
+        width: 94%;
+    }
+    .edit-input-form{
+        font-size: 18px;
+    }
+    .close-text-block{
+        width: 25px;
+        height: 25px;
+    }
+    .autorization{
+        height: 45vh;
+    }
+    .regulations-block{
+        height: 54vh;
+    }
+    .active-registration-form{
+        height: 360px;
+    }
+    .title-block-conditions{
+        font-size: 30px;
+    }
+    .content-conditions p {
+        font-size: 16px;
+    }
+    .close-conditions{
+        width: 25px;
+        height: 25px;
+    }
+    .title-form{
+        font-size: 30px;
+    }
+    .wrapper-btn-social-input{
+        line-height: 16px;
+    }
+    .end-btn{
+        font-size: 16px;
+    }
+    .wrapper-picker{
+        left: 55%;
+    }
+    .add-schedules::before{
+        width: 25px;
+        height: 25px;
+    }
+    .add-schedules{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 1380px) and (min-width: 320px) {
+    .item-stream{
+        max-width: 23%;
+    }
+    .chat-wrapper{
+        max-width: 500px;
+    }
+    .first-strim-video .big-player {
+        max-width: 620px;
+    }
+    .whatch-stream-player .name-stream {
+        font-size: 18px;
+    }
+    .icon-footer img{
+        min-width: 35px;
+        min-height: 35px;
+    }
+    .whatch-stream-player .icon-footer {
+        width: 40px;
+        height: 40px;
+    }
+    .name-whatcher {
+        font-size: 16px;
+        color: #CCFF00;
+    }
+    .chat-wrapper {
+        max-width: 360px;
+    }
+    .violations::placeholder {
+        font-size: 17px;
+    }
+    .bottom-pay-info {
+        position: relative;
+        margin-bottom: 10px;
+    }
+    .whatch-stream-player .item-footer{
+        width: 99%;
+    }
+    .right-block-whatch{
+        max-width: 305px;
+    }
+    .wrapper-container-pay{
+        max-width: 281px;
+    }
+    .close-violations{
+        width: 15px;
+        height: 15px;
+    }
+    .container-emodgi {
+        width: 45px;
+        height: 45px;
+        margin-top: 5px;
+    }
+    .list-emodgi {
+        width: 509px;
+        max-height: 153px;
+    }
+    .container-donate-btn{
+        height: 24px;
+    }
+    .edit-input-form {
+        font-size: 16px;
+    }
+    .add-payment, .add-payment-btn{
+        width: 25px;
+        height: 25px;
+    }
+    .activeCard .add-payment {
+        transform: translateY(-302%);
+    }
+    .payment span{
+        font-size: 16px;
+    }
+    .edit-input-form{
+        padding: 3px;
+    }
+    .icon-person{
+        flex: none;
+    }
+    .link-title{
+        font-size: 20px;
+    }
+    .link-title::before{
+        width: 20px;
+        height: 22px;
+    }
+    .private-link::before,
+    .private-link:hover::before,
+    .private-link.active-status-link::before{
+         height: 33px;
+        width: 45px;
+        top: -7px;
+    }
+    .end-sell-ticket .item-info-variant span {
+        font-size: 14px;
+    }
+    .end-sell {
+        font-size: 16px;
+    }
+    .checkbox-wrapper label {
+        font-size: 16px;
+    }
+    .chat-setting-wrapper .chat-wrapper{
+        max-width: 265px;
+    }
+    .chat-setting-wrapper .content-list-chat{
+        margin-left: 0;
+    }
+    .chat-setting-wrapper .content-list-chat .input-write{
+        width: 70%;
+    }
+    .chat-setting-wrapper{
+        left: 32%;
+    }
+    #review_stars4 input ~ label i{
+        font-size: 8px;
+    }
+    #review_stars4 label {
+        width: 11px;
+        height: 16px;
+    }
+    .sound-checkbox label {
+        font-size: 16px;
+    }
+    .checkbox-custom + .checkbox-custom-label::before, .checkbox-custom:checked + .checkbox-custom-label::after {
+        width: 12px;
+        height: 12px;
+    }
+    .container-camera label {
+        font-size: 16px;
+    }
+    .edit-poster, .edit-poster-item{
+        height: 220px;
+        max-height: 300px;
+    }
+    .camera-before::before, .microfone-before::before {
+        width: 20px;
+        height: 20px;
+    }
+    .container-camera {
+        padding-left: 25px;
+        position: relative;
+    }
+    .add-schedules {
+        font-size: 18px;
+    }
+    .setting-frame {
+        height: 84vh !important;
+    }
+    .start-translation-btn {
+        font-size: 25px;
+    }
+    .start-translation-block{
+        margin-top: 10px;
+    }
+    .plan-translation h3 {
+        font-size: 20px;
+        margin-right: 15px;
+    }
+    .btn-question{
+        font-size: 20px;
+    }
+    .price-translation .edit-time-input, .price-translation label {
+        font-size: 16px;
+    }
+    .free-price {
+        font-size: 16px;
+    }
+    .title-form {
+        font-size: 28px;
+    }
+    .registration, .sign-in-btn{
+        font-size: 20px;
+    }
+    .autorization {
+        height: 54vh;
+    }
+
+    .wrapper-loged{
+        height: 225px;
+    }
+    .wrapper-loged.active-error-height {
+        height: 287px;
+        transition: .5s;
+    }
+    .active-registration-form {
+        height: 322px;
+    }
+    .title-block-conditions {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    .title-conditions{
+        font-size: 20px;
+    }
+    .close-conditions {
+        width: 20px;
+        height: 20px;
+    }
+    .item-question{
+        max-width: 310px;
+    }
+    .theme-notification {
+        max-width: 170px;
+    }
+    .text-theme{
+        text-align: center;
+    }
+    .open-translation::before,
+    .personal-translation::before,
+    .close-translation::before{
+        width: 25px;
+        height: 25px;
+    }
+    .description-block {
+        max-width: 233px;
+        width: 100%;
+    }
+    .status-translation {
+        max-width: 140px;
+    }
+    .choice {
+        text-transform: uppercase;
+        font-size: 13px;
+    }
+    .container-list-item {
+        width: 340px;
+    }
+    .list-item {
+        height: 400px !important;
+        width: 346px !important;
+    }
+    .footer-item-translation, .public-footer{
+        min-height: 45px;
+    }
+    .about-frame, .regulations-block{
+        height: 54vh;
+    }
+    .edit-poster-item {
+        height: 164px;
+    }
+    .block-about-traslation p {
+        font-size: 12px;
+    }
+    .notifications-wrapper, .wrapper-list-afisha, .wrapper-list-afisha-tickets, .finance-wrapper, .setting-frame-wrapper,
+    .wrapper-setting-game{
+        height: 54vh;
+    }
+    .wrapper-setting-game {
+        height: 55vh;
+    }
+    .edit-about-translation {
+        height: 70px;
+        resize: none;
+    }
+    .img-translation{
+        max-height: 119px;
+    }
+    .edit-image::before{
+        width: 30px;
+        height: 30px;
+        top: 55px;
+    }
+    .edit-image, .edit-image-bg{
+        font-size: 40px;
+    }
+    .settings-btn{
+        width: 20px;
+        height: 20px;
+    }
+    .delete-btn-list{
+        width: 20px;
+        height: 20px;
+        top: 12px;
+    }
+    .translation-btn{
+        font-size: 16px;
+    }
+    .block-about-traslation {
+        min-height: 70px;
+    }
+    #review_stars1 input:checked ~ label i {
+        color: #ffea00;
+        font-size: 13px;
+    }
+    #review_stars1 input ~ label i {
+        font-size: 13px;
+    }
+    #review_stars1 label {
+        width: 16px;
+        height: 16px;
+    }
+    .close-doore{
+        width: 25px;
+        height: 30px;
+    }
+    .cashback-btn{
+        width: 25px;
+        height: 20px;
+    }
+    .help{
+        font-size: 16px;
+    }
+    .forgotten-btn{
+        width: 25px;
+        height: 20px;
+    }
+    .name-info-title,
+    .about-translation-time{
+        font-size: 16px;
+    }
+    .receive{
+        font-size: 16px;
+    }
+    .withdraw-input{
+        font-size: 20px;
+    }
+    .receive{
+        margin-top: 10px;
+    }
+    .content-table-history tr td, .table-history thead th {
+        font-size: 14px;
+        padding: 2px;
+    }
+    .title-pay-option{
+        font-size: 20px;
+    }
+    .add-new-info{
+        font-size: 16px;
+    }
+    .container-social {
+        margin-top: 60px;
+    }
+    .name-acount{
+        font-size: 35px;
+    }
+    .input-edit-password{
+        font-size: 14px;
+    }
+    .title-change-password{
+        font-size: 18px;
+    }
+    .new-my-message label {
+        font-size: 18px;
+    }
+    .title-bg-frame,
+    .language h3{
+        font-size: 16px;
+        text-transform: uppercase;
+        opacity: 0.3;
+    }
+    .change-bg{
+        font-size: 18px;
+    }
+    .item-card h3{
+        font-size: 16px;
+    }
+    .btn-door{
+        width: 25px;
+        height: 30px;
+    }
+    .wrapper-container-pay button{
+        height: 30px;
+    }
+    .wrapper-container-pay .geen-btn::before{
+        border-top: 30px solid transparent;
+        border-left: 30px solid #CCFF00;
+    }
+    .wrapper-container-pay .gray-btn::before{
+        border-bottom: 30px solid transparent;
+    }
+    .warning-block p{
+        font-size: 10px;
+    }
+    .close-block{
+        width: 20px;
+        height: 17px;
+    }
+    .active-small-height .container-info-about-strim-video {
+        max-width: 310px;
+    }
+    .active-small-height .first-strim-video .big-player {
+        max-width: 221px;
+    }
+    .active-small-height .whatch-stream-player .item-footer {
+        width: 211px;
+    }
+    .active-small-height .whatch-stream-player .name-stream{
+        font-size: 14px;
+    }
+    .active-small-height .active-pay-donut .pay-and-coment-block {
+        height: 430px;
+    }
+    .title-pay-option {
+        font-size: 18px;
+    }
+    .active-small-height .active-pay-donut .container-donate-btn {
+        height: 40px;
+    }
+    .donute-error{
+        font-size: 11px;
+    }
+    .message{
+        font-size: 12px;
+    }
+    .wrapper-payment-list{
+        height: 83px;
+    }
+    .title-card{
+        font-size: 11px;
+    }
+    .card-number {
+        font-size: 11px;
+        margin-top: 3px;
+    }
+    .footer-card{
+        margin-top: 3px;
+    }
+    .payment-cart{
+        height: 68px;
+    }
+    .chip img {
+        max-width: 15px;
+    }
+    .wrapper-card {
+        width: 155px;
+        padding-right: 18px;
+    }
+    .wrapper-pyment {
+        max-width: 188px;
+        margin-bottom: 10px;
+    }
+    .wrapper-payment-list{
+        min-width: 219px;
+    }
+}
+@media only screen and (max-width: 1280px) and (min-width: 320px) {
+    .first-strim-video .big-player {
+        max-width: 570px;
+    }
+    .active-small-height .first-strim-video .big-player {
+        max-width: 200px;
+    }
+    .active-small-height .container-info-about-strim-video {
+        max-width: 282px;
+    }
+    .active-small-height .whatch-stream-player .item-footer {
+        width: 203px;
+        padding: 3px;
+    }
+    .active-small-height .whatch-stream-player .small-height-block .violations {
+        font-size: 10px;
+        color: #ffffff;
+        max-height: 30px;
+        outline: none;
+        line-height: 9px;
+    }
+    .active-arning {
+        display: block;
+        max-height: 45px;
+        overflow-y: auto;
+    }
+    .active-small-height .wrapper-container-pay {
+        max-width: 193px;
+    }
+    .active-small-height .container-input-write{
+        height: 45px;
+    }
+    .no-bg .about-frame {
+        height: 53vh;
+    }
+    .about-frame, .regulations-block {
+        height: 53vh;
+    }
+    .text-donut {
+        font-size: 10px !important;
+    }
+    .warning-block{
+        margin-right: 0;
+    }
+    .list-item {
+        height: 375px !important;
+    }
+    .edit-about-translation {
+        height: 60px;
+        resize: none;
+    }
+    .edit-data label, .edit-time label, .edit-price label {
+        color: #737270;
+        font-size: 14px;
+    }
+    .edit-name, .edit-data-input, .edit-time-input, .edit-price-input, .edit-about-translation, .nick-name, .one-nick-name {
+        font-size: 14px;
+    }
+    .edit-poster-item {
+        height: 98px;
+    }
+    .notifications-wrapper, .wrapper-list-afisha, .wrapper-list-afisha-tickets, .finance-wrapper, .setting-frame-wrapper, .wrapper-setting-game {
+        height: 53vh;
+    }
+    .description-block {
+        max-width: 153px;
+        width: 100%;
+    }
+    .content-table-history tr td, .table-history thead th {
+        font-size: 13px;
+        padding: 2px;
+    }
+}
+@media only screen and (max-width: 1140px) and (min-width: 320px) {
+    .item-stream {
+        max-width: 31%;
+    }
+
+}
+@media only screen and (max-width: 1080px) and (min-width: 320px) {
+    .icon-frame{
+        display: none;
+    }
+    .right-header-block{
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+    .rules{
+        max-width: 72px;
+        white-space: pre-wrap;
+        text-align: left;
+        line-height: 15px;
+    }
+   .item-stream {
+        max-width: 32%;
+    }
+  
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 320px) {
+    .content-setting-translation {
+        display: flex;
+        height: 50%;
+    }
+    .wrapper-right-list-whatch .img-whatcher img {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        min-width: 18px;
+        min-height: 18px;
+    }
+    .wrapper-right-list-whatch .img-whatcher {
+        width: 18px;
+        height: 18px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 100%;
+    }
+    .item-whatch {
+        display: flex;
+        padding: 3px 5px;
+        align-items: center;
+    }
+    .name-whatcher {
+        font-size: 13px;
+        color: #CCFF00;
+    }
+    .wrapper-right-list-whatch .wrapper-whatching {
+        height: 165px;
+        overflow-y: auto;
+    }
+    .container-video, .container-video img, .video-strim {
+        max-width: 179px;
+    }
+    .sount-input .checkbox-custom-label {
+        font-size: 7px;
+    }
+    #review_stars2 input ~ label i, #review_stars3 input ~ label i {
+        color: transparent;
+        border: 1px solid #ffffff;
+        border-radius: 100%;
+        font-size: 3px;
+        height: 2px;
+        top: -1px;
+        position: relative;
+    }
+    #review_stars2 label, #review_stars3 label {
+        width: 4px;
+        height: 7px;
+        top: -4px;
+        position: relative;
+    }
+    #review_stars2 input:checked ~ label i, #review_stars3 input:checked ~ label i {
+        font-size: 3px;
+        color: #ffffff;
+        position: relative;
+        height: 2px;
+        top: -1px;
+    }
+    .title-color-picker {
+        margin-bottom: 10px;
+    }
+    .color-picker-wrapper {
+        max-width: 140px;
+        position: absolute;
+    }
+    .layout_default.picker_wrapper {
+        width: 126px !important;
+    }
+    .layout_default.picker_wrapper input, .layout_default.picker_wrapper button {
+        font-size: 7px !important;
+    }
+    .login-close-translation {
+        display: none;
+    }
+    .active-login-close {
+        display: block;
+    }
+    .sount-input .checkbox-custom + .checkbox-custom-label::before, .audio-container .checkbox-custom + .checkbox-custom-label::before {
+        margin-right: 5px;
+        margin-bottom: 3px;
+        width: 5px;
+        height: 5px;
+    }
+    .whatch-btn {
+        width: 15px;
+        height: 15px;
+    }
+    .arrow-down, .arrow-up {
+        width: 10px;
+        height: 10px;
+    }
+    .question-btn {
+        width: 20px;
+        height: 17px;
+    }
+    .audio-container .checkbox-custom-label {
+        margin: 0;
+        font-size: 7px;
+    }
+    .arrow-up {
+        margin-left: 2px;
+    }
+    .chat-setting-wrapper .block-write {
+        padding: 5px 5px;
+    }
+    .chat-setting-wrapper .message {
+        font-size: 10px;
+    }
+    .chat-setting-wrapper .icon-person img {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        min-width: 18px;
+        min-height: 18px;
+    }
+    .chat-setting-wrapper .icon-person {
+        width: 15px;
+        height: 15px;
+    }
+    .chat-setting-wrapper .item-chat {
+        padding: 5px 5px;
+    }
+    .chat-setting-wrapper {
+        left: 0;
+        top: 28%;
+    }
+    .chat-setting-wrapper .chat-wrapper {
+        max-width: 180px;
+    }
+    .chat-setting-wrapper .content-list-chat {
+        height: 96px;
+        padding-bottom: 30px;
+    }
+    .chat-setting-wrapper .content-list-chat .input-write {
+        font-size: 12px;
+        width: 70%;
+    }
+    .title-progress{
+        font-size: 13px;
+    }
+    .wrapper-progress{
+        padding-right: 35px;
+    }
+    .wrapper-progress .arrow-down {
+        position: absolute;
+        right: 15px;
+        top: 23px;
+    }
+    .wrapper-progress .arrow-up {
+        position: absolute;
+        right: 0;
+        top: 23px;
+    }
+    .title-color-picker h4{
+        font-size: 12px;
+    }
+    .layout_default .picker_sample {
+        height: 12px !important;
+    }
+    .chat-wrapper {
+        max-width: 272px;
+    }
+    .item-chat{
+        padding: 5px 5px;
+    }
+    .wrapper-pay-option {
+        padding: 11px;
+    }
+    .first-strim-video .big-player {
+        max-width: 478px;
+    }
+    .no-bg .about-frame {
+        height: 49vh;
+    }
+    .whatch-stream-player .name-stream {
+        font-size: 16px;
+    }
+    .whatch-stream-player .number-watch{
+        font-size: 18px;
+    }
+    .icon-container-strim{
+        max-width: 90px;
+        min-height: 49px;
+    }
+    .message {
+        font-size: 11px;
+    }
+    .content-list-chat{
+        margin-left: 5px;
+    }
+    .container-input-write {
+        width: 92%;
+        height: 40px;
+    }
+    .content-list-chat {
+        height: 373px;
+    }
+    .wrapper-container-pay .geen-btn::before {
+        border-top: 25px solid transparent;
+        border-left: 25px solid #CCFF00;
+        right: -25px;
+    }
+    .wrapper-container-pay .gray-btn::before {
+        border-bottom: 25px solid transparent;
+        border-right: 25px solid #d2c9be;
+        left: -25px;
+    }
+    .wrapper-container-pay button {
+        height: 25px;
+    }
+    .gray-btn{
+        font-size: 18px;
+        margin-left: 28px;
+    }
+    .bottom-pay-info {
+        position: relative;
+        margin-bottom: 16px;
+    }
+    .warning-block{
+        display: none;
+    }
+
+    .container-emodgi {
+        width: 30px;
+        height: 30px;
+        margin-top: 5px;
+    }
+    .payment span {
+        font-size: 12px;
+    }
+    .list-emodgi {
+        width: 240px;
+        max-height: 103px;
+    }
+    .message-strimer{
+        font-size: 12px;
+    }
+    .edit-input-form {
+        font-size: 12px;
+    }
+    .active-pay-donut .pay-and-coment-block {
+        height: 355px;
+    }
+    .title-form {
+        font-size: 24px;
+    }
+    .registration, .sign-in-btn {
+        font-size: 18px;
+    }
+    .active-pay-donut{
+        overflow-y: auto;
+    }
+    .wrapper-form-name-input {
+        position: relative;
+        width: 100%;
+    }
+    .item-wrapper-emodgi {
+        width: 228px !important;
+    }
+    .autorization-frame .input-form-input {
+        margin-bottom: 15px;
+    }
+    .wrapper-loged {
+        height: 200px;
+    }
+    .active-registration-form {
+        height: 285px;
+    }
+    .wrapper-loged.active-error-height {
+        height: 265px;
+        transition: .5s;
+    }
+    .active-small-height .first-strim-video .big-player {
+        max-width: 185px;
+    }
+    .content{
+        height: calc(100vh - 96px);
+    }
+    .close-donute-pay {
+        width: 15px;
+        height: 15px;
+    }
+    .donate-btn{
+        font-size: 12px;
+    }
+    .container-donate-btn {
+        height: 22px;
+    }
+    .donute-error {
+        font-size: 7px;
+    }
+    .autorization {
+        height: 48vh;
+    }
+    .icon-footer img {
+        min-width: 25px;
+        min-height: 25px;
+    }
+    .icon-footer {
+        width: 35px;
+        height: 35px;
+    }
+    .active-small-height .small-height-left .watch-info .number-count{
+        font-size: 14px;
+    }
+    .active-small-height .whatch-stream-player {
+        width: 100%;
+        margin-left: 10px;
+    }
+    .active-small-height .container-info-about-strim-video {
+        max-width: 255px;
+    }
+    .complaint-btn {
+        width: 20px;
+        height: 25px;
+    }
+    .name-whatcher {
+        font-size: 12px;
+        color: #CCFF00;
+    }
+    .img-whatcher img{
+        min-width: 20px;
+        min-height: 20px;
+    }
+    .img-whatcher {
+        width: 25px;
+        height: 25px;
+    }
+    .active-small-height .wrapper-container-pay {
+        max-width: 144px;
+    }
+    .active-small-height .bottom-pay-info {
+        width: 153px;
+        right: 12px;
+    }
+    .content{
+        padding: 10px 25px 12px 15px;
+    }
+    .plan-translation h3 {
+        font-size: 16px;
+        margin-right: 15px;
+    }
+    .active-small-height .wrapper-content-player {
+        height: 19vh;
+    }
+    .wrapper-container-pay {
+        max-width: 205px;
+    }
+    .no-bg.active-small-height .about-frame {
+        height: 21vh;
+    }
+    .active-small-height .active-pay-donut .pay-and-coment-block {
+        height: 384px;
+    }
+    .delete-notification-message {
+        min-width: 233px;
+    }
+    .wrapper-left-chat-list{
+        max-width: 193px;
+        margin-left: 10px;
+    }
+    .setting-frame {
+        height: 85vh !important;
+    }
+    .left-content-stream{
+        width: 150px;
+    }
+    .help {
+        font-size: 14px;
+    }
+    .active-small-height .text-donut {
+        top: 8px;
+        left: -12px;
+        font-size: 7px !important;
+    }
+    .item-question {
+        max-width: 230px;
+    }
+    .active-redactor {
+        padding-right: 50px;
+    }
+    .text-info-message{
+        font-size: 12px;
+    }
+    .active-delete-question .wrapper-notification-message .delete-notification-message{
+        font-size: 12px;
+    }
+    .redactor-message button {
+        font-size: 12px;
+    }
+    .citate-message .text-info-message{
+        font-size: 12px;
+    }
+    .container-message-information input{
+        font-size: 14px;
+    }
+    .title-name-chater-title{
+        font-size: 14px;
+    }
+    .item-link-menu {
+        font-size: 14px;
+        padding: 10px 0;
+    }
+    .number-message{
+        width: 20px;
+        height: 20px;
+        font-size: 12px;
+    }
+    .item-sub-title a {
+        font-size: 14px;
+        padding: 10px 0;
+    }
+    .add-notification .wrapper-notification-message .notification-message{
+        font-size: 12px;
+    }
+    .date-broadcast span {
+        font-size: 12px;
+    }
+    .status-text {
+        position: relative;
+        padding-left: 25px;
+    }
+    .choice {
+        text-transform: uppercase;
+        font-size: 10px;
+    }
+    .icon-footer {
+        width: 30px;
+        height: 30px;
+    }
+    .text-theme{
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .status-text{
+        font-size: 12px;
+    }
+    .cancel-text {
+        font-size: 12px;
+    }
+    .date-broadcast {
+        max-width: 100px;
+        font-size: 12px;
+    }
+    .name-notifications{
+        font-size: 11px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 60px;
+    }
+    .number-count {
+        font-size: 14px;
+    }
+    .description-block {
+        max-width: 100px;
+        width: 100%;
+    }
+    .theme-notification {
+        max-width: 115px;
+    }
+    .status-translation {
+        max-width: 113px;
+    }
+    .open-translation::before, .personal-translation::before, .close-translation::before {
+        width: 20px;
+        height: 20px;
+    }
+    .bought-tiсket {
+        max-width: 146px;
+        width: 100%;
+        text-align: center;
+        color: #838281;
+        font-size: 12px;
+    }
+    .active-broadcast .text-attention {
+        margin-top: 0;
+        font-size: 10px;
+    }
+    .active-broadcast .footer-alternative h4 {
+        font-size: 10px;
+    }
+    .active-broadcast .btn-answer {
+        font-size: 12px;
+    }
+    .list-item {
+        height: 352px !important;
+    }
+    .choice-status a {
+        font-size: 14px;
+    }
+    .active-small-height .whatch-stream-player .item-footer {
+        width: 192px;
+        padding: 3px;
+    }
+    .about-frame, .regulations-block{
+        padding: 11px 0;
+        height: 55vh
+    }
+    .active-small-height .whatch-stream-player .small-height-block .send-violations-btn {
+        margin-right: 5px;
+        font-size: 12px;
+    }
+    .active-violations .violations-block{
+        margin-left: 0;
+    }
+    .notifications-wrapper, .wrapper-list-afisha, .wrapper-list-afisha-tickets, .finance-wrapper, .setting-frame-wrapper, .wrapper-setting-game {
+        height: 55vh;
+    }
+    .list-item h3 {
+        font-size: 14px;
+        text-align: center;
+        line-height: 13px;
+    }
+    .translation-btn {
+        font-size: 14px;
+    }
+    .name-info-title, .about-translation-time {
+        font-size: 14px;
+    }
+    .footer-item-translation, .public-footer {
+        min-height: 25px;
+    }
+    .container-video-strim img{
+        width: 100%;
+    }
+    .reiting {
+        width: 50px;
+        height: 50px;
+    }
+    .reiting span {
+        font-size: 25px;
+    }
+    .center-info-account p {
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .container-video-strim{
+        max-width: 430px;
+    }
+    .title-edit-video {
+        font-size: 16px;
+        line-height: normal;
+    }
+    .edit-btn-video {
+        background-color: transparent;
+        font-size: 16px;
+    }
+    .container-social {
+        margin-top: 20px;
+    }
+    .social-input {
+        background: transparent;
+        border: none;
+        outline: none;
+        font-size: 16px;
+        margin-left: 10px;
+    }
+    .wrapper-btn-social-input {
+        line-height: 22px;
+    }
+}
+
+@media only screen and (max-width: 998px) and (min-width: 320px) {
+   .title-stream {
+        max-width: 62%;
+    }
+}
+@media only screen and (max-width: 808px) and (min-width: 320px) {
+    .list-stream{
+        justify-content: center;
+    }
+    .logo img, .logo {
+        max-width: 180px;
+        height: auto;
+    }
+    .header {
+        padding: 10px;
+    }
+    .btn-search{
+        width: 16px;
+        height: 16px;
+    }
+    .search-container{
+        height: 25px;
+    }
+    .content {
+        padding: 5px 10px 10px 10px;
+    }
+    .frame{
+        font-size: 24px;
+    }
+
+      .item-stream{
+       max-width: 362px;
+    }
+
+}
+@media only screen and (max-width: 768px) and (min-width: 320px) {
+    .logo img,
+    .logo{
+        max-width: 150px;
+        height: auto;
+    }
+   .item-stream {
+        width: 48%;
+    }
+    .about-frame, .regulations-block {
+        height: 63vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .wrapper-left-chat-list{
+        margin-left: 0;
+        max-width: 200px;
+    }
+    .left-content-stream{
+        width: 100%;
+        flex-direction: row;
+    }
+    .menu-left{
+        display: flex;
+    }
+    .item-link-menu {
+        font-size: 15px;
+        padding: 10px 0;
+        font-weight: normal;
+        margin-right: 14px;
+        text-align: center;
+    }
+    .container-video-strim {
+        max-width: 550px;
+    }
+    .reiting {
+        width: 70px;
+        height: 70px;
+    }
+    .wrapper-container-pay {
+        margin-bottom: 10px;
+    }
+    .help {
+        font-size: 14px;
+        text-align: center;
+    }
+    .item-menu {
+        height: 30px;
+    }
+    .left-content-stream{
+        border-bottom: 1px solid #597210;
+        border-right: none;
+    }
+    .number-message {
+        width: 20px;
+        height: 20px;
+        font-size: 12px;
+        margin-left: 5px;
+    }
+    .notifications-wrapper, .wrapper-list-afisha, .wrapper-list-afisha-tickets, .finance-wrapper, .setting-frame-wrapper, .wrapper-setting-game {
+        height: 60vh;
+    }
+    .item-question {
+        max-width: 200px;
+    }
+    .container-afisha {
+        height: 100vw;
+    }
+    .list-item {
+        height: 543px !important;
+    }
+    .list-item h3 {
+        color: #CCFF00;
+        font-size: 23px;
+        text-align: center;
+        line-height: 23px;
+        margin-top: 15px;
+    }
+    .wrapper-list-afisha {
+        width: 100vw;
+    }
+    .edit-poster-item {
+        height: 130px;
+    }
+    .block-about-traslation p {
+        font-size: 16px;
+    }
+    .item-info h4, .item-info span {
+        font-size: 16px;
+    }
+    .img-translation {
+        max-height: 175px;
+    }
+    .translation-btn{
+        display: block;
+    }
+    .top-info{
+        flex-direction: column;
+    }
+    .container-social {
+        margin-top: 0;
+    }
+    .wrapper-center-block{
+        height: auto;
+    }
+    .center-info-account{
+        display: flex;
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+    .center-info-account p{
+        margin-right: 20px;
+        text-align: center;
+    }
+    .center-info-account p:last-child{
+        margin-right: 0;
+    }
+    .reiting{
+        right: 30px;
+    }
+    .container-item-table{
+        flex-direction: column;
+    }
+    .description-block {
+        max-width: 320px;
+        width: 100%;
+    }
+    .theme-notification {
+        max-width: 240px;
+    }
+    .choice-block{
+        margin-left: 10px;
+    }
+    .content-list-chat {
+        height: 236px;
+    }
+    .list-emodgi {
+        width: 440px;
+    }
+    .item-chat{
+        max-width: 100%;
+    }
+    .chat-wrapper {
+        max-width: 100%;
+    }
+    .whatch-stream-player {
+        width: 100%;
+        max-width: 487px;
+    }
+    .autorization {
+        height: 63vh;
+    }
+    .container-afisha{
+        transform: rotate(0deg);
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+    .afisha-list{
+        transform: rotate(0deg);
+    }
+    .big-stream-container {
+        width: 100%;
+        border-right: none;
+    }
+    .first-strim-video .big-player {
+        max-width: 477px;
+    }
+    .whatch-stream-player .name-stream {
+        font-size: 14px;
+    }
+    .active-small-height .wrapper-content-player {
+        height: 21vh;
+    }
+    .active-small-height{
+        height: 21vh;
+    }
+    .active-small-height .container-info-about-strim-video {
+        max-width: 290px;
+    }
+    .violations{
+        font-size: 14px;
+    }
+    .no-bg .about-frame {
+        height: 63vh;
+    }
+    .active-pay-donut .pay-and-coment-block{
+        height: 431px;
+    }
+    .active-small-height .title-stream-wrapper{
+        height: 30px;
+    }
+    .container-donate-btn {
+        height: 30px;
+    }
+    .right-block-whatch {
+        max-width: 265px;
+    }
+    .active-frame-height {
+        height: 28vh;
+    }
+    .wrapper-whatching{
+        max-height: 230px;
+    }
+    .content{
+        height: calc(100vh - 78px);
+    }
+    .active-small-height .small-height-left,
+    .active-small-height .whatch-stream-player .small-height-block,
+    .list-whatch-small-height,
+    .active-small-height .whatch-stream-player .item-footer .icon-container-strim{
+        display: none !important;
+    }
+    .active-small-height .wrapper-whatching {
+        max-height: 140px;
+    }
+    .active-small-height .whatch-stream-player .item-footer .icon-container-strim, .active-small-height .whatch-stream-player .item-footer .container-title-strim-footer {
+        display: flex;
+    }
+    .active-small-height .wrapper-nav-button-strim{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .active-small-height .bottom-pay-info{
+        position: relative;
+    }
+    .active-small-height .right-block-whatch{
+        width: auto;
+        flex-direction: column;
+
+    }
+    .active-small-height .first-strim-video .big-player {
+        max-width: 250px;
+    }
+    .active-small-height .whatch-stream-player .item-footer {
+        width: 265px;
+        padding: 3px;
+    }
+    .active-small-height .big-stream-container{
+        width: 66%;
+
+    }
+    .active-small-height .content-list-chat {
+        height: 21vh;
+    }
+    .active-small-height .chat-wrapper {
+        max-width: 32%;
+    }
+    .active-small-height .about-frame {
+        height: 23vh !important;
+        display: flex !important;
+        flex-direction: row !important;
+    }
+    .active-small-height .content-list-chat{
+        margin-left: 0;
+    }
+    .close-frame{
+        right: 0;
+    }
+    .active-small-height .list-emodgi {
+        width: 220px;
+    }
+    .active-small-height .active-pay-donut {
+        overflow-y: auto;
+        height: 21vh;
+    }
+    .active-small-height .active-pay-donut .pay-and-coment-block {
+        height: 403px;
+    }
+    .active-small-height .title-pay-option {
+        font-size: 16px;
+    }
+    .active-small-height .container-input-write {
+        width: 86%;
+    }
+    .active-small-height .wrapper-container-pay {
+        max-width: 180px;
+        flex-direction: column;
+    }
+    .active-small-height .wrapper-container-pay .geen-btn::before,
+    .active-small-height .wrapper-container-pay .gray-btn:before{
+        display: none;
+    }
+    .active-small-height .gray-btn{
+        margin-left: 0;
+        margin-top: 5px;
+    }
+    .close-donute-pay{
+        z-index: 100;
+    }
+    .active-small-height .block-write {
+        position: absolute;
+        bottom: 0px;
+    }
+    .translation{
+        max-width: 100px;
+    }
+    .edit-poster, .edit-poster-item{
+        height: 110px;
+    }
+    .edit-poster p {
+        font-size: 16px;
+    }
+    .translation-settings-windows{
+        height: 100%;
+    }
+    .content-setting-translation{
+        height: 36%;
+    }
+    .progressbar{
+        height: 15px;
+    }
+    .container-settings-right {
+        width: 61%;
+        height: 100%;
+        padding: 4px 5px 5px 15px;
+    }
+    .container-video, .container-video img, .video-strim {
+        max-width: 192px;
+    }
+    #review_stars2 label, #review_stars3 label {
+        width: 4px;
+        height: 6px;
+    }
+    .arrow-down, .arrow-up {
+        width: 10px;
+        height: 10px;
+    }
+    .arrow-up{
+        margin-left: 2px;
+    }
+    .sount-input .checkbox-custom + .checkbox-custom-label::before, .audio-container .checkbox-custom + .checkbox-custom-label::before{
+        margin-right: 5px;
+        margin-bottom: 3px;
+        width: 5px;
+        height: 5px;
+    }
+    .audio-container .checkbox-custom-label {
+        margin: 0;
+        font-size: 7px;
+    }
+    .wrapper-videstrim{
+        width: 39%;
+    }
+    #review_stars2 input ~ label i, #review_stars3 input ~ label i {
+        color: transparent;
+        border: 1px solid #ffffff;
+        border-radius: 100%;
+        font-size: 3px;
+        height: 2px;
+        top: -1px;
+        position: relative;
+    }
+    #review_stars2 label, #review_stars3 label {
+        width: 4px;
+        height: 7px;
+        top: -4px;
+        position: relative;
+    }
+    #review_stars2 input:checked ~ label i, #review_stars3 input:checked ~ label i {
+        font-size: 3px;
+        color: #ffffff;
+        position: relative;
+        height: 2px;
+        top: -1px;
+    }
+    .sount-input .checkbox-custom:checked + .checkbox-custom-label::after, .audio-container .checkbox-custom:checked + .checkbox-custom-label::after{
+        width: 5px;
+        height: 5px;
+    }
+    .sound-reit {
+        margin-left: 9px;
+    }
+    .whatch-btn{
+        width: 15px;
+        height: 15px;
+    }
+    .progress-status span{
+        font-size: 10px;
+    }
+    .title-progress{
+        font-size: 10px;
+    }
+    .chat-setting-wrapper .message {
+        font-size: 10px;
+    }
+    .title-color-picker  h4{
+        font-size: 10px;
+    }
+    .title-color-picker{
+        margin-bottom: 10px;
+    }
+    .color-picker-wrapper {
+        max-width: 140px;
+        position: absolute;
+    }
+    .layout_default.picker_wrapper {
+        width: 126px !important;
+    }
+    .progressbar{
+        font-size: 10px;
+    }
+    .chat-setting-wrapper .icon-person {
+        width: 15px;
+        height: 15px;
+    }
+    .wrapper-right-list-whatch{
+        position: absolute;
+        right: 0;
+        top: 4px;
+        max-width: 120px;
+        height: 180px;
+    }
+    .wrapper-right-list-whatch .img-whatcher img {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        min-width: 18px;
+        min-height: 18px;
+    }
+    .wrapper-right-list-whatch .img-whatcher {
+        width: 18px;
+        height: 18px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 100%;
+    }
+    .wrapper-progress .arrow-down {
+        position: absolute;
+        right: 14px;
+        top: 18px;
+    }
+    .name-whatcher {
+        font-size: 10px;
+        color: #CCFF00;
+    }
+    .wrapper-progress {
+        margin: 0 auto;
+        width: 83%;
+        padding-bottom: 17px;
+        position: relative;
+        padding-right: 30px;
+    }
+    .img-whatcher {
+        width: 18px;
+        height: 18px;
+    }
+    .wrapper-picker{
+        width: 28%;
+    }
+    .question-btn {
+        width: 20px;
+        height: 17px;
+    }
+    .sount-input .checkbox-custom-label{
+        font-size: 7px;
+    }
+    .item-whatch {
+        display: flex;
+        padding: 3px 5px;
+        align-items: center;
+    }
+    .wrapper-right-list-whatch .wrapper-whatching {
+        height: 175px;
+        overflow-y: auto;
+    }
+    .chat-setting-wrapper .item-chat {
+        padding: 5px 5px;
+    }
+    .chat-setting-wrapper{
+        max-width: 185px;
+    }
+    .chat-setting-wrapper {
+        left: 0;
+        top: 28%;
+    }
+    .layout_default .picker_sample {
+        height: 15px !important;
+        width: 15px !important;
+    }
+    .layout_default .picker_editor input{
+        font-size: 9px;
+    }
+    .chat-setting-wrapper .content-list-chat{
+        height: 96px;
+        padding-bottom: 30px;
+    }
+    .chat-setting-wrapper .block-write{
+        padding: 5px 5px;
+
+    }
+    .end-btn {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+    .sound-checkbox label {
+        font-size: 12px;
+    }
+    .checkbox-custom + .checkbox-custom-label::before, .checkbox-custom:checked + .checkbox-custom-label::after {
+        width: 8px;
+        height: 8px;
+        margin-right: 5px;
+    }
+    .layout_default.picker_wrapper input, .layout_default.picker_wrapper button{
+        font-size: 7px !important;
+    }
+    .footer-whatch {
+        height: 12px;
+        padding: 6px 0;
+        position: relative;
+    }
+    .chat-setting-wrapper .content-list-chat .input-write {
+        width: 70%;
+        font-size: 10px;
+    }
+    .link-title {
+        font-size: 14px;
+    }
+    .link-title::before {
+        width: 15px;
+        height: 17px;
+    }
+    .private-link::before, .private-link:hover::before, .private-link.active-status-link::before {
+        height: 26px;
+        width: 37px;
+        top: -6px;
+    }
+    .link-title{
+        padding-left: 20px;
+    }
+    .login-close-translation{
+        display: none;
+    }
+    .active-login-close{
+        display: block;
+    }
+    .checkbox-wrapper label {
+        font-size: 14px;
+    }
+    .free-price {
+        font-size: 14px;
+    }
+    .price-translation .edit-time-input, .price-translation label {
+        font-size: 14px;
+    }
+    .edit-time-input {
+        max-width: 40px;
+    }
+    .edit-price-input {
+        max-width: 60px;
+    }
+    .end-sell {
+        font-size: 14px;
+    }
+    .edit-item {
+        background-color: transparent;
+        border: none;
+        max-width: 20px;
+        outline: none;
+        font-size: 12px;
+        max-width: 14px;
+    }
+    .private-link {
+        padding-left: 34px;
+    }
+    .start-progress {
+        position: absolute;
+        bottom: -16px;
+        left: 0;
+        font-size: 12px;
+    }
+    .footer-whatch .arrow-down {
+        position: absolute;
+        right: 30px;
+    }
+    .container-video, .container-video img, .video-strim {
+        max-width: 179px;
+    }
+    #review_stars4 input ~ label i {
+        font-size: 6px;
+    }
+    #review_stars4 label {
+        width: 8px;
+        height: 15px;
+    }
+    #review_stars4 input:checked ~ label i {
+        font-size: 6px;
+        color: #ffffff;
+    }
+    .container-sound .review_stars_wrap {
+        margin-left: 20px;
+    }
+    .header-sign-btn {
+        font-size: 20px;
+    }
+    .camera-before::before, .microfone-before::before {
+        width: 15px;
+        height: 15px;
+    }
+    .container-camera{
+        padding-left: 20px;
+    }
+    .container-camera label {
+        font-size: 12px;
+    }
+    .start-translation-btn {
+        font-size: 20px;
+    }
+    .add-schedules {
+        font-size: 14px;
+        padding-left: 29px;
+    }
+    .plan-translation h3 {
+        font-size: 13px;
+        margin-right: 15px;
+    }
+    .btn-question {
+        font-size: 15px;
+    }
+    .add-schedules::before {
+        width: 20px;
+        height: 20px;
+    }
+    .setting-frame {
+        height: 91vh !important;
+    }
+}
+
+@media only screen and (max-width: 600px) and (min-width: 320px) {
+    .item-stream{
+        max-width: 418px;
+        width: 100%;
+    }
+    .translation{
+        display: none;
+    }
+    .item-footer{
+        width: 100%;
+    }
+    .name-stream {
+        font-size: 14px;
+    }
+    .title-stream{
+        float: left;
+    }
+    .btn-search {
+        width: 14px;
+        height: 14px;
+    }
+    .search-container {
+        height: 22px;
+        left: -5px;
+    }
+    .frame {
+        font-size: 20px;
+    }
+    .frame-container {
+        margin-left: 5px;
+    }
+    .rules {
+        max-width: 55px;
+        line-height: 10px;
+        font-size: 11px;
+    }
+    .search-container{
+        max-width: 150px;
+    }
+}
+@media only screen and (max-width: 524px) and (min-width: 320px) {
+    .logo img, .logo {
+        max-width: 120px;
+        height: auto;
+    }
+    .search-container:before,
+    .search-container:after{
+        height: 2px;
+    }
+    .search-container {
+        height: 18px;
+        left: -4px;
+    }
+    .frame {
+        font-size: 18px;
+    }
+    .search-container {
+        max-width: 135px;
+    }
+}
+@media only screen and (max-width: 465px) and (min-width: 320px) {
+    .header {
+        padding: 5px 7px;
+    }
+    .content {
+        padding: 5px 5px 10px 5px;
+    }
+
+    .logo img, .logo {
+        max-width: 87px;
+        height: auto;
+    }
+    .btn-search{
+        width: 10px;
+        height: 10px;
+    }
+    .search-container{
+        height: 17px;
+        max-width: 105px;
+        left: -3px;
+    }
+    .search-input{
+        font-size: 10px;
+    }
+    .rules{
+        font-size: 9px;
+        line-height: 11px;
+        max-width: 49px;
+    }
+    .frame {
+        font-size: 14px;
+        white-space: nowrap;
+    }
+    .frame-container{
+        margin-left: 5px;
+    }
+    .btn-search {
+        margin-left: 12px;
+    }
+    .left-header-block{
+        align-items: center;
+    }
+    .number-count {
+        font-size: 21px;
+    }
+    .name-stream {
+        font-size: 18px;
+    }
+    .title-stream{
+        margin-left: 10px;
+    }
+    .item-list-admin{
+        border-right: none;
+        border-bottom: 2px solid #404040;
+        padding-bottom: 30px;
+    }
+    .item-list-admin:last-child{
+        border-bottom: none;
+        padding-bottom: 0;
+
+    }
+
+}
+@media only screen and (max-width: 425px) and (min-width: 320px) {
+    .header-sign-btn {
+        font-size: 16px;
+    }
+    .item-stream {
+        max-width: 360px;
+    }
+    .close-text-block {
+        width: 20px;
+        height: 20px;
+    }
+    .title-form {
+        font-size: 24px;
+    }
+    .container-save label {
+        font-size: 14px;
+    }
+    .wrapper-list-input-form .input-form-input {
+        max-width: 300px;
+        margin-bottom: 15px;
+    }
+    .wrapper-loged {
+        height: 205px;
+    }
+    .error-info-form {
+        font-size: 14px;
+    }
+    .restore-password-btn{
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .wrapper-loged.active-error-height {
+        height: 269px;
+        transition: .5s;
+    }
+    .active-registration-form {
+        height: 284px;
+    }
+    .title-block-conditions {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    .content-conditions p {
+        font-size: 13px;
+    }
+    .title-conditions {
+        font-size: 16px;
+    }
+    .header-sign-btn {
+        font-size: 11px;
+    }
+    .instruction-block p {
+        font-size: 14px;
+        text-align: center;
+    }
+    .registration, .sign-in-btn {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .first-strim-video .big-player {
+        max-width: 400px;
+    }
+    .wrapper-content-player {
+        flex-direction: column;
+        display: flex;
+        height: 100%;
+        overflow-y: auto;
+    }
+    .about-frame, .regulations-block{
+        padding: 0px 0;
+    }
+    .icon-container-strim {
+        min-height: 53px;
+        max-width: 79px;
+        width: 100%;
+    }
+    .icon-footer img {
+        min-width: 26px;
+        min-height: 26px;
+    }
+    .whatch-stream-player .icon-footer {
+        width: 30px;
+        height: 30px;
+    }
+    .whatch-stream-player .number-count {
+        font-size: 18px;
+    }
+    .whatch-stream-player .name-stream {
+        font-size: 13px;
+    }
+    .title-stream {
+        margin-left: 0;
+    }
+    .whatch-stream-player .number-watch{
+        font-size: 14px;
+    }
+    .complaint-btn{
+        width: 20px;
+        height: 25px;
+    }
+    .wrapper-whatching {
+        max-height: 360px;
+    }
+    .violations::placeholder {
+        font-size: 14px;
+    }
+    .wrapper-container-pay {
+        max-width: 360px;
+        padding: 10px 0 0 0;
+        background-color: #000000;
+    }
+    .right-block-whatch {
+        max-width: 40%;
+        position: relative;
+        padding-bottom: 33px;
+    }
+    .message {
+        font-size: 10px;
+    }
+    .whatch-stream-player .item-footer {
+        width: 95%;
+    }
+    .container-title-strim-footer{
+        height: 40px;
+    }
+    .active-frame-height{
+        background-color: #000000;
+    }
+    .name-stream {
+        font-size: 14px;
+    }
+    .chat-wrapper {
+        max-width: 60%;
+        position: absolute;
+        right: 0;
+        bottom: 3px;
+    }
+    .content-list-chat {
+        height: 170px;
+        margin-left: 0;
+    }
+    .input-write{
+        font-size: 11px;
+    }
+    .name-whatcher {
+        font-size: 11px;
+        color: #CCFF00;
+    }
+    .img-whatcher{
+        width: 20px;
+        height: 20px;
+    }
+    .img-whatcher img {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        min-width: 20px;
+        min-height: 20px;
+    }
+    .item-whatch {
+        display: flex;
+        padding: 3px 0px;
+        align-items: center;
+    }
+    .wrapper-whatching {
+        max-height: 143px;
+    }
+    .geen-btn{
+        background-size: 13px 15px;
+    }
+    .wrapper-container-pay button {
+        height: 22px;
+    }
+    .wrapper-container-pay .geen-btn::before,
+    .wrapper-container-pay .gray-btn::before{
+        display: none;
+    }
+    .gray-btn{
+        margin-left: 2px;
+    }
+    .text-donut {
+        font-size: 7px !important;
+        left: -1px;
+    }
+    .block-write{
+        padding: 8px 10px;
+    }
+    .bottom-pay-info {
+        position: absolute;
+        margin-bottom: 10px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    .warning-block{
+        background-color: #000000;
+        margin-left: 0px;
+    }
+    .title-pay-option {
+        font-size: 14px;
+    }
+    .close-donute-pay {
+        width: 15px;
+        height: 15px;
+    }
+    .payment span{
+        font-size: 13px;
+    }
+    .title-pay-option{
+        max-width: 175px;
+    }
+    .donute-error {
+        font-size: 10px;
+    }
+    .container-emodgi {
+        width: 30px;
+        height: 30px;
+        margin-top: 5px;
+    }
+    .active-emodgi img {
+        transition: .3s;
+        border: 1px solid #ffffff;
+        border-radius: 5px;
+    }
+    .list-emodgi {
+        width: 150px;
+        max-height: 143px;
+    }
+    .item-wrapper-emodgi {
+        width: 150px !important;
+    }
+    .wrapper-search{
+        max-width: 115px;
+    }
+    .edit-input-form {
+        font-size: 12px;
+    }
+    .message-strimer{
+        font-size: 12px;
+    }
+    .container-input-write{
+        padding: 5px;
+        width: 93%;
+    }
+    .active-pay-donut .pay-and-coment-block {
+        height: 409px;
+    }
+    .no-bg{
+        position: relative;
+    }
+    .autorization {
+        height: 60vh;
+    }
+    .active-small-height .big-stream-container {
+        width: 100%;
+    }
+    .active-small-height .chat-wrapper {
+        max-width: 48%;
+        position: absolute;
+        right: 6px;
+        top: 0;
+        background-color: transparent;
+        bottom: 52px;
+    }
+    .active-small-height .block-write{
+        background-color: transparent;
+    }
+    .active-small-height .content-list-chat {
+        margin-left: 0;
+        padding-bottom: 35px;
+    }
+    .active-small-height .content-list-chat {
+        height: 19vh;
+    }
+    .active-small-height .first-strim-video .big-player {
+        max-width: 393px;
+    }
+    .active-small-height .container-info-about-strim-video {
+        max-width: 100%;
+    }
+    .content {
+        height: calc(100vh - 54px);
+    }
+    .active-small-height .right-block-whatch{
+        position: absolute;
+    }
+    .active-small-height .warning-block{
+        display: none;
+
+    }
+    .active-small-height .wrapper-whatching{
+        display: none;
+    }
+    .active-small-height .wrapper-container-pay{
+        max-width: 146px;
+        flex-direction: row;
+        align-items: center;
+        background-color: transparent;
+    }
+    .active-small-height .gray-btn {
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .active-small-height .block-write{
+        border-top: 1px solid #ffffff;
+    }
+    .active-small-height .icon-container-strim{
+        min-height: 43px;
+    }
+    .active-small-height .about-frame, .regulations-block{
+        border-bottom: none;
+    }
+   .active-small-height .wrapper-container-pay .geen-btn::before,
+    .active-small-height .wrapper-container-pay .gray-btn::before{
+        display: block;
+    }
+    .active-small-height .wrapper-container-pay button{
+        opacity: 0.8;
+
+    }
+    .active-small-height .gray-btn {
+        margin-left: 24px
+    }
+    .active-small-height .wrapper-container-pay .geen-btn::before {
+        border-top: 22px solid transparent;
+        border-left: 22px solid #CCFF00;
+        right: -21px;
+    }
+   .active-small-height .wrapper-container-pay .gray-btn::before {
+        border-bottom: 22px solid transparent;
+       border-right: 22px solid #d2c9be;
+       left: -21px;
+    }
+    .active-small-height .active-pay-donut .pay-and-coment-block{
+        background-color: transparent;
+        height: 390px;
+    }
+    .active-small-height .smile-wrapper.scroll-pane::-webkit-scrollbar-thumb {
+        background-color: transparent;
+        border-radius: 1px;
+        border: 0px solid #000;
+    }
+    .active-small-height .smile-wrapper.scroll-pane::-webkit-scrollbar {
+        background-color: transparent;
+        width: 0;
+    }
+    .active-small-height .smile-wrapper.scroll-pane::-webkit-scrollbar-track {
+        background-color: transparent;
+    }
+    .active-small-height .wrapper-pay-option{
+        left: 8px;
+    }
+    .active-small-height .whatch-stream-player {
+        width: 100%;
+        margin-left: 0;
+    }
+    .active-small-height .about-frame{
+        height: 37vh !important;
+    }
+    .active-small-height .wrapper-content-player {
+        height: 37vh;
+    }
+    .about-frame, .regulations-block{
+        height: 52vh;
+    }
+    .active-small-height .whatch-stream-player .item-footer .icon-container-strim {
+        display: flex !important;
+    }
+    .active-small-height .whatch-stream-player .item-footer{
+        width: 97%
+    }
+    .active-small-height .wrapper-nav-button-strim{
+        width: auto;
+    }
+    .active-small-height .title-stream-wrapper{
+        flex-direction: row;
+    }
+    .active-small-height .whatch-stream-player .title-stream{
+        max-width: 68%;
+    }
+    .active-small-height .close-frame{
+        bottom: 0;
+        top: inherit;
+        width: 18px;
+        height: 20px;
+    }
+    .active-small-height .title-pay-option {
+        font-size: 13px;
+    }
+    .active-small-height .title-pay-option {
+        max-width: 160px;
+    }
+    .footer-chat-question{
+        justify-content: flex-start;
+    }
+    .wrapper-left-chat-list {
+        margin-left: 0;
+        max-width: 165px;
+        max-height: 351px;
+        overflow-y: auto;
+    }
+    .content-chat-question{
+        min-height: calc(100% - 69px);
+        position: relative;
+        padding-bottom: 60px;
+    }
+    .new-message-input-wrapper{
+        width: 100%;
+    }
+    .right-chat-block {
+        margin-left: 30px;
+        width: 100%;
+    }
+    .content-chat-question{
+        width: 100%;
+    }
+    .wrapper-content-chat-content{
+        width: 590px;
+    }
+    .text-info-message{
+        font-size: 12px;
+    }
+    .item-question {
+        max-width: 158px;
+    }
+    .wrapper-chat-list-right {
+        max-height: 285px;
+        overflow-y: auto;
+    }
+    .active-delete-question .wrapper-notification-message .delete-notification-message{
+        display: flex;
+        flex-direction: column;
+    }
+    .wrapper-notification-message .notification-message{
+        min-width: 148px;
+    }
+    .citate-message .text-info-message{
+        font-size: 12px;
+    }
+    .container-message-information input {
+        margin: 0 10px;
+        background: transparent;
+        font-size: 14px;
+        width: 100%;
+        height: 25px;
+    }
+    .notifications-wrapper, .wrapper-list-afisha, .wrapper-list-afisha-tickets, .finance-wrapper, .setting-frame-wrapper, .wrapper-setting-game{
+        height: 48vh;
+    }
+    .text-theme {
+        line-height: 14px;
+        font-size: 12px;
+    }
+    .theme-notification {
+        max-width: 97px;
+    }
+    .icon-footer {
+        width: 28px;
+        height: 28px;
+        flex: none;
+    }
+    .number-count {
+        font-size: 14px;
+    }
+    .title-block-notifications {
+        display: flex;
+        align-items: flex-start;
+        margin-right: 10px;
+        max-width: 100px;
+    }
+    .date-broadcast span {
+        font-size: 11px;
+        text-align: center;
+    }
+    .choice {
+        text-transform: uppercase;
+        font-size: 10px;
+        white-space: nowrap;
+    }
+    .status-text {
+        position: relative;
+        padding-left: 28px;
+        text-align: center;
+        font-size: 12px;
+    }
+    .bought-tiсket{
+        font-size: 12px;
+    }
+    .wrapper-btn-choice,
+    .bought-tiсket,
+    .content-atention{
+        width: 230px;
+    }
+    .onstrim-message .logo-onstrim img {
+        max-width: 97px;
+    }
+    .active-broadcast .text-attention{
+        font-size: 11px;
+    }
+    .active-broadcast .btn-answer {
+        font-size: 14px;
+    }
+    .active-broadcast .name-this-translation{
+        white-space: pre-line;
+        font-size: 10px;
+    }
+    .cancel-text {
+        font-size: 12px;
+    }
+    .open-translation::before, .personal-translation::before, .close-translation::before {
+        width: 18px;
+        height: 18px;
+    }
+    .active-notifications .notifications-wrapper{
+        width: 574px;
+    }
+    .item-link-menu{
+        font-size: 0;
+        width: 25px;
+        height: 25px;
+        display: block;
+    }
+    .message-link{
+        background: url("../image/message-icon.png")no-repeat;
+        background-size: contain;
+    }
+    .message-link.active-link{
+        background: url("../image/message-icon-green.png")no-repeat;
+        background-size: contain;
+    }
+    .notifications-link{
+        background: url("../image/bell.png")no-repeat;
+        background-size: contain;
+    }
+    .notifications-link.active-link{
+        background: url("../image/bell-green.png")no-repeat;
+        background-size: contain;
+    }
+    .schedule-link{
+        background: url("../image/calendar.png")no-repeat;
+        background-size: contain;
+    }
+    .schedule-link.active-link{
+        background: url("../image/calendar-green.png")no-repeat;
+        background-size: contain;
+    }
+    .tickets-link{
+        background: url("../image/tikets.svg")no-repeat;
+        background-size: contain;
+    }
+    .tickets-link.active-link{
+        background: url("../image/tikets-green.svg")no-repeat;
+        background-size: contain;
+    }
+    .finance-link{
+        background: url("../image/money.png")no-repeat;
+        background-size: contain;
+    }
+    .finance-link.active-link{
+        background: url("../image/money-green.png")no-repeat;
+        background-size: contain;
+    }
+    .about-frame-link{
+        background: url("../image/frame.png")no-repeat;
+        background-size: contain;
+    }
+    .about-frame-link.active-link{
+        background: url("../image/frame-green.png")no-repeat;
+        background-size: contain;
+    }
+    .menu-left{
+        justify-content: space-around;
+    }
+    .item-link-menu .number-message{
+        margin-left: 13px;
+    }
+    .scroll-pane::-webkit-scrollbar {
+        background-color: transparent;
+        width: 2px;
+    }
+    /* background of the scrollbar except button or resizer */
+    .scroll-pane::-webkit-scrollbar-track {
+        background-color: transparent;
+    }
+
+    /* scrollbar itself */
+    .scroll-pane::-webkit-scrollbar-thumb {
+        background-color: transparent;
+        border-radius: 1px;
+        border: 0px solid #000;
+    }
+
+    /* set button(top and bottom of the scrollbar) */
+    .scroll-pane::-webkit-scrollbar-button {display:none}
+    .name-streamer{
+        font-size: 22px;
+        margin-right: 10px;
+    }
+    .container-title-stream{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .setting-stream{
+        width: 25px;
+        height: 25px;
+        margin-left: 46px;
+    }
+    .container-list-item {
+        width: 290px;
+    }
+    .list-item {
+        width: 296px !important;
+    }
+    .header-stram{
+        margin-bottom: 8px;
+    }
+    .subscribe{
+        font-size: 12px;
+    }
+    .title-name-chater-title{
+        font-size: 13px;
+    }
+    .item-sub-title a{
+        font-size: 12px;
+        padding: 5px 0;
+    }
+    .active-broadcast .footer-alternative h4 {
+        font-size: 11px;
+    }
+    .container-afisha{
+        overflow-x: auto;
+        display: flex;
+        overflow-y: hidden;
+        transform: rotate(0deg);
+    }
+    .afisha-list {
+        display: flex;
+        transform: rotate(0deg);
+    }
+    .choice-status a{
+        font-size: 13px;
+    }
+    .edit-name, .edit-data-input, .edit-time-input, .edit-price-input, .edit-about-translation, .nick-name, .one-nick-name {
+        font-size: 12px;
+    }
+    .edit-data label, .edit-time label, .edit-price label {
+        color: #737270;
+        font-size: 12px;
+    }
+    .free-status-price {
+        font-size: 12px;
+    }
+    .img-translation {
+        max-height: 83px;
+    }
+    .edit-image, .edit-image-bg {
+        font-size: 25px;
+    }
+    .name-acount {
+        font-size: 24px;
+        max-width: 150px;
+    }
+    .save-title{
+        font-size: 12px;
+    }
+    .error-title-name {
+        font-size: 12px;
+        color: red;
+        max-width: 528px;
+    }
+    .btn-close, .close-public-change{
+        width: 15px;
+        height: 15px;
+    }
+    .wrapper-photo {
+        width: 60px;
+        height: 60px;
+    }
+    .left-acount-info {
+        width: 99%;
+    }
+    .new-my-message label {
+        font-size: 14px;
+    }
+    .title-bg-frame, .language h3 {
+        font-size: 12px;
+        text-transform: uppercase;
+        opacity: 0.3;
+    }
+    .btn-form-password {
+        background-color: transparent;
+        border: none;
+        font-size: 14px;
+    }
+    .link-lang {
+        width: 20px;
+        height: 20px;
+    }
+    .active-link-lang::after {
+        content: "";
+        position: absolute;
+        left: -1px;
+        right: -1px;
+        top: 3px;
+        bottom: 2px;
+        border: 1px solid #CCFF00;
+        border-radius: 2px;
+    }
+    .exit-btn{
+        font-size: 16px;
+    }
+    .change-bg {
+        font-size: 14px;
+    }
+    .btn-change{
+        font-size: 13px;
+    }
+    .wrapper-save-change-btn{
+        max-width: 148px;
+        width: 100%;
+        justify-content: space-between;
+        margin-right: 0px;
+    }
+    .item-card h3 {
+        font-size: 12px;
+    }
+    .item-card{
+        margin-bottom: 0;
+    }
+    .wrapper-save-change-btn{
+        flex-direction: column;
+    }
+    .footer-setting-frame{
+        align-items: center;
+    }
+    .container-change-password {
+        margin: 8px 0;
+    }
+    .title-change-password {
+        font-size: 14px;
+    }
+    .input-edit-password {
+        font-size: 11px;
+    }
+    .edit-image::before {
+        width: 25px;
+        height: 25px;
+        top: 35px;
+    }
+    .list-item h3 {
+        line-height: 14px;
+        margin-top: 3px;
+        font-size: 13px !important;
+    }
+    .item-info h4, .item-info span {
+        font-size: 12px;
+    }
+    .edit-item {
+        font-size: 12px;
+    }
+    .list-item {
+        height: 343px !important;
+    }
+    .translation-btn {
+        font-size: 12px;
+        padding: 6px;
+        width: 50%;
+    }
+    .block-about-traslation p {
+        font-size: 12px;
+    }
+    .name-info-title, .about-translation-time {
+        font-size: 12px;
+    }
+    .btn-door {
+        width: 20px;
+        height: 25px;
+    }
+    .assessment{
+        font-size: 28px;
+    }
+    .and-translation {
+        font-size: 12px;
+    }
+    .title-participants{
+        font-size: 12px;
+    }
+    .quantity {
+        font-size: 12px;
+    }
+    .wrapper-img-reviews img{
+        min-width: 25px;
+        min-height: 25px;
+    }
+    .wrapper-img-reviews{
+        width: 25px;
+        height: 25px;
+    }
+    .comments{
+        font-size: 12px;
+    }
+    .reiting-commentators {
+        width: 25px;
+        height: 25px;
+        font-size: 12px;
+    }
+    .date-reviews {
+        margin-right: 40px;
+        margin-top: 5px;
+        font-size: 12px;
+    }
+    .edit-poster-item p{
+        font-size: 12px;
+    }
+    .donate-btn{
+        font-size: 13px;
+    }
+    .transfer-btn{
+        font-size: 12px;
+    }
+    .title-history{
+        font-size: 14px;
+    }
+    .content-table-history tr td, .table-history thead th{
+        font-size: 10px;
+    }
+    .active-finance .finance-wrapper{
+        width: 600px;
+    }
+    .left-block-payment{
+        max-width: 150px;
+    }
+    .withdraw-input-btn{
+        font-size: 14px;
+        max-width: 84px;
+        position: relative;
+        padding-bottom: 3px;
+    }
+    .receive {
+        font-size: 14px;
+    }
+    .add-pay-new-info label{
+        font-size: 12px;
+        text-align: left;
+        white-space: pre-line;
+    }
+    .add-new-info {
+        font-size: 12px;
+    }
+    .container-video-strim{
+        width: 83%;
+    }
+    .container-video-strim img{
+        max-width: 100%;
+    }
+    .redactor-video{
+        width: 20px;
+        height: 20px;
+        right: 70px;
+    }
+    .reiting {
+        right: 12px;
+        width: 40px;
+        height: 40px;
+    }
+    .reiting span {
+        font-size: 20px;
+        color: #000000;
+    }
+    .center-info-account p {
+        font-size: 12px;
+        line-height: 13px;
+    }
+    .social-link {
+        width: 20px;
+        height: 20px;
+    }
+    .edit-btn-social {
+        width: 15px;
+        height: 15px;
+        margin: 0 3px;
+    }
+    .social-input{
+        font-size: 12px;
+    }
+    .social-list{
+        width: 50%;
+    }
+    .bottom-block-about-frame {
+        margin: 10px 0;
+        position: absolute;
+        top: inherit;
+        right: 0;
+        bottom: 0;
+        width: 40%;
+        padding-right: 20px;
+    }
+    .title-edit-video {
+        font-size: 12px;
+        line-height: normal;
+    }
+    .edit-text-frame{
+        width: 20px;
+        height: 20px;
+    }
+    .bottom-block-about-frame textarea{
+        font-size: 12px;
+        min-height: 116px;
+    }
+    .link-frame{
+        font-size: 12px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    .edit-btn-video{
+        font-size: 14px;
+    }
+    .container-setting-video-strim{
+        right: 65px;
+    }
+    .item-strim-about{
+        display: flex;
+        flex-direction: column;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .item-strim-about {
+        max-width: 360px;
+    }
+    .wrapper-stream-content-about{
+        height: calc(100vh - 50px);
+    }
+
+}
+@media only screen and (max-width: 375px) and (min-width: 320px) {
+    .chat-wrapper {
+        bottom: 1px;
+    }
+    .wrapper-whatching {
+        max-height: 98px;
+    }
+
+    .content-list-chat {
+        height: 133px;
+        margin-left: 0;
+    }
+    .item-stream {
+        max-width: 338px;
+    }
+    .list-emodgi {
+        max-height: 100px;
+    }
+    .active-pay-donut .pay-and-coment-block {
+        height: 368px;
+    }
+    .regulations{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 360px) and (min-width: 320px) {
+    .item-stream {
+        max-width: 315px;
+    }
+    .first-strim-video .big-player {
+        max-width: 342px;
+    }
+    .wrapper-whatching {
+        max-height: 116px;
+    }
+    .chat-wrapper {
+        max-width: 60%;
+        position: absolute;
+        right: 0;
+        bottom: 3px;
+    }
+    .content-list-chat {
+        height: 146px;
+        margin-left: 0;
+    }
+}
