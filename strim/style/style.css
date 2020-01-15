@@ -116,6 +116,7 @@ button{
     align-items: center;
     position: relative;
     z-index: 1;
+    margin-right: 20px;
 }
 .logo img{
     max-width: 115px;
@@ -416,34 +417,54 @@ button{
 }
 
 .rules__title{
-    font-size: 1.75em;
+    font-size: 1.7em;
     font-weight: 700;
+    display: inline;
 }
 
 .rules__subtitle{
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-weight: 500;
+    display: inline;
+    margin: 2em 0;
 }
 
 .rules__subtitle-snd{
-    font-size: 1.25em;
-    font-weight: 500;
-}
-
-.rules__text{
     font-size: 1em;
+    font-weight: 500;
+    margin: 1.5em 0;
 }
 
-.rules__main-list, .rules__main-list-item{
+.rules__text,.rules__sublist-item{
+    font-size: 0.8em;
+}
+
+.rules__main-list{
     list-style: decimal inside;
 }
 
-.rules__sublist, .rules-sublist__item{
+.rules__main-list-item{
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+.rules__sublist{
     list-style: disc inside;
 }
 
-.rules__main-list-item, .rules-sublist__item{
-    padding-left: 20px;
+.rules__text, .rules__main-list-item, .rules__sublist-item{
+    line-height: 125%;
+    margin: 1em 0;
+}
+
+.rules__sublist-item ul{
+    list-style: disc inside;
+}
+
+.rules__sublist-item ul li{
+    font-size: 1em;
+    padding-left: 1em;
+    margin: 0.5em 0;
 }
 
 .no-bg .about-frame{
