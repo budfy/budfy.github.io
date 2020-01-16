@@ -2,6 +2,7 @@
     font-size: 14px;
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
 }
 .all-wrapper{
     background-color: #000000;
@@ -21,7 +22,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
     margin: 0;
     padding: 0;
-    border: 0;
+    border: 0;`
     font: inherit;
     font-size: 100%;
     vertical-align: baseline;
@@ -331,7 +332,7 @@ button{
     float: left;
 }
 .title-stream{
-    max-width: 68%;
+    max-width: 60%;
     margin-left: 5px;
     float: right;
     margin-left: 5px;
@@ -1565,6 +1566,8 @@ input::-webkit-inner-spin-button {
 .warning-block p{
     text-align: justify;
     font-size: 12px;
+    line-height: 110%;
+    overflow-y: hidden;
 }
 .close-block{
    right: 0;
@@ -4925,26 +4928,33 @@ div.scrollWrapper {
     transition: .3s;
     width: 100%;
 }
-.item-strim-about{
-    max-width: 588px;
-    width: 100%;
-    display: flex;
-    margin-right: 20px;
-}
-item-strim-about:nth-child(3n){
-    margin-right: 0;
-}
-.answer{
-    color: #CCFF00;
-}
 .list-strim-about{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
+    margin-left: -30px;
 }
+
+.item-strim-about{
+    width: calc((100% / 6) - 30px);
+    display: flex;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
 .item-strim-about .item-stream{
-    margin-right: 5px;
+    width: 50%;
+    margin-left: 0;
 }
+
+.item-strim-about .title-stream{
+    max-width: 60%;
+}
+
+.answer{
+    color: #CCFF00;
+}
+
 .title-answer{
     margin-bottom: 15px;
 }
