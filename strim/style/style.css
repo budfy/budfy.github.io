@@ -22,7 +22,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
     margin: 0;
     padding: 0;
-    border: 0;`
+    border: 0;
     font: inherit;
     font-size: 100%;
     vertical-align: baseline;
@@ -574,7 +574,7 @@ button{
 }
 .whatch-stream-player{
     width: 100%;
-    max-width: 895px;
+    height: 100%;
 }
 .whatch-stream-player .name-stream{
     font-size: 30px;
@@ -616,6 +616,7 @@ button{
 }
 .wrapper-content-player{
     display: flex;
+    height: 100%;
 }
 .img-whatcher{
     width: 30px;
@@ -703,8 +704,8 @@ button{
     color: #000000;
 }
 .right-block-whatch{
-    max-width: 390px;
-    width: 100%;
+    /* max-width: 390px; */
+    width: 25%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -733,8 +734,7 @@ button{
 /*------------------------------chat-----------------*/
 .chat-wrapper {
     background-color: #000000;
-    max-width: 550px;
-    width: 100%;
+    width: 30%;
     position: relative;
     overflow: hidden;
 }
@@ -742,12 +742,11 @@ button{
     padding: 8px 15px;
     display: flex;
     align-items: center;
-    max-width: 415px;
 }
 .message-person{
     margin-left: 10px;
-    max-width: 380px;
     margin-top: 5px;
+    max-width: 90%;
 }
 .icon-person{
     width: 25px;
@@ -799,11 +798,14 @@ button{
     background-color: #000000;
 }
 .content-list-chat{
-    height: 638px;
+    height: 100%;
     position: relative;
     margin-left: 15px;
     transform: translateX(0%);
     transition: .5s;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 .list-chat{
     max-height: 100%;
@@ -1594,6 +1596,7 @@ input::-webkit-inner-spin-button {
     display: flex;
     position: relative;
     background-color: transparent;
+    height: 100%;
 }
 
 .message-strimer{
@@ -1603,6 +1606,7 @@ input::-webkit-inner-spin-button {
     outline: none;
     resize: none;
     height: 50px;
+    padding: 16px 10px;
 }
 .write-strimer-block{
     width: 100%;
@@ -1610,7 +1614,6 @@ input::-webkit-inner-spin-button {
 .container-input-write{
     display: flex;
     align-items: flex-start;
-    padding: 10px;
     height: 50px;
     color: #FFFFFF;
     width: 95%;
@@ -1917,21 +1920,25 @@ div.scrollWrapper {
     display: flex;
     align-items: center;
     overflow: hidden;
-    max-height: 510px;
+    height: calc(100% - 75px);
 }
 .wrapper-wideo-players .wrapper-video{
     width: 100%;
-    height: auto;
+    height: 100%;
     border-left: 2px solid #CCFF00;
 }
 .wrapper-wideo-players .wrapper-video:first-child{
     border-left: none;
 }
-.first-strim-video .big-player{
-    max-width: 895px;
-    width: auto;
-    height: auto;
+.videoplayer__wrapper{
+transition: all .7s;
 }
+
+.videoplayer__wrapper iframe{
+width: 100%;
+height: 100%;
+}
+
 .first-strim-video .small-video{
     display: none;
     transition: .7s;
@@ -1941,8 +1948,8 @@ div.scrollWrapper {
     transition: .5s;
 }
 .active-new-vindow .wrapper-video{
-    max-width: 512px;
-    min-height: 577px;
+    /* max-width: 512px;
+    min-height: 577px; */
     overflow: hidden;
     transition: .7s;
     position: relative;
@@ -4390,8 +4397,9 @@ div.scrollWrapper {
     display: block;
     transform: translateY(0%);
 }
+
 .chip img{
-    max-width: 20px;
+    max-width: 10px;
 }
 .payment-cart{
     height: 85px;
@@ -4403,7 +4411,7 @@ div.scrollWrapper {
     border: none;
     background-color: transparent;
     color: #ffffff;
-    font-size: 13px;
+    font-size: 10px;
     text-transform: uppercase;
     outline: none;
     margin-top: 5px;
@@ -4427,6 +4435,7 @@ div.scrollWrapper {
 .title-card{
     margin-bottom: 5px;
     text-align: left;
+    font-size: 12px;
 }
 .wrapper-card{
     padding-right: 30px;
@@ -4435,7 +4444,7 @@ div.scrollWrapper {
     top: 0;
     left: 0;
     right: 0;
-    transform: translateY(100%);
+    transform: translateY(130%);
     width: 200px;
     transition: .5s;
 }
@@ -5143,6 +5152,11 @@ div.scrollWrapper {
     flex-direction: column;
     align-items: center;
 }
+
+.container-info-about-strim-video{
+    width: 75%;
+}
+
 .active-small-height .container-info-about-strim-video{
     display: flex;
     flex-direction: row-reverse;

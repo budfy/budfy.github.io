@@ -1,8 +1,8 @@
 @media only screen and (max-width: 4096px) and (min-width: 320px) {
-    .item-strim-about{
+    .item-strim-about {
         width: calc((100% / 6) - 30px);
     }
-    
+
     .item-stream {
         width: calc((100% / 8) - 30px);
         max-width: unset;
@@ -11,20 +11,20 @@
 }
 
 @media only screen and (max-width: 3840px) and (min-width: 320px) {
-    .item-strim-about{
+    .item-strim-about {
         width: calc((100% / 5) - 30px);
     }
 }
 
 @media only screen and (max-width: 2270px) and (min-width: 320px) {
-    .item-strim-about{
+    .item-strim-about {
         width: calc((100% / 4) - 30px);
     }
 
-    .item-strim-about .title-stream{
+    .item-strim-about .title-stream {
         max-width: 50%;
     }
-    
+
     .item-stream {
         width: calc((100% / 6) - 30px);
         max-width: unset;
@@ -38,11 +38,11 @@
 
 @media only screen and (max-width: 1700px) and (min-width: 320px) {
 
-    .item-strim-about{
+    .item-strim-about {
         width: calc((100% / 3) - 30px);
     }
 
-.item-stream {
+    .item-stream {
         width: calc((100% / 5) - 30px);
         max-width: unset;
         max-height: unset;
@@ -50,10 +50,6 @@
 
     .wrapper-list-afisha {
         width: 80vw;
-    }
-
-    .content-list-chat {
-        height: 525px;
     }
 
     .whatch-stream-player .name-stream {
@@ -66,10 +62,6 @@
 
     .no-bg .about-frame {
         height: 54vh;
-    }
-
-    .active-frame-height {
-        height: 33vh;
     }
 
     .whatch-stream-player {
@@ -160,9 +152,6 @@
 }
 
 @media only screen and (max-width: 1585px) and (min-width: 320px) {
-    .content-list-chat {
-        height: 352px;
-    }
 
     .scroll-payment-js {
         width: 410px !important;
@@ -186,10 +175,6 @@
 
     .chat-wrapper {
         max-width: 390px;
-    }
-
-    .content-list-chat {
-        height: 455px;
     }
 
     .big-stream-container {
@@ -1034,14 +1019,14 @@
 
 @media only screen and (max-width: 1280px) and (min-width: 320px) {
 
-    .item-strim-about{
+    .item-strim-about {
         width: calc((100% / 2) - 30px);
     }
 
-    .item-strim-about .title-stream{
+    .item-strim-about .title-stream {
         max-width: 60%;
     }
-    
+
     .first-strim-video .big-player {
         max-width: 570px;
     }
@@ -1069,7 +1054,7 @@
 
     .active-arning {
         display: block;
-        max-height: 45px;
+        /* max-height: 45px; */
         overflow-y: auto;
     }
 
@@ -1181,10 +1166,10 @@
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 320px) {
-    .list-strim-about{
+    .list-strim-about {
         margin-left: 0;
     }
-    
+
     .content-setting-translation {
         display: flex;
         height: 50%;
@@ -1397,8 +1382,16 @@
         height: 12px !important;
     }
 
+    .big-stream-container {
+        width: 100%;
+        max-width: unset;
+        height: 100%;
+    }
+
     .chat-wrapper {
-        max-width: 272px;
+        max-width: unset;
+        width: 100%;
+        height: 25%;
     }
 
     .item-chat {
@@ -1414,7 +1407,8 @@
     }
 
     .no-bg .about-frame {
-        height: 49vh;
+        height: 80vh;
+        flex-direction: column;
     }
 
     .whatch-stream-player .name-stream {
@@ -1925,7 +1919,7 @@
 }
 
 @media only screen and (max-width: 850px) and (min-width: 320px) {
-    
+
     .item-stream {
         width: calc((100% / 2) - 30px);
         max-width: unset;
@@ -1969,11 +1963,11 @@
 
 @media only screen and (max-width: 768px) and (min-width: 320px) {
 
-    .item-strim-about{
+    .item-strim-about {
         width: 100%;
     }
 
-    .item-strim-about .title-stream{
+    .item-strim-about .title-stream {
         max-width: 60%;
     }
 
@@ -1986,8 +1980,6 @@
     .about-frame,
     .regulations-block {
         height: 63vh;
-        display: flex;
-        flex-direction: column;
     }
 
     .wrapper-left-chat-list {
@@ -2166,7 +2158,6 @@
 
     .whatch-stream-player {
         width: 100%;
-        max-width: 487px;
     }
 
     .autorization {
@@ -2212,10 +2203,6 @@
         font-size: 14px;
     }
 
-    .no-bg .about-frame {
-        height: 63vh;
-    }
-
     .active-pay-donut .pay-and-coment-block {
         height: 431px;
     }
@@ -2230,10 +2217,6 @@
 
     .right-block-whatch {
         max-width: 265px;
-    }
-
-    .active-frame-height {
-        height: 28vh;
     }
 
     .wrapper-whatching {
@@ -2799,9 +2782,10 @@
 
 @media only screen and (max-width: 600px) and (min-width: 320px) {
 
-    .list-stream{
+    .list-stream {
         margin: 0 20px;
     }
+
     .item-stream {
         width: 100%;
         max-width: unset;
@@ -2852,1369 +2836,66 @@
     .search-container {
         max-width: 150px;
     }
-}
 
-@media only screen and (max-width: 524px) and (min-width: 320px) {
-
-    .logo img,
-    .logo {
-        max-width: 120px;
-        height: auto;
+    .wrapper-about-frame {
+        overflow-y: auto;
+        height: 100vh;
     }
 
-    .search-container:before,
-    .search-container:after {
-        height: 2px;
+    .big-stream-container {
+        height: fit-content;
     }
 
-    .search-container {
-        height: 18px;
-        left: -4px;
+    .no-bg .about-frame {
+        height: 100%;
+        justify-content: flex-start;
     }
 
-    .frame {
-        font-size: 18px;
-    }
-
-    .search-container {
-        max-width: 135px;
-    }
-}
-
-@media only screen and (max-width: 465px) and (min-width: 320px) {
-    .header {
-        padding: 5px 7px;
+    .wrapper-wideo-players {
+        height: fit-content;
     }
 
     .content {
-        padding: 5px 5px 10px 5px;
-    }
-
-    .logo img,
-    .logo {
-        max-width: 87px;
-        height: auto;
-    }
-
-    .btn-search {
-        width: 10px;
-        height: 10px;
-    }
-
-    .search-container {
-        height: 17px;
-        max-width: 105px;
-        left: -3px;
-    }
-
-    .search-input {
-        font-size: 10px;
-    }
-
-    .rules {
-        font-size: 9px;
-        line-height: 11px;
-        max-width: 49px;
-    }
-
-    .frame {
-        font-size: 14px;
-        white-space: nowrap;
-    }
-
-    .frame-container {
-        margin-left: 5px;
-    }
-
-    .btn-search {
-        margin-left: 12px;
-    }
-
-    .left-header-block {
-        align-items: center;
-    }
-
-    .number-count {
-        font-size: 21px;
-    }
-
-    .name-stream {
-        font-size: 18px;
-    }
-
-    .title-stream {
-        margin-left: 10px;
-    }
-
-    .item-list-admin {
-        border-right: none;
-        border-bottom: 2px solid #404040;
-        padding-bottom: 30px;
-    }
-
-    .item-list-admin:last-child {
-        border-bottom: none;
-        padding-bottom: 0;
-
-    }
-
-}
-
-@media only screen and (max-width: 425px) and (min-width: 320px) {
-    .item-strim-about .item-stream {
-        width: 100%;
-    }
-    
-    .header-sign-btn {
-        font-size: 16px;
-    }
-
-    .close-text-block {
-        width: 20px;
-        height: 20px;
-    }
-
-    .title-form {
-        font-size: 24px;
-    }
-
-    .container-save label {
-        font-size: 14px;
-    }
-
-    .wrapper-list-input-form .input-form-input {
-        max-width: 300px;
-        margin-bottom: 15px;
-    }
-
-    .wrapper-loged {
-        height: 205px;
-    }
-
-    .error-info-form {
-        font-size: 14px;
-    }
-
-    .restore-password-btn {
-        font-size: 14px;
-        margin-top: 10px;
-    }
-
-    .wrapper-loged.active-error-height {
-        height: 269px;
-        transition: .5s;
-    }
-
-    .active-registration-form {
-        height: 284px;
-    }
-
-    .title-block-conditions {
-        font-size: 22px;
-        margin-bottom: 10px;
-    }
-
-    .content-conditions p {
-        font-size: 13px;
-    }
-
-    .title-conditions {
-        font-size: 16px;
-    }
-
-    .header-sign-btn {
-        font-size: 11px;
-    }
-
-    .instruction-block p {
-        font-size: 14px;
-        text-align: center;
-    }
-
-    .registration,
-    .sign-in-btn {
-        font-size: 18px;
-        margin-bottom: 15px;
-    }
-
-    .first-strim-video .big-player {
-        max-width: 400px;
-    }
-
-    .wrapper-content-player {
-        flex-direction: column;
-        display: flex;
+        max-height: calc(100vh - 78px);
         height: 100%;
         overflow-y: auto;
     }
 
-    .about-frame,
-    .regulations-block {
-        padding: 0px 0;
+    .chat-wrapper {
+        height: 35%;
+        overflow-y: auto;
+        position: relative;
     }
 
-    .icon-container-strim {
-        min-height: 53px;
-        max-width: 79px;
+    .content-list-chat {
+        height: unset;
+        position: static;
+    }
+
+    .container-info-about-strim-video {
         width: 100%;
     }
 
-    .icon-footer img {
-        min-width: 26px;
-        min-height: 26px;
-    }
-
-    .whatch-stream-player .icon-footer {
-        width: 30px;
-        height: 30px;
-    }
-
-    .whatch-stream-player .number-count {
-        font-size: 18px;
-    }
-
-    .whatch-stream-player .name-stream {
-        font-size: 13px;
-    }
-
-    .title-stream {
-        margin-left: 0;
-    }
-
-    .whatch-stream-player .number-watch {
-        font-size: 14px;
-    }
-
-    .complaint-btn {
-        width: 20px;
-        height: 25px;
-    }
-
-    .wrapper-whatching {
-        max-height: 360px;
-    }
-
-    .violations::placeholder {
-        font-size: 14px;
-    }
-
-    .wrapper-container-pay {
-        max-width: 360px;
-        padding: 10px 0 0 0;
-        background-color: #000000;
+    .wrapper-content-player {
+        flex-direction: column;
     }
 
     .right-block-whatch {
-        max-width: 40%;
-        position: relative;
-        padding-bottom: 33px;
-    }
-
-    .message {
-        font-size: 10px;
-    }
-
-    .whatch-stream-player .item-footer {
-        width: 95%;
-    }
-
-    .container-title-strim-footer {
-        height: 40px;
-    }
-
-    .active-frame-height {
-        background-color: #000000;
-    }
-
-    .name-stream {
-        font-size: 14px;
-    }
-
-    .chat-wrapper {
-        max-width: 60%;
-        position: absolute;
-        right: 0;
-        bottom: 3px;
-    }
-
-    .content-list-chat {
-        height: 170px;
-        margin-left: 0;
-    }
-
-    .input-write {
-        font-size: 11px;
-    }
-
-    .name-whatcher {
-        font-size: 11px;
-        color: #CCFF00;
-    }
-
-    .img-whatcher {
-        width: 20px;
-        height: 20px;
-    }
-
-    .img-whatcher img {
-        position: absolute;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
         width: 100%;
-        min-width: 20px;
-        min-height: 20px;
+        max-width: unset;
+        height: fit-content;
     }
 
-    .item-whatch {
+    .list-whatch {
         display: flex;
-        padding: 3px 0px;
-        align-items: center;
+        flex-wrap: wrap;
     }
 
-    .wrapper-whatching {
-        max-height: 143px;
-    }
-
-    .geen-btn {
-        background-size: 13px 15px;
+    .wrapper-container-pay {
+        max-width: unset;
     }
 
     .wrapper-container-pay button {
-        height: 22px;
-    }
-
-    .wrapper-container-pay .geen-btn::before,
-    .wrapper-container-pay .gray-btn::before {
-        display: none;
-    }
-
-    .gray-btn {
-        margin-left: 2px;
-    }
-
-    .text-donut {
-        font-size: 7px !important;
-        left: -1px;
-    }
-
-    .block-write {
-        padding: 8px 10px;
-    }
-
-    .bottom-pay-info {
-        position: absolute;
-        margin-bottom: 10px;
-        bottom: 0;
-        left: 0;
-        right: 0;
-    }
-
-    .warning-block {
-        background-color: #000000;
-        margin-left: 0px;
-    }
-
-    .title-pay-option {
-        font-size: 14px;
-    }
-
-    .close-donute-pay {
-        width: 15px;
-        height: 15px;
-    }
-
-    .payment span {
-        font-size: 13px;
-    }
-
-    .title-pay-option {
-        max-width: 175px;
-    }
-
-    .donute-error {
-        font-size: 10px;
-    }
-
-    .container-emodgi {
-        width: 30px;
-        height: 30px;
-        margin-top: 5px;
-    }
-
-    .active-emodgi img {
-        transition: .3s;
-        border: 1px solid #ffffff;
-        border-radius: 5px;
-    }
-
-    .list-emodgi {
-        width: 150px;
-        max-height: 143px;
-    }
-
-    .item-wrapper-emodgi {
-        width: 150px !important;
-    }
-
-    .wrapper-search {
-        max-width: 115px;
-    }
-
-    .edit-input-form {
-        font-size: 12px;
-    }
-
-    .message-strimer {
-        font-size: 12px;
-    }
-
-    .container-input-write {
-        padding: 5px;
-        width: 93%;
-    }
-
-    .active-pay-donut .pay-and-coment-block {
-        height: 409px;
-    }
-
-    .no-bg {
-        position: relative;
-    }
-
-    .autorization {
-        height: 60vh;
-    }
-
-    .active-small-height .big-stream-container {
-        width: 100%;
-    }
-
-    .active-small-height .chat-wrapper {
-        max-width: 48%;
-        position: absolute;
-        right: 6px;
-        top: 0;
-        background-color: transparent;
-        bottom: 52px;
-    }
-
-    .active-small-height .block-write {
-        background-color: transparent;
-    }
-
-    .active-small-height .content-list-chat {
-        margin-left: 0;
-        padding-bottom: 35px;
-    }
-
-    .active-small-height .content-list-chat {
-        height: 19vh;
-    }
-
-    .active-small-height .first-strim-video .big-player {
-        max-width: 393px;
-    }
-
-    .active-small-height .container-info-about-strim-video {
-        max-width: 100%;
-    }
-
-    .content {
-        height: calc(100vh - 54px);
-    }
-
-    .active-small-height .right-block-whatch {
-        position: absolute;
-    }
-
-    .active-small-height .warning-block {
-        display: none;
-
-    }
-
-    .active-small-height .wrapper-whatching {
-        display: none;
-    }
-
-    .active-small-height .wrapper-container-pay {
-        max-width: 146px;
-        flex-direction: row;
-        align-items: center;
-        background-color: transparent;
-    }
-
-    .active-small-height .gray-btn {
-        margin-left: 0;
-        margin-top: 0;
-    }
-
-    .active-small-height .block-write {
-        border-top: 1px solid #ffffff;
-    }
-
-    .active-small-height .icon-container-strim {
-        min-height: 43px;
-    }
-
-    .active-small-height .about-frame,
-    .regulations-block {
-        border-bottom: none;
-    }
-
-    .active-small-height .wrapper-container-pay .geen-btn::before,
-    .active-small-height .wrapper-container-pay .gray-btn::before {
-        display: block;
-    }
-
-    .active-small-height .wrapper-container-pay button {
-        opacity: 0.8;
-
-    }
-
-    .active-small-height .gray-btn {
-        margin-left: 24px
-    }
-
-    .active-small-height .wrapper-container-pay .geen-btn::before {
-        border-top: 22px solid transparent;
-        border-left: 22px solid #CCFF00;
-        right: -21px;
-    }
-
-    .active-small-height .wrapper-container-pay .gray-btn::before {
-        border-bottom: 22px solid transparent;
-        border-right: 22px solid #d2c9be;
-        left: -21px;
-    }
-
-    .active-small-height .active-pay-donut .pay-and-coment-block {
-        background-color: transparent;
-        height: 390px;
-    }
-
-    .active-small-height .smile-wrapper.scroll-pane::-webkit-scrollbar-thumb {
-        background-color: transparent;
-        border-radius: 1px;
-        border: 0px solid #000;
-    }
-
-    .active-small-height .smile-wrapper.scroll-pane::-webkit-scrollbar {
-        background-color: transparent;
-        width: 0;
-    }
-
-    .active-small-height .smile-wrapper.scroll-pane::-webkit-scrollbar-track {
-        background-color: transparent;
-    }
-
-    .active-small-height .wrapper-pay-option {
-        left: 8px;
-    }
-
-    .active-small-height .whatch-stream-player {
-        width: 100%;
-        margin-left: 0;
-    }
-
-    .active-small-height .about-frame {
-        height: 37vh !important;
-    }
-
-    .active-small-height .wrapper-content-player {
-        height: 37vh;
-    }
-
-    .about-frame,
-    .regulations-block {
-        height: 52vh;
-    }
-
-    .active-small-height .whatch-stream-player .item-footer .icon-container-strim {
-        display: flex !important;
-    }
-
-    .active-small-height .whatch-stream-player .item-footer {
-        width: 97%
-    }
-
-    .active-small-height .wrapper-nav-button-strim {
-        width: auto;
-    }
-
-    .active-small-height .title-stream-wrapper {
-        flex-direction: row;
-    }
-
-    .active-small-height .whatch-stream-player .title-stream {
-        max-width: 68%;
-    }
-
-    .active-small-height .close-frame {
-        bottom: 0;
-        top: inherit;
-        width: 18px;
-        height: 20px;
-    }
-
-    .active-small-height .title-pay-option {
-        font-size: 13px;
-    }
-
-    .active-small-height .title-pay-option {
-        max-width: 160px;
-    }
-
-    .footer-chat-question {
-        justify-content: flex-start;
-    }
-
-    .wrapper-left-chat-list {
-        margin-left: 0;
-        max-width: 165px;
-        max-height: 351px;
-        overflow-y: auto;
-    }
-
-    .content-chat-question {
-        min-height: calc(100% - 69px);
-        position: relative;
-        padding-bottom: 60px;
-    }
-
-    .new-message-input-wrapper {
-        width: 100%;
-    }
-
-    .right-chat-block {
-        margin-left: 30px;
-        width: 100%;
-    }
-
-    .content-chat-question {
-        width: 100%;
-    }
-
-    .wrapper-content-chat-content {
-        width: 590px;
-    }
-
-    .text-info-message {
-        font-size: 12px;
-    }
-
-    .item-question {
-        max-width: 158px;
-    }
-
-    .wrapper-chat-list-right {
-        max-height: 285px;
-        overflow-y: auto;
-    }
-
-    .active-delete-question .wrapper-notification-message .delete-notification-message {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .wrapper-notification-message .notification-message {
-        min-width: 148px;
-    }
-
-    .citate-message .text-info-message {
-        font-size: 12px;
-    }
-
-    .container-message-information input {
-        margin: 0 10px;
-        background: transparent;
-        font-size: 14px;
-        width: 100%;
-        height: 25px;
-    }
-
-    .notifications-wrapper,
-    .wrapper-list-afisha,
-    .wrapper-list-afisha-tickets,
-    .finance-wrapper,
-    .setting-frame-wrapper,
-    .wrapper-setting-game {
-        height: 48vh;
-    }
-
-    .text-theme {
-        line-height: 14px;
-        font-size: 12px;
-    }
-
-    .theme-notification {
-        max-width: 97px;
-    }
-
-    .icon-footer {
-        width: 28px;
-        height: 28px;
-        flex: none;
-    }
-
-    .number-count {
-        font-size: 14px;
-    }
-
-    .title-block-notifications {
-        display: flex;
-        align-items: flex-start;
-        margin-right: 10px;
-        max-width: 100px;
-    }
-
-    .date-broadcast span {
-        font-size: 11px;
-        text-align: center;
-    }
-
-    .choice {
-        text-transform: uppercase;
-        font-size: 10px;
-        white-space: nowrap;
-    }
-
-    .status-text {
-        position: relative;
-        padding-left: 28px;
-        text-align: center;
-        font-size: 12px;
-    }
-
-    .bought-tiсket {
-        font-size: 12px;
-    }
-
-    .wrapper-btn-choice,
-    .bought-tiсket,
-    .content-atention {
-        width: 230px;
-    }
-
-    .onstrim-message .logo-onstrim img {
-        max-width: 97px;
-    }
-
-    .active-broadcast .text-attention {
-        font-size: 11px;
-    }
-
-    .active-broadcast .btn-answer {
-        font-size: 14px;
-    }
-
-    .active-broadcast .name-this-translation {
-        white-space: pre-line;
-        font-size: 10px;
-    }
-
-    .cancel-text {
-        font-size: 12px;
-    }
-
-    .open-translation::before,
-    .personal-translation::before,
-    .close-translation::before {
-        width: 18px;
-        height: 18px;
-    }
-
-    .active-notifications .notifications-wrapper {
-        width: 574px;
-    }
-
-    .item-link-menu {
-        font-size: 0;
-        width: 25px;
-        height: 25px;
-        display: block;
-    }
-
-    .message-link {
-        background: url("../image/message-icon.png")no-repeat;
-        background-size: contain;
-    }
-
-    .message-link.active-link {
-        background: url("../image/message-icon-green.png")no-repeat;
-        background-size: contain;
-    }
-
-    .notifications-link {
-        background: url("../image/bell.png")no-repeat;
-        background-size: contain;
-    }
-
-    .notifications-link.active-link {
-        background: url("../image/bell-green.png")no-repeat;
-        background-size: contain;
-    }
-
-    .schedule-link {
-        background: url("../image/calendar.png")no-repeat;
-        background-size: contain;
-    }
-
-    .schedule-link.active-link {
-        background: url("../image/calendar-green.png")no-repeat;
-        background-size: contain;
-    }
-
-    .tickets-link {
-        background: url("../image/tikets.svg")no-repeat;
-        background-size: contain;
-    }
-
-    .tickets-link.active-link {
-        background: url("../image/tikets-green.svg")no-repeat;
-        background-size: contain;
-    }
-
-    .finance-link {
-        background: url("../image/money.png")no-repeat;
-        background-size: contain;
-    }
-
-    .finance-link.active-link {
-        background: url("../image/money-green.png")no-repeat;
-        background-size: contain;
-    }
-
-    .about-frame-link {
-        background: url("../image/frame.png")no-repeat;
-        background-size: contain;
-    }
-
-    .about-frame-link.active-link {
-        background: url("../image/frame-green.png")no-repeat;
-        background-size: contain;
-    }
-
-    .menu-left {
-        justify-content: space-around;
-    }
-
-    .item-link-menu .number-message {
-        margin-left: 13px;
-    }
-
-    .scroll-pane::-webkit-scrollbar {
-        background-color: transparent;
-        width: 2px;
-    }
-
-    /* background of the scrollbar except button or resizer */
-    .scroll-pane::-webkit-scrollbar-track {
-        background-color: transparent;
-    }
-
-    /* scrollbar itself */
-    .scroll-pane::-webkit-scrollbar-thumb {
-        background-color: transparent;
-        border-radius: 1px;
-        border: 0px solid #000;
-    }
-
-    /* set button(top and bottom of the scrollbar) */
-    .scroll-pane::-webkit-scrollbar-button {
-        display: none
-    }
-
-    .name-streamer {
-        font-size: 22px;
-        margin-right: 10px;
-    }
-
-    .container-title-stream {
-        width: 100%;
-        justify-content: space-between;
-    }
-
-    .setting-stream {
-        width: 25px;
-        height: 25px;
-        margin-left: 46px;
-    }
-
-    .container-list-item {
-        width: 290px;
-    }
-
-    .list-item {
-        width: 296px !important;
-    }
-
-    .header-stram {
-        margin-bottom: 8px;
-    }
-
-    .subscribe {
-        font-size: 12px;
-    }
-
-    .title-name-chater-title {
-        font-size: 13px;
-    }
-
-    .item-sub-title a {
-        font-size: 12px;
-        padding: 5px 0;
-    }
-
-    .active-broadcast .footer-alternative h4 {
-        font-size: 11px;
-    }
-
-    .container-afisha {
-        overflow-x: auto;
-        display: flex;
-        overflow-y: hidden;
-        transform: rotate(0deg);
-    }
-
-    .afisha-list {
-        display: flex;
-        transform: rotate(0deg);
-    }
-
-    .choice-status a {
-        font-size: 13px;
-    }
-
-    .edit-name,
-    .edit-data-input,
-    .edit-time-input,
-    .edit-price-input,
-    .edit-about-translation,
-    .nick-name,
-    .one-nick-name {
-        font-size: 12px;
-    }
-
-    .edit-data label,
-    .edit-time label,
-    .edit-price label {
-        color: #737270;
-        font-size: 12px;
-    }
-
-    .free-status-price {
-        font-size: 12px;
-    }
-
-    .img-translation {
-        max-height: 83px;
-    }
-
-    .edit-image,
-    .edit-image-bg {
-        font-size: 25px;
-    }
-
-    .name-acount {
-        font-size: 24px;
-        max-width: 150px;
-    }
-
-    .save-title {
-        font-size: 12px;
-    }
-
-    .error-title-name {
-        font-size: 12px;
-        color: red;
-        max-width: 528px;
-    }
-
-    .btn-close,
-    .close-public-change {
-        width: 15px;
-        height: 15px;
-    }
-
-    .wrapper-photo {
-        width: 60px;
-        height: 60px;
-    }
-
-    .left-acount-info {
-        width: 99%;
-    }
-
-    .new-my-message label {
-        font-size: 14px;
-    }
-
-    .title-bg-frame,
-    .language h3 {
-        font-size: 12px;
-        text-transform: uppercase;
-        opacity: 0.3;
-    }
-
-    .btn-form-password {
-        background-color: transparent;
-        border: none;
-        font-size: 14px;
-    }
-
-    .link-lang {
-        width: 20px;
-        height: 20px;
-    }
-
-    .active-link-lang::after {
-        content: "";
-        position: absolute;
-        left: -1px;
-        right: -1px;
-        top: 3px;
-        bottom: 2px;
-        border: 1px solid #CCFF00;
-        border-radius: 2px;
-    }
-
-    .exit-btn {
-        font-size: 16px;
-    }
-
-    .change-bg {
-        font-size: 14px;
-    }
-
-    .btn-change {
-        font-size: 13px;
-    }
-
-    .wrapper-save-change-btn {
-        max-width: 148px;
-        width: 100%;
-        justify-content: space-between;
-        margin-right: 0px;
-    }
-
-    .item-card h3 {
-        font-size: 12px;
-    }
-
-    .item-card {
-        margin-bottom: 0;
-    }
-
-    .wrapper-save-change-btn {
-        flex-direction: column;
-    }
-
-    .footer-setting-frame {
-        align-items: center;
-    }
-
-    .container-change-password {
-        margin: 8px 0;
-    }
-
-    .title-change-password {
-        font-size: 14px;
-    }
-
-    .input-edit-password {
-        font-size: 11px;
-    }
-
-    .edit-image::before {
-        width: 25px;
-        height: 25px;
-        top: 35px;
-    }
-
-    .list-item h3 {
-        line-height: 14px;
-        margin-top: 3px;
-        font-size: 13px !important;
-    }
-
-    .item-info h4,
-    .item-info span {
-        font-size: 12px;
-    }
-
-    .edit-item {
-        font-size: 12px;
-    }
-
-    .list-item {
-        height: 343px !important;
-    }
-
-    .translation-btn {
-        font-size: 12px;
-        padding: 6px;
-        width: 50%;
-    }
-
-    .block-about-traslation p {
-        font-size: 12px;
-    }
-
-    .name-info-title,
-    .about-translation-time {
-        font-size: 12px;
-    }
-
-    .btn-door {
-        width: 20px;
-        height: 25px;
-    }
-
-    .assessment {
-        font-size: 28px;
-    }
-
-    .and-translation {
-        font-size: 12px;
-    }
-
-    .title-participants {
-        font-size: 12px;
-    }
-
-    .quantity {
-        font-size: 12px;
-    }
-
-    .wrapper-img-reviews img {
-        min-width: 25px;
-        min-height: 25px;
-    }
-
-    .wrapper-img-reviews {
-        width: 25px;
-        height: 25px;
-    }
-
-    .comments {
-        font-size: 12px;
-    }
-
-    .reiting-commentators {
-        width: 25px;
-        height: 25px;
-        font-size: 12px;
-    }
-
-    .date-reviews {
-        margin-right: 40px;
-        margin-top: 5px;
-        font-size: 12px;
-    }
-
-    .edit-poster-item p {
-        font-size: 12px;
-    }
-
-    .donate-btn {
-        font-size: 13px;
-    }
-
-    .transfer-btn {
-        font-size: 12px;
-    }
-
-    .title-history {
-        font-size: 14px;
-    }
-
-    .content-table-history tr td,
-    .table-history thead th {
-        font-size: 10px;
-    }
-
-    .active-finance .finance-wrapper {
-        width: 600px;
-    }
-
-    .left-block-payment {
-        max-width: 150px;
-    }
-
-    .withdraw-input-btn {
-        font-size: 14px;
-        max-width: 84px;
-        position: relative;
-        padding-bottom: 3px;
-    }
-
-    .receive {
-        font-size: 14px;
-    }
-
-    .add-pay-new-info label {
-        font-size: 12px;
-        text-align: left;
-        white-space: pre-line;
-    }
-
-    .add-new-info {
-        font-size: 12px;
-    }
-
-    .container-video-strim {
-        width: 83%;
-    }
-
-    .container-video-strim img {
-        max-width: 100%;
-    }
-
-    .redactor-video {
-        width: 20px;
-        height: 20px;
-        right: 70px;
-    }
-
-    .reiting {
-        right: 12px;
-        width: 40px;
-        height: 40px;
-    }
-
-    .reiting span {
-        font-size: 20px;
-        color: #000000;
-    }
-
-    .center-info-account p {
-        font-size: 12px;
-        line-height: 13px;
-    }
-
-    .social-link {
-        width: 20px;
-        height: 20px;
-    }
-
-    .edit-btn-social {
-        width: 15px;
-        height: 15px;
-        margin: 0 3px;
-    }
-
-    .social-input {
-        font-size: 12px;
-    }
-
-    .social-list {
-        width: 50%;
-    }
-
-    .bottom-block-about-frame {
-        margin: 10px 0;
-        position: absolute;
-        top: inherit;
-        right: 0;
-        bottom: 0;
-        width: 40%;
-        padding-right: 20px;
-    }
-
-    .title-edit-video {
-        font-size: 12px;
-        line-height: normal;
-    }
-
-    .edit-text-frame {
-        width: 20px;
-        height: 20px;
-    }
-
-    .bottom-block-about-frame textarea {
-        font-size: 12px;
-        min-height: 116px;
-    }
-
-    .link-frame {
-        font-size: 12px;
-        margin-bottom: 5px;
-        margin-top: 5px;
-    }
-
-    .edit-btn-video {
-        font-size: 14px;
-    }
-
-    .container-setting-video-strim {
-        right: 65px;
-    }
-
-    .item-strim-about {
-        display: flex;
-        flex-direction: column;
-        margin-right: 0;
-        margin-bottom: 10px;
-    }
-
-    .item-strim-about {
-        max-width: 360px;
-    }
-
-    .wrapper-stream-content-about {
-        height: calc(100vh - 50px);
-    }
-
-}
-
-@media only screen and (max-width: 375px) and (min-width: 320px) {
-    .chat-wrapper {
-        bottom: 1px;
-    }
-
-    .wrapper-whatching {
-        max-height: 98px;
-    }
-
-    .content-list-chat {
-        height: 133px;
-        margin-left: 0;
-    }
-
-    .list-emodgi {
-        max-height: 100px;
-    }
-
-    .active-pay-donut .pay-and-coment-block {
-        height: 368px;
-    }
-
-    .regulations {
-        font-size: 12px;
-    }
-}
-
-@media only screen and (max-width: 360px) and (min-width: 320px) {
-
-    .first-strim-video .big-player {
-        max-width: 342px;
-    }
-
-    .wrapper-whatching {
-        max-height: 116px;
-    }
-
-    .chat-wrapper {
-        max-width: 60%;
-        position: absolute;
-        right: 0;
-        bottom: 3px;
-    }
-
-    .content-list-chat {
-        height: 146px;
-        margin-left: 0;
+        max-width: unset;
     }
 }
