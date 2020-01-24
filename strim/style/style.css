@@ -479,7 +479,7 @@ button{
 }
 .big-center-info{
     width: 100%;
-    overflow-y: hidden;
+    overflow: hidden;
 }
 .help{
     font-size: 18px;
@@ -493,7 +493,18 @@ button{
      display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position: relative;
 }
+
+.burger__menu{
+    display: none;
+    position: relative;
+    margin-right: auto;
+    height: 25px;
+    width: 30px;
+    margin: 5px 0;
+}
+
 .setting-stream{
     background: url("../image/settings.svg")no-repeat;
     width: 30px;
@@ -3433,7 +3444,12 @@ height: 100%;
     margin: 5px;
     cursor: pointer;
 }
-.checkbox-custom + .checkbox-custom-label::before{
+
+.checkbox-custom-label-span{
+
+position: relative;}
+
+.checkbox-custom + .checkbox-custom-label>.checkbox-custom-label-span::before{
     content: '';
     border: 2px solid #ffffff;
     border-radius: 2px;
@@ -3444,13 +3460,11 @@ height: 100%;
     margin-right: 10px;
     margin-bottom: 5px;
 }
-.checkbox-custom:checked + .checkbox-custom-label::after{
+.checkbox-custom:checked + .checkbox-custom-label>.checkbox-custom-label-span::after{
     content: '';
     position: absolute;
     left: 2px;
-    top: 2px;
-    right: 0;
-    bottom: 0;
+    top: 0;
     width: 20px;
     height: 20px;
     border-radius: 2px;
@@ -5207,7 +5221,7 @@ height: 100%;
 .wrapper-list-afisha-tickets,
 .finance-wrapper,
 .setting-frame-wrapper{
-    height: 58vh;
+    height: 100%;
     transform: translateY(0%);
     transition: .7s;
 }

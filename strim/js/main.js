@@ -26,7 +26,16 @@ $(document).ready(function () {
         calcSize();
     });
 
+    $(".burger__menu").click( function(){
+        $(this).toggleClass("burger__menu--open");
+        $(".menu-left").toggleClass("menu-left--open");
+    });
 
+
+    $(".item-link-menu").click( function(){
+        $(".burger__menu").removeClass("burger__menu--open");
+        $(".menu-left").removeClass("menu-left--open");
+    });
 
     $('.title-pay-option').on("change keyup input", function () {
         if (this.innerText) {
