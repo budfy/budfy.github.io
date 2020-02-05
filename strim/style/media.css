@@ -882,7 +882,7 @@
     .finance-wrapper,
     .setting-frame-wrapper,
     .wrapper-setting-game {
-        height: 54vh;
+        height: 50vh;
     }
 
     .wrapper-setting-game {
@@ -1251,7 +1251,7 @@
     .finance-wrapper,
     .setting-frame-wrapper,
     .wrapper-setting-game {
-        height: 53vh;
+        height: 50vh;
     }
 
     .description-block {
@@ -3510,6 +3510,15 @@
         border-bottom: none;
     }
 
+}
+
+@media only screen and (max-height: 1000px) and (min-height: 320px) {
+    .afisha-list .list-item{
+        overflow-y: auto;
+    }
+    .footer-item-translation, .public-footer.footer-none-active{
+        width: 100%;
+    }
 }
 
 @media only screen and (max-height: 750px) and (min-height: 320px) and (max-width: 850px) {

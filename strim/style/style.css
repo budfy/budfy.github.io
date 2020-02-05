@@ -355,7 +355,6 @@ button {
 }
 
 .content {
-    padding: 10px 30px 20px 30px;
     height: calc(100vh - 124px);
     overflow: hidden;
     position: relative;
@@ -561,7 +560,7 @@ button {
 .regulations-block {
     width: 100%;
     border-bottom: 1px solid #ffffff;
-    padding: 16px 0;
+    padding: 16px 30px;
     display: -webkit-box;
     display: flex;
     height: 58vh;
@@ -6543,6 +6542,7 @@ div.scrollWrapper {
     -webkit-transition: .5s;
     transition: .5s;
     display: none;
+    padding: 0 30px;
 }
 
 .search-close {
@@ -6584,6 +6584,7 @@ div.scrollWrapper {
     -webkit-transition: .5s;
     transition: .5s;
     height: 100%;
+    padding: 0 30px;
 }
 
 .none-active-strim-content {
@@ -6615,6 +6616,10 @@ div.scrollWrapper {
 
 .wrapper-frame-content {
     display: none;
+    background-image: url(../image/marmok-smailik-oboi-marmok.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .active-small-height .whatch-stream-player {
@@ -6899,13 +6904,12 @@ div.scrollWrapper {
 
 .wrapper-setting-game {
     display: none;
-    height: 58vh;
+    height: 55vh;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     flex-direction: column;
     margin-left: 15px;
     position: relative;
-    background-color: #000000;
 }
 
 .setting-frame-wrapper {
@@ -6952,7 +6956,7 @@ div.scrollWrapper {
     transform: translateY(-200%);
     -webkit-transition: .7s;
     transition: .7s;
-    overflow-y: auto;
+    overflow-y: hidden;
 }
 
 .active-tickets .wrapper-content-chat-content {
