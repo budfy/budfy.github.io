@@ -108,8 +108,10 @@ input:-webkit-autofill {
     -webkit-animation-fill-mode: both;
 }
 
-html {
+html, body {
     line-height: 1;
+    height: 100%;
+    min-height: 100vh;
 }
 
 ol,
@@ -2730,6 +2732,10 @@ div.scrollWrapper {
     margin-bottom: 0;
 }
 
+.item-question.next-write.citate-answer {
+    width: 100%;
+}
+
 .text-info-message {
     line-height: normal;
 }
@@ -4166,71 +4172,141 @@ div.scrollWrapper {
     font-size: 20px;
 }
 
-.list-language {
-    display: -webkit-box;
-    display: flex;
-    -webkit-box-align: center;
-    align-items: center;
-    margin-left: 10px;
+.language-overlay{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    display: none;
+    z-index: 1;
 }
 
-.item-lang {
-    margin-right: 10px;
-}
-
-.link-lang {
-    width: 30px;
-    height: 30px;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+.language-overlay-active{
     display: block;
-}
-
-.link-lang:focus {
-    outline: #CCFF00;
-}
-
-.ukrane {
-    background: url("../image/ukraine.svg");
-}
-
-.item-lang:last-child {
-    margin-right: 0;
-}
-
-.ruusia {
-    background: url("../image/russia.svg");
-}
-
-.active-link-lang {
-    position: relative;
-}
-
-.active-link-lang::after {
-    content: "";
-    position: absolute;
-    left: -1px;
-    right: 1px;
-    top: 4px;
-    bottom: 5px;
-    border: 1px solid #CCFF00;
-    border-radius: 5px;
 }
 
 .language {
     display: -webkit-box;
     display: flex;
     -webkit-box-align: center;
-    align-items: center;
+    align-items: flex-start;
+    text-transform: uppercase;
+    margin-left: auto;
+    position: relative;
+    overflow: hidden;
+    height: 32px;
+    -webkit-box-pack: center;
+            justify-content: center;
+    margin-right: 5px;
+    min-width: 80px;
+}
+
+.language-active{
+    overflow: visible;
+}
+
+.lang-btn{
+    height: 22px;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+            align-items: flex-start;
+    width: 80px;
+    position: relative;
+    z-index: 3;
+    background-color: #000000;
+    cursor: pointer;
+}
+
+.lang-btn img {
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border: 1px solid #CCFF00;
+    border-radius: 5px;
+}
+
+.lang-name{
+    position: relative;
+    padding-right: 20px;
     text-transform: uppercase;
 }
 
-.language h3 {
-    font-size: 20px;
-    margin-right: 10px;
-    opacity: 0.3;
+.lang-name:before, .lang-name:after{
+content: "";
+position: absolute;
+height: 1px;
+width: 10px;
+background-color: #fff;
+top: 50%;
 }
+
+.lang-name:before{
+    -webkit-transform: translateY(-50%) rotate(45deg);
+            transform: translateY(-50%) rotate(45deg);
+            right: 6px;
+}
+
+.lang-name:after{
+    -webkit-transform: translateY(-50%) rotate(-45deg);
+            transform: translateY(-50%) rotate(-45deg);
+            right: 0px;
+}
+
+.language-active .lang-name:after{
+    -webkit-transform: translateY(-50%) rotate(-45deg);
+            transform: translateY(-50%) rotate(-45deg);
+            right: 6px;
+}
+
+.list-language {
+position: absolute;
+top: 100%;
+padding: 10px;
+background-color: #000;
+border-radius: 5px;
+width: 100%;
+-webkit-transform-origin: top;
+transform-origin: top;
+-webkit-transform: translateY(-110%) scaleY(0);
+transform: translateY(-110%) scaleY(0);
+-webkit-transition: -webkit-transform .5s;
+transition: -webkit-transform .5s;
+transition: transform .5s;
+transition: transform .5s, -webkit-transform .5s;
+z-index: 2;
+}
+
+.language-active .list-language {
+    -webkit-transform: translateY(0) scaleY(1);
+    transform: translateY(0) scaleY(1);
+    z-index: 1;
+}
+
+.link-lang {
+    width: 30px;
+    height: 22px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid transparent;
+    margin: 5px auto;
+}
+
+.link-lang img {
+       -o-object-fit: contain;
+          object-fit: contain;
+}
+
+.active-link-item .link-lang, .link-lang:hover, .link-lang:focus{
+    border: 1px solid #CCFF00;
+}
+
 
 .edit-img-bg {
     margin-top: 15px;
@@ -4487,6 +4563,35 @@ div.scrollWrapper {
     bottom: 0;
     background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.14)), color-stop(11%, rgba(255, 255, 255, 1)), color-stop(47%, rgba(255, 255, 255, 1)), color-stop(85%, rgba(255, 255, 255, 1)), to(rgba(255, 255, 255, 0.13)));
     background: linear-gradient(to right, rgba(255, 255, 255, 0.14) 0%, rgba(255, 255, 255, 1) 11%, rgba(255, 255, 255, 1) 47%, rgba(255, 255, 255, 1) 85%, rgba(255, 255, 255, 0.13) 100%);
+}
+
+.social-reg{
+    width: 100%;
+}
+
+.social-reg-list{
+    text-align: center;
+    height: 30px;
+}
+
+.social-reg-list li+li{
+    margin-left: 15px;
+}
+
+.social-reg-item{
+    display: inline-block;
+}
+
+.social-reg-btn i{
+    font-size: 25px;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+.social-reg-btn:hover i{
+    color: #CCFF00;
+    -webkit-transform: scale(1.25);
+            transform: scale(1.25);
 }
 
 .sign-in-btn:hover::after,
@@ -6542,19 +6647,22 @@ div.scrollWrapper {
     -webkit-transition: .5s;
     transition: .5s;
     display: none;
-    padding: 0 30px;
+    /* padding: 0 30px; */
 }
 
 .search-close {
     display: none;
     position: fixed;
     top: 60px;
-    left: 10px;
     font-size: 20px;
     text-transform: uppercase;
     color: #CCFF00;
     border: none;
-    background-color: transparent;
+    background-color: #000;
+    z-index: 1;
+    right: 20px;
+    height: 20px;
+    width: 20px;
 }
 
 .search-close-active {
@@ -6584,7 +6692,7 @@ div.scrollWrapper {
     -webkit-transition: .5s;
     transition: .5s;
     height: 100%;
-    padding: 0 30px;
+    /* padding: 0 30px; */
 }
 
 .none-active-strim-content {
@@ -6718,7 +6826,7 @@ div.scrollWrapper {
 }
 
 .small-height-block,
-.small-height-left {
+.icon-container-strim.small-height-left {
     display: none;
 }
 

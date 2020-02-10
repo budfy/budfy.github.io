@@ -28,6 +28,53 @@
                     <input type="search" class="search-input" />
                 </form>
             </div>
+
+            <div class="language">
+
+                <div class="lang-btn">
+                    <img src="image/lang/ru.svg" alt="">
+                    <span class="lang-name">RU</span>
+                </div>
+                <div class="language-overlay"></div>
+                <ul class="list-language">
+                    <li class="item-lang">
+                        <a href="#" class="link-lang" data-lang="ua">
+                            <img src="image/lang/ua.svg" alt="Вибір мови - українська">
+                        </a>
+                    </li>
+                    <li class="item-lang">
+                        <a href="#" class="link-lang" data-lang="en">
+                            <img src="image/lang/en.svg" alt="Language choice English">
+                        </a>
+                    </li>
+                    <li class="item-lang">
+                        <a href="#" class="link-lang" data-lang="fr">
+                            <img src="image/lang/fr.svg" alt="Sélection de la langue français">
+                        </a>
+                    </li>
+                    <li class="item-lang">
+                        <a href="#" class="link-lang" data-lang="ge">
+                            <img src="image/lang/ge.svg" alt="ქართული ენის შერჩევა">
+                        </a>
+                    </li>
+                    <li class="item-lang">
+                        <a href="#" class="link-lang" data-lang="it">
+                            <img src="image/lang/it.svg" alt="Selezione della lingua italiana">
+                        </a>
+                    </li>
+                    <li class="item-lang">
+                        <a href="#" class="link-lang" data-lang="pl">
+                            <img src="image/lang/pl.svg" alt="Wbór języka polski">
+                        </a>
+                    </li>
+                    <li class="item-lang active-link-item">
+                        <a href="#" class="link-lang" data-lang="ru">
+                            <img src="image/lang/ru.svg" alt="Выбор языка русский">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
             <div class="right-header-block">
                 <div class="wrapper-frame-container">
                     <div class="translation">
@@ -41,13 +88,14 @@
                     <div class="block-registration">
                         <a href="" class="header-sign-btn sign-in-frame">вход</a>
                         <span>,</span>
-                        <a href="" class="header-sign-btn">регистрация</a>
+                        <a href="" class="header-sign-btn registration-title">регистрация</a>
                     </div>
                 </div>
                 <a href="" class="rules">правила сервиса</a>
             </div>
         </header>
         <!-- End header -->
+
         <!-- Start content  -->
         <div class="content">
             <div class="regulations-block">
@@ -1661,7 +1709,7 @@
                                         </g>
                                     </svg>
                                     <span class="item-menu__text">Сообщение</span>
-                                    </a>
+                                </a>
                             </li>
                             <li class="item-menu">
                                 <a href="" class="item-link-menu notifications-link">
@@ -1700,7 +1748,8 @@
                             </li>
                             <li class="item-menu">
                                 <a href="" class="item-link-menu schedule-link">
-                                    <svg class="menu-left__icon" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                    <svg class="menu-left__icon" viewBox="0 0 512 512"
+                                        xmlns="http://www.w3.org/2000/svg">
                                         <path
                                             d="m453.332031 512h-394.664062c-32.363281 0-58.667969-26.304688-58.667969-58.667969v-352c0-32.363281 26.304688-58.664062 58.667969-58.664062h394.664062c32.363281 0 58.667969 26.300781 58.667969 58.664062v352c0 32.363281-26.304688 58.667969-58.667969 58.667969zm-394.664062-437.332031c-14.699219 0-26.667969 11.964843-26.667969 26.664062v352c0 14.699219 11.96875 26.667969 26.667969 26.667969h394.664062c14.699219 0 26.667969-11.96875 26.667969-26.667969v-352c0-14.699219-11.96875-26.664062-26.667969-26.664062zm0 0" />
                                         <path
@@ -1870,7 +1919,8 @@
                                 </a>
                             </li>
                         </ul>
-                        <a href="" class="help"><span class="help-wide">Служба поддержки</span><span class="help-mobile">?</span></a>
+                        <a href="" class="help"><span class="help-wide">Служба поддержки</span><span
+                                class="help-mobile">?</span></a>
                     </div>
                     <div class="big-center-info active-message-block">
                         <div class="wrapper-setting-game">
@@ -1895,17 +1945,6 @@
                                             <label for="checkbox-3" class="checkbox-custom-label"><span
                                                     class="checkbox-custom-label-span"></span>Новые личные сообщения
                                                 (звуковое уведомление)</label>
-                                        </div>
-                                        <div class="language">
-                                            <h3>Язык интерфейса</h3>
-                                            <ul class="list-language">
-                                                <li class="item-lang">
-                                                    <a href="" class="link-lang ruusia active-link-lang"></a>
-                                                </li>
-                                                <li class="item-lang">
-                                                    <a href="" class="link-lang ukrane"></a>
-                                                </li>
-                                            </ul>
                                         </div>
                                         <div class="container-change-password">
                                             <h3 class="title-change-password">Изменить пароль</h3>
@@ -4551,6 +4590,27 @@
                                         </div>
                                     </div>
                                     <button type="submit" class="registration">Зарегестрироваться</button>
+                                    <div class="social-reg">
+                                        <ul class="social-reg-list">
+                                            <li class="social-reg-item">
+                                                <a onclick="fb_login();return false;"
+                                                    class="social-reg-btn facebook-reg">
+                                                    <i class="fab fa-facebook-square"></i>
+                                                </a>
+                                            </li>
+                                            <li class="social-reg-item">
+                                                <a onclick="fb_login();return false;"
+                                                    class="social-reg-btn youtube-reg">
+                                                    <i class="fab fa-youtube-square"></i>
+                                                </a>
+                                            </li>
+                                            <li class="social-reg-item">
+                                                <a onclick="fb_login();return false;" class="social-reg-btn twitch-reg">
+                                                    <i class="fab fa-twitch"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </form>

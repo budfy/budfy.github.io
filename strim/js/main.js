@@ -845,5 +845,26 @@ $(document).ready(function () {
         }
     });
 
+    // ---------------------- переключатели языка -----------------------
+    
+    $('.lang-btn').on("click", function(){
+        $('.language').toggleClass('language-active');
+        $('.language-overlay').toggleClass('language-overlay-active');
+    });
 
+    $('.link-lang').on("click", function(e){
+        var lang = $(this).attr("data-lang");
+        event.preventDefault();
+        $('.list-language').find('.active-link-item').removeClass('active-link-item');
+        $(this).parent().addClass('active-link-item');
+        $('.language').removeClass('language-active');
+        $('.lang-btn img').attr("src", "image/lang/" + lang + ".svg");
+        $('.lang-name').html(lang);
+        $('.language-overlay').removeClass('language-overlay-active');
+    });
+
+    $('.language-overlay').on("click", function(){
+        $('.language').removeClass('language-active');
+        $('.language-overlay').removeClass('language-overlay-active');
+    })
 });
