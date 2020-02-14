@@ -357,7 +357,7 @@ button {
 }
 
 .content {
-    height: calc(100vh - 124px);
+    height: calc(100vh - 85px);
     overflow: hidden;
     position: relative;
 }
@@ -546,6 +546,10 @@ button {
     color: #CCFF00;
 }
 
+.active-link span{
+    color: #CCFF00;
+}
+
 .active-link {
     color: #CCFF00;
 }
@@ -562,7 +566,7 @@ button {
 .regulations-block {
     width: 100%;
     border-bottom: 1px solid #ffffff;
-    padding: 16px 30px;
+    padding: 0 15px;
     display: -webkit-box;
     display: flex;
     height: 58vh;
@@ -570,8 +574,9 @@ button {
 
 .regulations-block {
     position: relative;
-    padding-top: 30px;
+    padding: 30px 15px 0;
     display: none;
+    height: 100vh;
 }
 
 .close-text-block {
@@ -1235,23 +1240,10 @@ button {
 
 /*-----------------------------list afisha---------------------*/
 .afisha-list {
-    display: -webkit-box;
-    display: flex;
-    -webkit-transform: rotate(-270deg);
-    transform: rotate(-270deg);
 }
 
 .list-item {
-    overflow: hidden;
     width: 400px;
-    display: -webkit-box;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    flex-direction: column;
-    height: 530px;
-    -webkit-box-flex: 0;
-    flex: none;
 }
 
 .scroll-auto {
@@ -1307,11 +1299,6 @@ button {
     font-size: 20px;
     text-align: center;
     line-height: 26px;
-}
-
-.containeer-about-translation {
-    -webkit-box-flex: 1;
-    flex-grow: 1;
 }
 
 .item-info {
@@ -2535,6 +2522,7 @@ div.scrollWrapper {
     align-items: center;
     overflow: hidden;
     height: calc(100% - 75px);
+    
 }
 
 .wrapper-wideo-players .wrapper-video {
@@ -2712,10 +2700,10 @@ div.scrollWrapper {
 }
 
 .content-chat-question {
-    margin-top: 10px;
-    min-height: calc(100% - 45px);
+    margin: 0;
+    height: 100%;
     position: relative;
-    padding-bottom: 45px;
+    padding-bottom: 0;
 }
 
 .item-question {
@@ -2780,7 +2768,7 @@ div.scrollWrapper {
     display: -webkit-box;
     display: flex;
     position: absolute;
-    bottom: 11px;
+    bottom: 0;
     -webkit-box-pack: end;
     justify-content: flex-end;
 }
@@ -4178,10 +4166,12 @@ div.scrollWrapper {
     width: 100%;
     background-color: transparent;
     display: none;
-    z-index: 1;
+    z-index: 1004;
+    left: 0;
+    top: 0;
 }
 
-.language-overlay-active{
+.language-active .language-overlay{
     display: block;
 }
 
@@ -4215,7 +4205,7 @@ div.scrollWrapper {
             align-items: flex-start;
     width: 80px;
     position: relative;
-    z-index: 3;
+    z-index: 1003;
     background-color: #000000;
     cursor: pointer;
 }
@@ -4267,22 +4257,11 @@ top: 100%;
 padding: 10px;
 background-color: #000;
 border-radius: 5px;
-width: 100%;
--webkit-transform-origin: top;
-transform-origin: top;
--webkit-transform: translateY(-110%) scaleY(0);
-transform: translateY(-110%) scaleY(0);
--webkit-transition: -webkit-transform .5s;
-transition: -webkit-transform .5s;
-transition: transform .5s;
-transition: transform .5s, -webkit-transform .5s;
-z-index: 2;
-}
-
-.language-active .list-language {
-    -webkit-transform: translateY(0) scaleY(1);
-    transform: translateY(0) scaleY(1);
-    z-index: 1;
+left: -10px;
+-webkit-transform-origin: center;
+        transform-origin: center;
+z-index: 1005;
+display: none;
 }
 
 .link-lang {
@@ -4668,6 +4647,10 @@ z-index: 2;
 
 .setting-left-footer>.sount-container>.sound-input>.checkbox-custom-label>.checkbox-custom-label-span::after{
     top: -5px;
+}
+
+.about-your-frame>.new-my-message>.checkbox-custom-label>.checkbox-custom-label-span::after{
+    top: 1px;
 }
 
 .list-title-settings {
@@ -5678,7 +5661,7 @@ z-index: 2;
 }
 
 .active-registration-form {
-    height: 383px;
+    height: 405px;
     -webkit-transition: .5s;
     transition: .5s;
 }
@@ -5888,6 +5871,7 @@ z-index: 2;
     text-transform: uppercase;
     outline: none;
     margin-top: 5px;
+    width: 100%;
 }
 
 .wrapper-data-card input {
@@ -5896,7 +5880,7 @@ z-index: 2;
     color: #ffffff;
     font-size: 11px;
     outline: none;
-    max-width: 40px;
+    max-width: 50px;
     width: 100%;
 }
 
@@ -5909,6 +5893,7 @@ z-index: 2;
     -webkit-box-pack: justify;
     justify-content: space-between;
     margin-top: 5px;
+    /* padding: 0 10px; */
 }
 
 .title-card {
@@ -5919,7 +5904,7 @@ z-index: 2;
 
 .wrapper-card {
     padding-right: 30px;
-    margin-left: 30px;
+    margin-left: 45px;
     position: absolute;
     top: 0;
     left: 0;
@@ -6642,7 +6627,7 @@ z-index: 2;
 }
 
 .wrapper-stream-content-about {
-    height: calc(100vh - 124px);
+    height: 100%;
     overflow-y: auto;
     -webkit-transition: .5s;
     transition: .5s;
@@ -6672,6 +6657,7 @@ z-index: 2;
 .active-strim-search {
     -webkit-transition: .5s;
     transition: .5s;
+    margin: 10px 0;
 }
 
 .header-sign-btn {
@@ -7007,7 +6993,6 @@ z-index: 2;
 .wrapper-list-afisha,
 .wrapper-list-afisha-tickets {
     position: relative;
-    overflow-y: hidden;
 }
 
 .wrapper-setting-game {
@@ -7064,7 +7049,6 @@ z-index: 2;
     transform: translateY(-200%);
     -webkit-transition: .7s;
     transition: .7s;
-    overflow-y: hidden;
 }
 
 .active-tickets .wrapper-content-chat-content {
@@ -7547,15 +7531,7 @@ z-index: 2;
 }
 
 .container-afisha {
-    overflow-x: hidden;
-    height: 86vw;
-    display: -webkit-box;
-    display: flex;
-    -webkit-box-pack: center;
-    justify-content: center;
-    overflow-y: auto;
-    -webkit-transform: rotate(270deg);
-    transform: rotate(270deg);
+   height: 100%;
 }
 
 .wrapper-list-afisha .container-afisha {

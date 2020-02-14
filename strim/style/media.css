@@ -108,10 +108,6 @@
         max-height: unset;
     }
 
-    .wrapper-list-afisha {
-        width: 80vw;
-    }
-
     .whatch-stream-player .name-stream {
         font-size: 25px;
     }
@@ -153,14 +149,6 @@
     .description-block {
         max-width: 366px;
         width: 100%;
-    }
-
-    .container-afisha {
-        height: 80vw;
-    }
-
-    .list-item {
-        height: 603px;
     }
 
     .container-video,
@@ -405,7 +393,6 @@
     }
 
     .list-item {
-        height: 517px;
         width: 372px;
     }
 
@@ -853,11 +840,6 @@
         width: 340px;
     }
 
-    .list-item {
-        height: 400px;
-        width: 346px;
-    }
-
     .footer-item-translation,
     .public-footer {
         min-height: 45px;
@@ -865,7 +847,7 @@
 
     .about-frame,
     .regulations-block {
-        height: 54vh;
+        height: 50vh;
     }
 
     .edit-poster-item {
@@ -877,8 +859,6 @@
     }
 
     .notifications-wrapper,
-    .wrapper-list-afisha,
-    .wrapper-list-afisha-tickets,
     .finance-wrapper,
     .setting-frame-wrapper,
     .wrapper-setting-game {
@@ -892,10 +872,6 @@
     .edit-about-translation {
         height: 70px;
         resize: none;
-    }
-
-    .img-translation {
-        max-height: 119px;
     }
 
     .edit-image::before {

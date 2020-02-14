@@ -22,17 +22,17 @@ $(document).ready(function () {
         $('.js-resize-video').height(heightResult).width(widthResult);
     }
     $(window).resize(calcSize);
-    $(window).on("orientationchange", function(event) {
+    $(window).on("orientationchange", function (event) {
         calcSize();
     });
 
-    $(".burger__menu").click( function(){
+    $(".burger__menu").click(function () {
         $(this).toggleClass("burger__menu--open");
         $(".menu-left").toggleClass("menu-left--open");
     });
 
 
-    $(".item-link-menu").click( function(){
+    $(".item-link-menu").click(function () {
         $(".burger__menu").removeClass("burger__menu--open");
         $(".menu-left").removeClass("menu-left--open");
     });
@@ -631,7 +631,7 @@ $(document).ready(function () {
         }, 1000);
     });
 
-    $('.search-close').click (function(){
+    $('.search-close').click(function () {
         $('.active-strim-search').fadeOut(500);
         $('.search-container').find('.btn-search').fadeIn();
         setTimeout(() => {
@@ -663,6 +663,7 @@ $(document).ready(function () {
         event.preventDefault();
         $(this).closest('.container-stream').find('.autorization-frame').slideToggle(500);
         $(this).closest('.container-stream').find('.wrapper-stream-content').toggleClass('active-frame-height');
+        calcSize();
     });
 
     $('.start-translation').on('click', function (event) {
@@ -753,11 +754,13 @@ $(document).ready(function () {
         });
 
     });
+
     $('.item-link-menu').on('click', function (event) {
         event.preventDefault();
         $(this).closest('.menu-left').find('.item-link-menu').removeClass('active-link');
         $(this).addClass('active-link');
         $(this).closest('.wrapper-frame-content').find('.setting-stream').removeClass('active-btn-setting');
+        console.log("Menu changed");
     });
 
     $('.rules').on('click', function (event) {
@@ -846,25 +849,42 @@ $(document).ready(function () {
     });
 
     // ---------------------- переключатели языка -----------------------
-    
-    $('.lang-btn').on("click", function(){
+
+    $('.lang-btn').on("click", function () {
         $('.language').toggleClass('language-active');
-        $('.language-overlay').toggleClass('language-overlay-active');
+        $('.list-language').fadeTo(500, .7);
     });
 
-    $('.link-lang').on("click", function(e){
+    $('.link-lang').on("click", function (e) {
         var lang = $(this).attr("data-lang");
         event.preventDefault();
-        $('.list-language').find('.active-link-item').removeClass('active-link-item');
+        $('.list-language').fadeTo(500, 0).find('.active-link-item').removeClass('active-link-item');
         $(this).parent().addClass('active-link-item');
         $('.language').removeClass('language-active');
         $('.lang-btn img').attr("src", "image/lang/" + lang + ".svg");
         $('.lang-name').html(lang);
-        $('.language-overlay').removeClass('language-overlay-active');
     });
 
-    $('.language-overlay').on("click", function(){
+    $('.language-overlay').on("click", function () {
+        $('.list-language').fadeTo(500, 0);
         $('.language').removeClass('language-active');
-        $('.language-overlay').removeClass('language-overlay-active');
     })
+
+    var swiperAfisha = new Swiper('.swiper-afisha-h', {
+        // Optional parameters
+        slidersperview: 'auto',
+        spaceBetween: '5px',
+        //mousewheel: true,
+        freeMode: true,
+        loop: false,
+        // slideToClickedSlide: true,
+    });
+
+    var swiperAfishaInner = new Swiper('.swiper-afisha-v', {
+        direction: 'vertical',
+        mousewheel: true,
+        freeMode: true,
+        loop: false,
+    })
+
 });
