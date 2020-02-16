@@ -133,9 +133,9 @@
         max-width: 880px;
     }
 
-    .active-small-height .container-info-about-strim-video {
+    /* .active-small-height .container-info-about-strim-video {
         max-width: 385px;
-    }
+    } */
 
     .name-whatcher {
         font-size: 18px;
@@ -146,9 +146,9 @@
         height: 23vh;
     }
 
-    .active-small-height .bottom-pay-info {
+    /* .active-small-height .bottom-pay-info {
         right: 30px;
-    }
+    } */
 
     .description-block {
         max-width: 366px;
@@ -160,7 +160,7 @@
     }
 
     .list-item {
-        height: 603px;
+        height: 475px;
     }
 
     .container-video,
@@ -281,20 +281,16 @@
         font-size: 20px;
     }
 
-    .active-small-height .wrapper-content-player {
-        height: 21vh;
-    }
-
-    .active-small-height .container-info-about-strim-video {
+    /* .active-small-height .container-info-about-strim-video {
         max-width: 346px;
-    }
+    } */
 
-    .active-small-height .bottom-pay-info {
+    /* .active-small-height .bottom-pay-info {
         right: 19px;
-    }
+    } */
 
     .active-small-height .bottom-pay-info {
-        width: 200px;
+        /* width: 200px; */
     }
 
     .gray-btn span {
@@ -316,7 +312,7 @@
 
     .active-small-height .block-write {
         position: absolute;
-        bottom: 10px;
+        bottom: 0;
     }
 
     .theme-notification {
@@ -487,10 +483,6 @@
         height: 45vh;
     }
 
-    .regulations-block {
-        height: 54vh;
-    }
-
     .active-registration-form {
         height: 360px;
     }
@@ -599,10 +591,10 @@
     .right-block-whatch {
         max-width: 305px;
     }
-
+/* 
     .wrapper-container-pay {
         max-width: 281px;
-    }
+    } */
 
     .close-violations {
         width: 15px;
@@ -863,9 +855,12 @@
         min-height: 45px;
     }
 
-    .about-frame,
-    .regulations-block {
+    .about-frame {
         height: 54vh;
+    }
+
+    .regulations-block {
+        height: 100vh;
     }
 
     .edit-poster-item {
@@ -876,14 +871,14 @@
         font-size: 12px;
     }
 
-    .notifications-wrapper,
+    /* .notifications-wrapper,
     .wrapper-list-afisha,
     .wrapper-list-afisha-tickets,
     .finance-wrapper,
     .setting-frame-wrapper,
     .wrapper-setting-game {
         height: 50vh;
-    }
+    } */
 
     .wrapper-setting-game {
         height: 55vh;
@@ -894,9 +889,9 @@
         resize: none;
     }
 
-    .img-translation {
+    /* .img-translation {
         max-height: 119px;
-    }
+    } */
 
     .edit-image::before {
         width: 30px;
@@ -1054,9 +1049,9 @@
         height: 17px;
     }
 
-    .active-small-height .container-info-about-strim-video {
+    /* .active-small-height .container-info-about-strim-video {
         max-width: 310px;
-    }
+    } */
 
     .active-small-height .first-strim-video .big-player {
         max-width: 221px;
@@ -1167,9 +1162,9 @@
         max-width: 200px;
     }
 
-    .active-small-height .container-info-about-strim-video {
+    /* .active-small-height .container-info-about-strim-video {
         max-width: 282px;
-    }
+    } */
 
     .active-small-height .whatch-stream-player .item-footer {
         width: 203px;
@@ -1190,9 +1185,9 @@
         overflow-y: auto;
     }
 
-    .active-small-height .wrapper-container-pay {
+    /* .active-small-height .wrapper-container-pay {
         max-width: 193px;
-    }
+    } */
 
     .active-small-height .container-input-write {
         height: 45px;
@@ -1331,6 +1326,10 @@
         white-space: pre-wrap;
         text-align: left;
         line-height: 15px;
+    }
+
+    .active-frame-height{
+        height: calc(46vh - 102px);
     }
 
 }
@@ -1567,6 +1566,10 @@
         width: 100%;
     }
 
+    .active-small-height .chat-wrapper {
+        width: 50%;
+    }
+
     .item-chat {
         padding: 5px 5px;
     }
@@ -1607,6 +1610,10 @@
 
     .content-list-chat {
         height: 373px;
+    }
+
+    .active-small-height .content-list-chat {
+        height: 100%;
     }
 
     .wrapper-container-pay .geen-btn::before {
@@ -1710,10 +1717,6 @@
         max-width: 185px;
     }
 
-    .content {
-        height: calc(100vh - 96px);
-    }
-
     .close-donute-pay {
         width: 15px;
         height: 15px;
@@ -1754,9 +1757,9 @@
         margin-left: 10px;
     }
 
-    .active-small-height .container-info-about-strim-video {
+    /* .active-small-height .container-info-about-strim-video {
         max-width: 255px;
-    }
+    } */
 
     .complaint-btn {
         width: 20px;
@@ -1779,33 +1782,32 @@
     }
 
     .active-small-height .wrapper-container-pay {
-        max-width: 144px;
+        max-width: unset;
     }
 
     .active-small-height .bottom-pay-info {
-        width: 153px;
+        /* width: 153px; */
         right: 12px;
     }
-
-    /* .content {
-        padding: 10px 25px 12px 15px;
-    } */
 
     .plan-translation h3 {
         font-size: 16px;
         margin-right: 15px;
     }
 
-    .active-small-height .wrapper-content-player {
+    /* .active-small-height .wrapper-content-player {
         height: 19vh;
-    }
+    } */
 
     .wrapper-container-pay {
         max-width: 205px;
     }
 
     .no-bg.active-small-height .about-frame {
-        height: 21vh;
+        min-height: 21vh;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+                flex-direction: row;
     }
 
     .active-small-height .active-pay-donut .pay-and-coment-block {
@@ -1827,6 +1829,7 @@
 
     .left-content-stream {
         width: 150px;
+        padding-left: 30px;
     }
 
     .help {
@@ -1996,7 +1999,7 @@
 
     .about-frame,
     .regulations-block {
-        padding: 11px 0;
+        padding: 0;
         height: 55vh
     }
 
@@ -2189,6 +2192,160 @@
     }
 }
 
+@media only screen and (max-width: 850px) and (min-width: 320px) and (max-height: 850px) {
+    
+    .list-stream {
+        margin-left: -30px;
+    }
+    
+    .item-stream {
+        width: 100%;
+        max-width: unset;
+        max-height: unset;
+    }
+    
+    .item-link-menu, .help{
+        margin: 0 auto;
+    }
+    
+    .item-footer {
+        width: 100%;
+    }
+    
+    .name-stream {
+        font-size: 10px;
+    }
+    
+    .container-answer p{
+        font-size: 10px;
+    }
+    
+    .title-stream {
+        float: left;
+    }
+    
+    .btn-search {
+        width: 14px;
+        height: 14px;
+    }
+    
+    .search-container {
+        height: 22px;
+        left: -5px;
+    }
+    
+    .frame {
+        font-size: 20px;
+    }
+    
+    .frame-container {
+        margin-left: 5px;
+    }
+    
+    .rules {
+        max-width: 55px;
+        line-height: 10px;
+        font-size: 11px;
+    }
+    
+    .search-container {
+        max-width: 150px;
+    }
+    
+    .wrapper-about-frame {
+        overflow-y: auto;
+        height: 100vh;
+    }
+    
+    .big-stream-container {
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
+        height: fit-content;
+    }
+    
+    .no-bg .about-frame {
+        height: 100%;
+        -webkit-box-pack: start;
+        justify-content: flex-start;
+    }
+    
+    .wrapper-wideo-players {
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
+        height: fit-content;
+    }
+    
+    .content {
+        max-height: calc(100vh - 78px);
+        height: 100%;
+        overflow-y: auto;
+    }
+    
+    .chat-wrapper {
+        height: 35%;
+        overflow-y: auto;
+        position: relative;
+    }
+
+    .active-small-height .chat-wrapper{
+        height: 100%;
+    }
+    
+    .content-list-chat {
+        height: unset;
+        position: static;
+    }
+    
+    .container-info-about-strim-video {
+        width: 100%;
+    }
+    
+    .wrapper-content-player {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        flex-direction: column;
+    }
+    
+    .right-block-whatch {
+        width: 100%;
+        max-width: unset;
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
+        height: fit-content;
+    }
+    
+    .list-whatch {
+        display: -webkit-box;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .wrapper-container-pay {
+        max-width: unset;
+    }
+    
+    .wrapper-container-pay button {
+        max-width: unset;
+    }
+    
+    .autorization {
+        height: 100vh;
+    }
+    
+    .active-registration-form .wrapper-registration {
+        height: 95%;
+    }
+    
+    .container-save {
+        margin: 0 auto;
+    }
+    
+    .checkbox-custom:checked+.checkbox-custom-label::after {
+        left: 4px;
+        top: 3px;
+    }
+}
+
 @media only screen and (max-width: 850px) and (min-width: 320px) {
 
     .item-stream {
@@ -2206,175 +2363,25 @@
     }
 }
 
-@media only screen and (max-width: 850px) and (min-width: 320px) and (max-height: 850px) {
-
-    .list-stream {
-        margin: 0 20px;
-    }
-
-    .item-stream {
-        width: 100%;
-        max-width: unset;
-        max-height: unset;
-        margin-left: 0;
-    }
-
-    .item-link-menu, .help{
-        margin: 0 auto;
-    }
-
-    .item-footer {
-        width: 100%;
-    }
-
-    .name-stream {
-        font-size: 10px;
-    }
-
-    .container-answer p{
-        font-size: 10px;
-    }
-
-    .title-stream {
-        float: left;
-    }
-
-    .btn-search {
-        width: 14px;
-        height: 14px;
-    }
-
-    .search-container {
-        height: 22px;
-        left: -5px;
-    }
-
-    .frame {
-        font-size: 20px;
-    }
-
-    .frame-container {
-        margin-left: 5px;
-    }
-
-    .rules {
-        max-width: 55px;
-        line-height: 10px;
-        font-size: 11px;
-    }
-
-    .search-container {
-        max-width: 150px;
-    }
-
-    .wrapper-about-frame {
-        overflow-y: auto;
-        height: 100vh;
-    }
-
-    .big-stream-container {
-        height: -webkit-fit-content;
-        height: -moz-fit-content;
-        height: fit-content;
-    }
-
-    .no-bg .about-frame {
-        height: 100%;
-        -webkit-box-pack: start;
-        justify-content: flex-start;
-    }
-
-    .wrapper-wideo-players {
-        height: -webkit-fit-content;
-        height: -moz-fit-content;
-        height: fit-content;
-    }
-
-    .content {
-        max-height: calc(100vh - 78px);
-        height: 100%;
-        overflow-y: auto;
-    }
-
-    .chat-wrapper {
-        height: 35%;
-        overflow-y: auto;
-        position: relative;
-    }
-
-    .content-list-chat {
-        height: unset;
-        position: static;
-    }
-
-    .container-info-about-strim-video {
-        width: 100%;
-    }
-
-    .wrapper-content-player {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        flex-direction: column;
-    }
-
-    .right-block-whatch {
-        width: 100%;
-        max-width: unset;
-        height: -webkit-fit-content;
-        height: -moz-fit-content;
-        height: fit-content;
-    }
-
-    .list-whatch {
-        display: -webkit-box;
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .wrapper-container-pay {
-        max-width: unset;
-    }
-
-    .wrapper-container-pay button {
-        max-width: unset;
-    }
-
-    .autorization {
-        height: 100vh;
-    }
-
-    .active-registration-form .wrapper-registration {
-        height: 95%;
-    }
-
-    .container-save {
-        margin: 0 auto;
-    }
-
-    .checkbox-custom:checked+.checkbox-custom-label::after {
-        left: 4px;
-        top: 3px;
-    }
-}
-
 @media only screen and (max-width: 808px) and (min-width: 320px) {
     
     .content {
-        max-height: calc(100vh - 52px);
+        max-height: calc(100vh - 53px);
+        height: 100%;
     }
     
     .list-stream {
         -webkit-box-pack: center;
         justify-content: center;
     }
-
+    
     .logo img,
     .logo {
         max-width: 180px;
         height: auto;
     }
 
-    .header {
+    .header, .left-content-stream {
         padding: 10px;
     }
 
@@ -2720,7 +2727,7 @@
     }
 
     .active-small-height .right-block-whatch {
-        width: auto;
+        width: 100%;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         flex-direction: column;
@@ -3264,6 +3271,7 @@
 
     .frame {
         font-size: 12px;
+        min-width: 85px;
     }
 
     .left-acount-info {
@@ -3361,6 +3369,14 @@
 
     .wrapper-link-new-strim {
         width: 100%;
+    }
+
+    .active-small-height .bottom-pay-info {
+        
+    }
+
+    .active-small-height .wrapper-whatching{
+        display: none;
     }
 }
 
@@ -3491,9 +3507,12 @@
         font-size: 7px;
         position: absolute;
         top: 0;
-        left: -13px;
-        margin: 0;
-        
+        left: -29px;
+        margin: 0;   
+    }
+
+    .active-small-height .payment-list{
+        display: none;
     }
 }
 
@@ -3626,12 +3645,13 @@
     .delete{
         margin-right: 0;
     }
+
+    .title-name-chater-title {
+        font-size: 10px;
+    }
 }
 
 @media only screen and (max-width: 370px) and (min-width: 320px) {
-    .title-name-chater-title {
-        font-size: 11px;
-    }
 
     .item-list-admin {
         width: 100%;
@@ -3654,30 +3674,6 @@
     }
     .footer-item-translation, .public-footer.footer-none-active{
         width: 100%;
-    }
-}
-
-@media only screen and (max-height: 750px) and (min-height: 320px) and (max-width: 850px) {
-    .wrapper-about-frame {
-        height: 100%;
-    }
-
-    .list-chat {
-        max-height: calc(100% - 28px);
-    }
-
-    .wrapper-whatching {
-        max-height: calc(100% - 55px);
-    }
-
-    .right-block-whatch {
-        height: 20vh;
-        max-width: unset;
-        display: block;
-    }
-
-    .wrapper-container-pay {
-        padding: 0;
     }
 }
 

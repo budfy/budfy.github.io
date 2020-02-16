@@ -22,8 +22,9 @@ $(document).ready(function () {
         $('.js-resize-video').height(heightResult).width(widthResult);
     }
     $(window).resize(calcSize);
+
     $(window).on("orientationchange", function(event) {
-        calcSize();
+        setTimeout(calcSize(), 2000);
     });
 
     $(".burger__menu").click( function(){
@@ -313,7 +314,7 @@ $(document).ready(function () {
 
     $(".add-new-video-strimer").on('click', function () {
         $(".wrapper-wideo-players").toggleClass("active-new-vindow");
-        calcSize();
+        setTimeout(calcSize(), 2000);
     });
 
     $(".count").on('click', function () {
@@ -650,7 +651,7 @@ $(document).ready(function () {
             $(this).closest('.content').find('.wrapper-about-frame').addClass('active-frame');
             $('.active-frame').slideDown(500);
             $(this).closest('.content').find('.wrapper-stream-content').addClass('active-frame-height');
-            calcSize();
+            setTimeout(calcSize(), 2000);
         }
     });
 
@@ -663,6 +664,7 @@ $(document).ready(function () {
         event.preventDefault();
         $(this).closest('.container-stream').find('.autorization-frame').slideToggle(500);
         $(this).closest('.container-stream').find('.wrapper-stream-content').toggleClass('active-frame-height');
+        setTimeout(calcSize(), 2000);
     });
 
     $('.start-translation').on('click', function (event) {
@@ -678,6 +680,8 @@ $(document).ready(function () {
         event.preventDefault();
         $(this).closest('.container-stream').find('.wrapper-frame-content').slideToggle(500);
         $(this).closest('.container-stream').find('.wrapper-about-frame').toggleClass('active-small-height');
+        $(this).closest('.container-stream').find('.wrapper-stream-content').toggleClass('active-frame-height');
+        setTimeout(calcSize(), 2000);
     });
 
 
@@ -849,22 +853,21 @@ $(document).ready(function () {
     
     $('.lang-btn').on("click", function(){
         $('.language').toggleClass('language-active');
-        $('.language-overlay').toggleClass('language-overlay-active');
+        $('.list-language').fadeTo(500, .7);
     });
 
     $('.link-lang').on("click", function(e){
         var lang = $(this).attr("data-lang");
         event.preventDefault();
-        $('.list-language').find('.active-link-item').removeClass('active-link-item');
+        $('.list-language').fadeTo(500, 0).find('.active-link-item').removeClass('active-link-item');
         $(this).parent().addClass('active-link-item');
         $('.language').removeClass('language-active');
         $('.lang-btn img').attr("src", "image/lang/" + lang + ".svg");
         $('.lang-name').html(lang);
-        $('.language-overlay').removeClass('language-overlay-active');
     });
 
     $('.language-overlay').on("click", function(){
+        $('.list-language').fadeTo(500, 0);
         $('.language').removeClass('language-active');
-        $('.language-overlay').removeClass('language-overlay-active');
     })
 });
