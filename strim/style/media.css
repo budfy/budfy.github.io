@@ -108,10 +108,6 @@
         max-height: unset;
     }
 
-    .wrapper-list-afisha {
-        width: 80vw;
-    }
-
     .whatch-stream-player .name-stream {
         font-size: 25px;
     }
@@ -401,7 +397,6 @@
     }
 
     .list-item {
-        height: 517px;
         width: 372px;
     }
 
@@ -843,11 +838,6 @@
 
     .container-list-item {
         width: 340px;
-    }
-
-    .list-item {
-        height: 400px;
-        width: 346px;
     }
 
     .footer-item-translation,

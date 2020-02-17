@@ -546,6 +546,10 @@ button {
     color: #CCFF00;
 }
 
+.active-link span{
+    color: #CCFF00;
+}
+
 .active-link {
     color: #CCFF00;
 }
@@ -1242,23 +1246,10 @@ button {
 
 /*-----------------------------list afisha---------------------*/
 .afisha-list {
-    display: -webkit-box;
-    display: flex;
-    -webkit-transform: rotate(-270deg);
-    transform: rotate(-270deg);
 }
 
 .list-item {
-    overflow: hidden;
     width: 400px;
-    display: -webkit-box;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    flex-direction: column;
-    height: 530px;
-    -webkit-box-flex: 0;
-    flex: none;
 }
 
 .scroll-auto {
@@ -1315,11 +1306,6 @@ button {
     text-align: center;
     line-height: 120%;
     margin-bottom: 5px;
-}
-
-.containeer-about-translation {
-    -webkit-box-flex: 1;
-    flex-grow: 1;
 }
 
 .item-info {
@@ -2543,6 +2529,7 @@ div.scrollWrapper {
     align-items: center;
     overflow: hidden;
     height: calc(100% - 75px);
+    
 }
 
 .wrapper-wideo-players .wrapper-video {
@@ -5685,7 +5672,7 @@ transition: all .5s;
 }
 
 .active-registration-form {
-    height: 383px;
+    height: 405px;
     -webkit-transition: .5s;
     transition: .5s;
 }
@@ -5895,6 +5882,7 @@ transition: all .5s;
     text-transform: uppercase;
     outline: none;
     margin-top: 5px;
+    width: 100%;
 }
 
 .wrapper-data-card input {
@@ -5903,7 +5891,7 @@ transition: all .5s;
     color: #ffffff;
     font-size: 11px;
     outline: none;
-    max-width: 40px;
+    max-width: 50px;
     width: 100%;
 }
 
@@ -5916,6 +5904,7 @@ transition: all .5s;
     -webkit-box-pack: justify;
     justify-content: space-between;
     margin-top: 5px;
+    /* padding: 0 10px; */
 }
 
 .title-card {
@@ -5926,7 +5915,7 @@ transition: all .5s;
 
 .wrapper-card {
     padding-right: 30px;
-    margin-left: 30px;
+    margin-left: 45px;
     position: absolute;
     top: 0;
     left: 0;
@@ -6649,7 +6638,7 @@ transition: all .5s;
 }
 
 .wrapper-stream-content-about {
-    height: calc(100vh - 124px);
+    height: 100%;
     overflow-y: auto;
     -webkit-transition: .5s;
     transition: .5s;
@@ -6679,6 +6668,7 @@ transition: all .5s;
 .active-strim-search {
     -webkit-transition: .5s;
     transition: .5s;
+    margin: 10px 0;
 }
 
 .header-sign-btn {
@@ -7037,7 +7027,6 @@ transition: all .5s;
 .wrapper-list-afisha,
 .wrapper-list-afisha-tickets {
     position: relative;
-    overflow-y: hidden;
 }
 
 .wrapper-setting-game {
@@ -7094,7 +7083,6 @@ transition: all .5s;
     transform: translateY(-200%);
     -webkit-transition: .7s;
     transition: .7s;
-    overflow-y: hidden;
 }
 
 .active-tickets .wrapper-content-chat-content {
