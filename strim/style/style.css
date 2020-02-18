@@ -916,6 +916,7 @@ button {
 .name-whatcher {
     font-size: 20px;
     color: #CCFF00;
+    word-break: break-all;
 }
 
 .big-stream-container {
@@ -984,8 +985,8 @@ button {
 }
 
 .right-block-whatch {
-    /* max-width: 390px; */
-    /* width: 25%; */
+    max-width: 390px;
+    width: 25%;
     display: -webkit-box;
     display: flex;
     -webkit-box-orient: vertical;
@@ -1004,6 +1005,7 @@ button {
     top: 8px;
     bottom: 0;
     text-transform: uppercase;
+    word-break: break-all;
 }
 
 .active-donut-btn .dolar-many {
@@ -6777,7 +6779,8 @@ transition: all .5s;
     overflow-y: auto;
     display: -webkit-box;
     display: flex;
-    max-width: 260px;
+    max-width: unset;
+    width: 100%;
 }
 
 .active-small-height .warning-block{
@@ -6797,7 +6800,7 @@ transition: all .5s;
 }
 
 .active-small-height .bottom-pay-info {
-    max-width: 260px;
+    max-width: unset;
     width: 100%;
     /* bottom: 0;
     right: 90px;
@@ -6848,9 +6851,9 @@ transition: all .5s;
     display: none;
 }
 
-.active-small-height .whatch-stream-player .item-footer {
+/* .active-small-height .whatch-stream-player .item-footer {
     width: 315px;
-}
+} */
 
 .active-small-height .whatch-stream-player .small-height-block {
     display: -webkit-box !important;

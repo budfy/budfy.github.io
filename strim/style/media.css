@@ -302,9 +302,9 @@
         max-width: 266px;
     }
 
-    .active-small-height .whatch-stream-player .item-footer {
+    /* .active-small-height .whatch-stream-player .item-footer {
         width: 265px;
-    }
+    } */
 
     .active-small-height .block-write {
         position: absolute;
@@ -579,9 +579,9 @@
         margin-bottom: 10px;
     }
 
-    .whatch-stream-player .item-footer {
+    /* .whatch-stream-player .item-footer {
         width: 99%;
-    }
+    } */
 
     .right-block-whatch {
         max-width: 305px;
@@ -1047,9 +1047,9 @@
         max-width: 221px;
     }
 
-    .active-small-height .whatch-stream-player .item-footer {
+    /* .active-small-height .whatch-stream-player .item-footer {
         width: 211px;
-    }
+    } */
 
     .active-small-height .whatch-stream-player .name-stream {
         font-size: 14px;
@@ -1157,7 +1157,7 @@
     } */
 
     .active-small-height .whatch-stream-player .item-footer {
-        width: 203px;
+        /* width: 203px; */
         padding: 3px;
     }
 
