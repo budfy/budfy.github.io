@@ -151,9 +151,9 @@
         width: 100%;
     }
 
-    .container-afisha {
+    /* .container-afisha {
         height: 80vw;
-    }
+    } */
 
     .list-item {
         height: 475px;
@@ -909,9 +909,9 @@
         font-size: 16px;
     }
 
-    .block-about-traslation {
+    /* .block-about-traslation {
         min-height: 70px;
-    }
+    } */
 
     #review_stars1 input:checked~label i {
         color: #ffea00;
@@ -3664,6 +3664,12 @@
     }
     .footer-item-translation, .public-footer.footer-none-active{
         width: 100%;
+    }
+}
+
+@media only screen and (max-height: 768px) {
+    .list-item {
+        height: 414px;
     }
 }
 

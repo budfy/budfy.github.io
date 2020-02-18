@@ -2684,1250 +2684,1046 @@
                             </ul>
                         </div>
                         <div class="wrapper-list-afisha">
-                            <div class="container-afisha scroll-pane swiper-afisha-h swiper-container">
-                                <div class="swiper-wrapper">
-                                    <div class="list-item swiper-container swiper-afisha-v swiper-slide">
-                                        <div class="swiper-wrapper">
-                                            <div class="swiper-slide">
-                                                <form class="container-list-item">
-                                                    <div class="header-afisha">
-                                                        <div class="choice-status">
-                                                            <a href=""
-                                                                class=" open-status-link active-satus">открытая</a>
-                                                            <a href="" class="close-status-link">закрытая</a>
-                                                            <a href="" class="private-status-link">приватная</a>
-                                                        </div>
-                                                        <div class="wrapper-nick">
-                                                            <input type="text" name="nick-name1" class="one-nick-name"
-                                                                placeholder="Напишите ник(*Sasha напр.) приглашенных"
-                                                                required>
-                                                            <input type="text" name="nick-name" class="nick-name"
-                                                                placeholder="Напишите ники(*Sasha напр.) приглашенных"
-                                                                required>
-                                                        </div>
-                                                        <input type="text" name="name-translations" class="edit-name"
-                                                            placeholder="Название трансляции" required>
+                            <div class="container-afisha scroll-pane">
+                                <ul class="afisha-list">
+                                    <li class="list-item">
+                                        <form class="container-list-item">
+                                            <div class="header-afisha">
+                                                <div class="choice-status">
+                                                    <a href="" class=" open-status-link active-satus">открытая</a>
+                                                    <a href="" class="close-status-link">закрытая</a>
+                                                    <a href="" class="private-status-link">приватная</a>
+                                                </div>
+                                                <div class="wrapper-nick">
+                                                    <input type="text" name="nick-name1" class="one-nick-name"
+                                                        placeholder="Напишите ник(*Sasha напр.) приглашенных" required>
+                                                    <input type="text" name="nick-name" class="nick-name"
+                                                        placeholder="Напишите ники(*Sasha напр.) приглашенных" required>
+                                                </div>
+                                                <input type="text" name="name-translations" class="edit-name"
+                                                    placeholder="Название трансляции" required>
+                                                <ul class="list-info-translation">
+                                                    <li class="item-info edit-data">
+                                                        <input type="text" name="data-translations"
+                                                            class="edit-data-input" id="data4" placeholder="дд.мм.гг"
+                                                            required>
+                                                        <label for="data4">(Дата проведения трансляции)</label>
+                                                    </li>
+                                                    <li class="item-info edit-time">
+                                                        <input type="text" name="time-translations"
+                                                            class="edit-time-input" id="time4" placeholder="___:___"
+                                                            required>
+                                                        <label for="time4">(Время начала трансляции)</label>
+                                                    </li>
+                                                    <li class="item-info edit-price">
+                                                        <a href=""
+                                                            class="free-status-price choice-status-pay active-satus-price">бесплатно</a>/<input
+                                                            type="text" name="price4"
+                                                            class="edit-price-input price-translation choice-status-pay"
+                                                            id="price4" placeholder="_____грн" required>
+                                                        <label for="price4">(Стоимость билета)</label>
+                                                    </li>
+                                                    <li class="item-info edit-end-translation edit-time-end">
+                                                        <h3 class="title-end-translation">Когда закончить продавать
+                                                            билеты?</h3>
                                                         <ul class="list-info-translation">
-                                                            <li class="item-info edit-data">
-                                                                <input type="text" name="data-translations"
-                                                                    class="edit-data-input" id="data4"
-                                                                    placeholder="дд.мм.гг" required>
-                                                                <label for="data4">(Дата проведения трансляции)</label>
+                                                            <li class="item-info-variant">
+                                                                <span>За</span>
+                                                                <input type="number" class="edit-item" placeholder="__"
+                                                                    required>
+                                                                <span>мин.до начала трансляции</span>
                                                             </li>
-                                                            <li class="item-info edit-time">
-                                                                <input type="text" name="time-translations"
-                                                                    class="edit-time-input" id="time4"
-                                                                    placeholder="___:___" required>
-                                                                <label for="time4">(Время начала трансляции)</label>
+                                                            <li class="item-info-variant">
+                                                                <span>После</span>
+                                                                <input type="number" class="edit-item" placeholder="__"
+                                                                    required>
+                                                                <span>мин.трансляции</span>
                                                             </li>
-                                                            <li class="item-info edit-price">
-                                                                <a href=""
-                                                                    class="free-status-price choice-status-pay active-satus-price">бесплатно</a>/<input
-                                                                    type="text" name="price4"
-                                                                    class="edit-price-input price-translation choice-status-pay"
-                                                                    id="price4" placeholder="_____грн" required>
-                                                                <label for="price4">(Стоимость билета)</label>
-                                                            </li>
-                                                            <li class="item-info edit-end-translation edit-time-end">
-                                                                <h3 class="title-end-translation">Когда закончить
-                                                                    продавать
-                                                                    билеты?</h3>
-                                                                <ul class="list-info-translation">
-                                                                    <li class="item-info-variant">
-                                                                        <span>За</span>
-                                                                        <input type="number" class="edit-item"
-                                                                            placeholder="__" required>
-                                                                        <span>мин.до начала трансляции</span>
-                                                                    </li>
-                                                                    <li class="item-info-variant">
-                                                                        <span>После</span>
-                                                                        <input type="number" class="edit-item"
-                                                                            placeholder="__" required>
-                                                                        <span>мин.трансляции</span>
-                                                                    </li>
-                                                                    <li class="item-info-variant">
-                                                                        <a href="" class="non-stop-buy-ticket">Не
-                                                                            заканчивать
-                                                                            продавать билеты</a>
-                                                                    </li>
-                                                                </ul>
+                                                            <li class="item-info-variant">
+                                                                <a href="" class="non-stop-buy-ticket">Не заканчивать
+                                                                    продавать билеты</a>
                                                             </li>
                                                         </ul>
-                                                    </div>
-                                                    <div class="containeer-about-translation">
-                                                        <div class="wrapper-baner-translation">
-                                                            <div class="img-translation edit-poster-item">
-                                                                <p>перетяните сюда свой постер или нажмите</p>
-                                                                <button type="button" class="edit-image">+</button>
-                                                            </div>
-                                                        </div>
-                                                        <div class="block-about-traslation">
-                                                            <textarea class="edit-about-translation scroll-pane"
-                                                                placeholder="Описание трансляции"></textarea>
-                                                        </div>
-                                                    </div>
-                                                    <div class="public-footer">
-                                                        <button type="submit"
-                                                            class="translation-btn public-change">Опубликовать</button>
-                                                        <button type="button" class="btn-close"></button>
-                                                    </div>
-                                                </form>
+                                                    </li>
+                                                </ul>
                                             </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="list-item swiper-container swiper-afisha-v swiper-slide">
-                                        <div class="swiper-wrapper">
-                                            <div class="swiper-slide">
-                                                <div class="container-list-item">
-                                                    <div class="header-afisha setting-afisha">
-                                                        <div class="choice-status">
-                                                            <a href=""
-                                                                class=" open-status-link active-satus">открытая</a>
-                                                            <a href="" class="close-status-link">закрытая</a>
-                                                            <a href="" class="private-status-link">приватная</a>
-                                                        </div>
-                                                        <div class="wrapper-nick">
-                                                            <input type="text" name="nick-name1" class="one-nick-name"
-                                                                placeholder="Напишите ник(*Sasha напр.) приглашенных"
-                                                                required>
-                                                            <input type="text" name="nick-name" class="nick-name"
-                                                                placeholder="Напишите ники(*Sasha напр.) приглашенных"
-                                                                required>
-                                                        </div>
-                                                        <input type="text" name="name-translations" class="edit-name"
-                                                            placeholder="Название трансляции" required>
-                                                        <ul class="list-info-translation">
-                                                            <li class="item-info edit-data">
-                                                                <input type="text" name="data-translations"
-                                                                    class="edit-data-input" id="data14"
-                                                                    placeholder="дд.мм.гг" required>
-                                                                <label for="data14">(Дата проведения трансляции)</label>
-                                                            </li>
-                                                            <li class="item-info edit-time">
-                                                                <input type="text" name="time-translations"
-                                                                    class="edit-time-input" id="time14"
-                                                                    placeholder="___:___" required>
-                                                                <label for="time14">(Время начала трансляции)</label>
-                                                            </li>
-                                                            <li class="item-info edit-price">
-                                                                <a href=""
-                                                                    class="free-status-price choice-status-pay active-satus-price">бесплатно</a>/<input
-                                                                    type="text" name="price14"
-                                                                    class="edit-price-input price-translation choice-status-pay"
-                                                                    id="price14" placeholder="_____грн" required>
-                                                                <label for="price14">(Стоимость билета)</label>
-                                                            </li>
-                                                            <li class="item-info edit-end-translation edit-time-end">
-                                                                <h3 class="title-end-translation">Когда закончить
-                                                                    продавать
-                                                                    билеты?</h3>
-                                                                <ul class="list-info-translation">
-                                                                    <li class="item-info-variant">
-                                                                        <span>За</span>
-                                                                        <input type="number" class="edit-item"
-                                                                            placeholder="__" required>
-                                                                        <span>мин.до начала трансляции</span>
-                                                                    </li>
-                                                                    <li class="item-info-variant">
-                                                                        <span>После</span>
-                                                                        <input type="number" class="edit-item"
-                                                                            placeholder="__" required>
-                                                                        <span>мин.трансляции</span>
-                                                                    </li>
-                                                                    <li class="item-info-variant">
-                                                                        <a href="" class="non-stop-buy-ticket">Не
-                                                                            заканчивать
-                                                                            продавать билеты</a>
-                                                                    </li>
-                                                                </ul>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="header-afisha">
-                                                        <h3>Сеть межпроцессорного обмена ангара и современных систем ИИ
-                                                        </h3>
-                                                        <ul class="list-info-translation">
-                                                            <li class="item-info">
-                                                                <h4 class="name-item">дата:</h4>
-                                                                <span class="data">25.01.19</span>
-                                                                <span class="day-week">(пятница)</span>
-                                                            </li>
-                                                            <li class="item-info">
-                                                                <h4 class="name-item">время:</h4>
-                                                                <span class="time">16:00</span>
-                                                                <span class="zone">(+2 Киев)</span>
-                                                            </li>
-                                                            <li class="item-info">
-                                                                <h4 class="name-item">цена билета:</h4>
-                                                                <span class="price">бесплатно</span>
-                                                            </li>
-                                                            <li class="item-info">
-                                                                <h4 class="name-item">предварительная аудитория</h4>
-                                                                <span class="people">75 чел</span>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="containeer-about-translation">
-                                                        <div class="wrapper-baner-translation">
-                                                            <div class="img-translation">
-                                                                <img src="image/banner-2.jpg" alt="img translation">
-                                                            </div>
-                                                        </div>
-                                                        <div class="block-about-traslation">
-                                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                                Donec
-                                                                convallis massa in est lobortis volutpat. Nam posuere mi
-                                                                id
-                                                                ultrices pellentesque. In faucibus id ipsum vel
-                                                                facilisis. Ut in
-                                                                mi et augue mattis consequat.</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="footer-list">
-                                                        <div class="block-time-translation">
-                                                            <h4 class="name-info-title">Начнется через:</h4>
-                                                            <span class="about-translation-time">1 день 2 час. 53
-                                                                мин.</span>
-                                                        </div>
-                                                        <div class="footer-item-translation">
-                                                            <div class="wrapper-btn-footer-translation">
-                                                                <button type="button" class="btn-door"></button>
-                                                                <button type="button"
-                                                                    class="translation-btn start-translation">Начать
-                                                                    трансляцию</button>
-                                                                <button type="button" class="settings-btn"></button>
-                                                                <button type="button" class="delete-btn-list"></button>
-                                                            </div>
-                                                            <div class="delete-transfer-tickets">
-                                                                <h4 class="title-transfer">Вы действительно хотите
-                                                                    вернуть билет
-                                                                    на трансляцию?</h4>
-                                                                <div class="wrapper-btn-transfer">
-                                                                    <a href=""
-                                                                        class="transfer-btn yes-delete-item">Да</a>
-                                                                    <a href=""
-                                                                        class="transfer-btn no-delete-item active-transfer">Нет</a>
-                                                                </div>
-                                                            </div>
-                                                            <div class="setting-transfer-tickets">
-                                                                <h4 class="title-transfer">Вы действительно хотите
-                                                                    отредактировать трансляцию?</h4>
-                                                                <div class="wrapper-btn-transfer">
-                                                                    <a href=""
-                                                                        class="transfer-btn yes-setting-item">Да</a>
-                                                                    <a href=""
-                                                                        class="transfer-btn no-setting active-setting">Нет</a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="public-footer footer-none-active">
-                                                            <button type="button"
-                                                                class="translation-btn public-change">Опубликовать</button>
-                                                            <button type="button" class="close-public-change"></button>
-                                                        </div>
+                                            <div class="containeer-about-translation">
+                                                <div class="wrapper-baner-translation">
+                                                    <div class="img-translation edit-poster-item">
+                                                        <p>перетяните сюда свой постер или нажмите</p>
+                                                        <button type="button" class="edit-image">+</button>
                                                     </div>
                                                 </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="list-item scroll-pane swiper-container swiper-afisha-v swiper-slide">
-                                        <div class="swiper-wrapper">
-                                            <div class="swiper-slide">
-                                                <div class="container-list-item">
-                                                    <div class="header-afisha">
-                                                        <h3>Сеть межпроцессорного обмена ангара и современных систем ИИ
-                                                        </h3>
-                                                        <ul class="list-info-translation">
-                                                            <li class="item-info">
-                                                                <h4 class="name-item">дата:</h4>
-                                                                <span class="data">25.01.19</span>
-                                                                <span class="day-week">(пятница)</span>
-                                                            </li>
-                                                            <li class="item-info">
-                                                                <h4 class="name-item">время:</h4>
-                                                                <span class="time">16:00</span>
-                                                                <span class="zone">(+2 Киев)</span>
-                                                            </li>
-                                                            <li class="item-info">
-                                                                <h4 class="name-item">цена билета:</h4>
-                                                                <span class="price">бесплатно</span>
-                                                            </li>
-                                                            <li class="item-info">
-                                                                <h4 class="name-item">предварительная аудитория</h4>
-                                                                <span class="people">75 чел</span>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="containeer-about-translation">
-                                                        <div class="wrapper-baner-translation">
-                                                            <div class="img-translation">
-                                                                <img src="image/banner-2.jpg" alt="img translation">
-                                                            </div>
-                                                        </div>
-                                                        <div class="block-about-traslation">
-                                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                                Donec
-                                                                convallis massa in est lobortis volutpat. Nam posuere mi
-                                                                id
-                                                                ultrices pellentesque. In faucibus id ipsum vel
-                                                                facilisis. Ut in
-                                                                mi et augue mattis consequat.</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="footer-list">
-                                                        <div class="block-time-translation">
-                                                            <h4 class="name-info-title">Начнется через:</h4>
-                                                            <span class="about-translation-time">1 день 2 час. 53
-                                                                мин.</span>
-                                                        </div>
-                                                        <div class="footer-item-translation">
-                                                            <div class="active-broadcast time-broadcast-tikets">
-                                                                <div class="content-atention">
-                                                                    <p class="text-attention">У Вас уже запланирована
-                                                                        трансляция
-                                                                        на около это время <span class="brackets">
-                                                                            (<span
-                                                                                class="name-this-translation">Медийная
-                                                                                реклама
-                                                                                для продуктовых компаний</span>)</span>
-                                                                    </p>
-                                                                </div>
-                                                                <div class="footer-item-translation">
-                                                                    <div class="footer-alternative">
-                                                                        <h4>Все равно купить билет?</h4>
-                                                                        <div class="wrapper-button-answer">
-                                                                            <a href=""
-                                                                                class="btn-answer btn-answer-yes">Да</a>
-                                                                            <a href=""
-                                                                                class="btn-answer btn-answer-no close-broadcast-active">Нет</a>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="wrapper-btn-footer-translation">
-                                                                <button type="button" class="btn-door"></button>
-                                                                <button type="button"
-                                                                    class="translation-btn participate">Участвовать</button>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                                <div class="block-about-traslation">
+                                                    <textarea class="edit-about-translation scroll-pane"
+                                                        placeholder="Описание трансляции"></textarea>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </div>
-                                    <div
-                                        class="list-item  and-translation-item scroll-pane swiper-afisha-v swiper-slide">
+                                            <div class="public-footer">
+                                                <button type="submit"
+                                                    class="translation-btn public-change">Опубликовать</button>
+                                                <button type="button" class="btn-close"></button>
+                                            </div>
+                                        </form>
+                                    </li>
+                                    <li class="list-item">
                                         <div class="container-list-item">
-                                            <div class="swiper-wrapper">
-                                                <div class="swiper-slide">
-                                                    <div class="header-afisha">
-                                                        <h3>Сеть межпроцессорного обмена ангара и современных систем ИИ
-                                                        </h3>
-                                                    </div>
-                                                    <div class="containeer-about-translation">
-                                                        <p class="and-translation">трансляция закончилась
-                                                            <span>15.01.2019</span></p>
-                                                        <ul class="list-info-translation list-none">
-                                                            <li class="item-info">
-                                                                <h4 class="name-item">дата:</h4>
-                                                                <span class="data">25.01.19</span>
-                                                                <span class="day-week">(пятница)</span>
+                                            <div class="header-afisha setting-afisha">
+                                                <div class="choice-status">
+                                                    <a href="" class=" open-status-link active-satus">открытая</a>
+                                                    <a href="" class="close-status-link">закрытая</a>
+                                                    <a href="" class="private-status-link">приватная</a>
+                                                </div>
+                                                <div class="wrapper-nick">
+                                                    <input type="text" name="nick-name1" class="one-nick-name"
+                                                        placeholder="Напишите ник(*Sasha напр.) приглашенных" required>
+                                                    <input type="text" name="nick-name" class="nick-name"
+                                                        placeholder="Напишите ники(*Sasha напр.) приглашенных" required>
+                                                </div>
+                                                <input type="text" name="name-translations" class="edit-name"
+                                                    placeholder="Название трансляции" required>
+                                                <ul class="list-info-translation">
+                                                    <li class="item-info edit-data">
+                                                        <input type="text" name="data-translations"
+                                                            class="edit-data-input" id="data14" placeholder="дд.мм.гг"
+                                                            required>
+                                                        <label for="data14">(Дата проведения трансляции)</label>
+                                                    </li>
+                                                    <li class="item-info edit-time">
+                                                        <input type="text" name="time-translations"
+                                                            class="edit-time-input" id="time14" placeholder="___:___"
+                                                            required>
+                                                        <label for="time14">(Время начала трансляции)</label>
+                                                    </li>
+                                                    <li class="item-info edit-price">
+                                                        <a href=""
+                                                            class="free-status-price choice-status-pay active-satus-price">бесплатно</a>/<input
+                                                            type="text" name="price14"
+                                                            class="edit-price-input price-translation choice-status-pay"
+                                                            id="price14" placeholder="_____грн" required>
+                                                        <label for="price14">(Стоимость билета)</label>
+                                                    </li>
+                                                    <li class="item-info edit-end-translation edit-time-end">
+                                                        <h3 class="title-end-translation">Когда закончить продавать
+                                                            билеты?</h3>
+                                                        <ul class="list-info-translation">
+                                                            <li class="item-info-variant">
+                                                                <span>За</span>
+                                                                <input type="number" class="edit-item" placeholder="__"
+                                                                    required>
+                                                                <span>мин.до начала трансляции</span>
                                                             </li>
-                                                            <li class="item-info">
-                                                                <h4 class="name-item">время:</h4>
-                                                                <span class="time">16:00</span>
-                                                                <span class="zone">(+2 Киев)</span>
+                                                            <li class="item-info-variant">
+                                                                <span>После</span>
+                                                                <input type="number" class="edit-item" placeholder="__"
+                                                                    required>
+                                                                <span>мин.трансляции</span>
                                                             </li>
-                                                            <li class="item-info">
-                                                                <h4 class="name-item">цена билета:</h4>
-                                                                <span class="price">бесплатно</span>
-                                                            </li>
-                                                            <li class="item-info">
-                                                                <h4 class="name-item">предварительная аудитория</h4>
-                                                                <span class="people">75 чел</span>
+                                                            <li class="item-info-variant">
+                                                                <a href="" class="non-stop-buy-ticket">Не заканчивать
+                                                                    продавать билеты</a>
                                                             </li>
                                                         </ul>
-                                                        <div class="wrapper-baner-translation">
-                                                            <div class="img-translation">
-                                                                <img src="image/and.jpg" alt="img translation">
-                                                            </div>
-                                                            <div class="before-translation">
-                                                                <h3>Общаяя оценка трансляции</h3>
-                                                                <span class="assessment">5.5</span>
-                                                            </div>
-                                                        </div>
-                                                        <div class="participants-people">
-                                                            <h5 class="title-participants">в трансляции участвовало:
-                                                            </h5>
-                                                            <span class="quantity">250 чел.</span>
-                                                        </div>
-                                                        <div class="block-about-traslation about-none">
-                                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                                Donec
-                                                                convallis massa in est lobortis volutpat. Nam posuere mi
-                                                                id
-                                                                ultrices pellentesque. In faucibus id ipsum vel
-                                                                facilisis. Ut in
-                                                                mi et augue mattis consequat.</p>
-                                                        </div>
-                                                        <div class="wrapper-list-reviews ">
-                                                            <ul class="reviews-list">
-                                                                <li class="reviews">
-                                                                    <div class="header-reviews">
-                                                                        <div class="person-reviews">
-                                                                            <div class="wrapper-img-reviews">
-                                                                                <img src="image/img-icon.jpg"
-                                                                                    alt="img reviews">
-                                                                            </div>
-                                                                            <h3 class="name-reviews">Denis Denis</h3>
-                                                                        </div>
-                                                                        <span class="date-reviews">10.03.19</span>
-                                                                        <div class="reiting-commentators">10</div>
-                                                                    </div>
-                                                                    <p class="comments">Lorem ipsum dolor sit amet,
-                                                                        consectetur
-                                                                        adipiscing elit. Donec convallis massa in est
-                                                                        lobortis
-                                                                        volutpat. Nam posuere mi id ultrices
-                                                                        pellentesque.</p>
-                                                                </li>
-                                                                <li class="reviews">
-                                                                    <div class="header-reviews">
-                                                                        <div class="person-reviews">
-                                                                            <div class="wrapper-img-reviews">
-                                                                                <img src="image/img-icon.jpg"
-                                                                                    alt="img reviews">
-                                                                            </div>
-                                                                            <h3 class="name-reviews">Ms. Parkinson</h3>
-                                                                        </div>
-                                                                        <span class="date-reviews">15.03.19</span>
-                                                                        <div
-                                                                            class="reiting-commentators negative-reiting">
-                                                                            1
-                                                                        </div>
-                                                                    </div>
-                                                                    <p class="comments">Lorem ipsum dolor sit amet,
-                                                                        consectetur
-                                                                        adipiscing elit. Donec convallis massa in est
-                                                                        lobortis
-                                                                        volutpat. Nam posuere mi id ultrices
-                                                                        pellentesque. Donec
-                                                                        convallis massa in est lobortis volutpat. Nam
-                                                                        posuere mi
-                                                                        id ultrices pellentesque.</p>
-                                                                </li>
-                                                                <li class="reviews">
-                                                                    <div class="header-reviews">
-                                                                        <div class="person-reviews">
-                                                                            <div class="wrapper-img-reviews">
-                                                                                <img src="image/img-icon.jpg"
-                                                                                    alt="img reviews">
-                                                                            </div>
-                                                                            <h3 class="name-reviews">Denis Denis</h3>
-                                                                        </div>
-                                                                        <span class="date-reviews">10.03.19</span>
-                                                                        <div class="reiting-commentators">10</div>
-                                                                    </div>
-                                                                    <p class="comments">Lorem ipsum dolor sit amet,
-                                                                        consectetur
-                                                                        adipiscing elit. Donec convallis massa in est
-                                                                        lobortis
-                                                                        volutpat. Nam posuere mi id ultrices
-                                                                        pellentesque.</p>
-                                                                </li>
-                                                                <li class="reviews">
-                                                                    <div class="header-reviews">
-                                                                        <div class="person-reviews">
-                                                                            <div class="wrapper-img-reviews">
-                                                                                <img src="image/img-icon.jpg"
-                                                                                    alt="img reviews">
-                                                                            </div>
-                                                                            <h3 class="name-reviews">Ms. Parkinson</h3>
-                                                                        </div>
-                                                                        <span class="date-reviews">15.03.19</span>
-                                                                        <div
-                                                                            class="reiting-commentators negative-reiting">
-                                                                            1
-                                                                        </div>
-                                                                    </div>
-                                                                    <p class="comments">Lorem ipsum dolor sit amet,
-                                                                        consectetur
-                                                                        adipiscing elit. Donec convallis massa in est
-                                                                        lobortis
-                                                                        volutpat. Nam posuere mi id ultrices
-                                                                        pellentesque.</p>
-                                                                </li>
-                                                            </ul>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="header-afisha">
+                                                <h3>Сеть межпроцессорного обмена ангара и современных систем ИИ</h3>
+                                                <ul class="list-info-translation">
+                                                    <li class="item-info">
+                                                        <h4 class="name-item">дата:</h4>
+                                                        <span class="data">25.01.19</span>
+                                                        <span class="day-week">(пятница)</span>
+                                                    </li>
+                                                    <li class="item-info">
+                                                        <h4 class="name-item">время:</h4>
+                                                        <span class="time">16:00</span>
+                                                        <span class="zone">(+2 Киев)</span>
+                                                    </li>
+                                                    <li class="item-info">
+                                                        <h4 class="name-item">цена билета:</h4>
+                                                        <span class="price">бесплатно</span>
+                                                    </li>
+                                                    <li class="item-info">
+                                                        <h4 class="name-item">предварительная аудитория</h4>
+                                                        <span class="people">75 чел</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="containeer-about-translation">
+                                                <div class="wrapper-baner-translation">
+                                                    <div class="img-translation">
+                                                        <img src="image/banner-2.jpg" alt="img translation">
+                                                    </div>
+                                                </div>
+                                                <div class="block-about-traslation">
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                                                        convallis massa in est lobortis volutpat. Nam posuere mi id
+                                                        ultrices pellentesque. In faucibus id ipsum vel facilisis. Ut in
+                                                        mi et augue mattis consequat.</p>
+                                                </div>
+                                            </div>
+                                            <div class="footer-list">
+                                                <div class="block-time-translation">
+                                                    <h4 class="name-info-title">Начнется через:</h4>
+                                                    <span class="about-translation-time">1 день 2 час. 53 мин.</span>
+                                                </div>
+                                                <div class="footer-item-translation">
+                                                    <div class="wrapper-btn-footer-translation">
+                                                        <button type="button" class="btn-door"></button>
+                                                        <button type="button"
+                                                            class="translation-btn start-translation">Начать
+                                                            трансляцию</button>
+                                                        <button type="button" class="settings-btn"></button>
+                                                        <button type="button" class="delete-btn-list"></button>
+                                                    </div>
+                                                    <div class="delete-transfer-tickets">
+                                                        <h4 class="title-transfer">Вы действительно хотите вернуть билет
+                                                            на трансляцию?</h4>
+                                                        <div class="wrapper-btn-transfer">
+                                                            <a href="" class="transfer-btn yes-delete-item">Да</a>
+                                                            <a href=""
+                                                                class="transfer-btn no-delete-item active-transfer">Нет</a>
                                                         </div>
                                                     </div>
-                                                    <div class="footer-list">
-                                                        <div class="block-time-translation about-none">
-                                                            <h4 class="name-info-title">Начнется через:</h4>
-                                                            <span class="about-translation-time">1 день 2 час. 53
-                                                                мин.</span>
-                                                        </div>
-                                                        <div class="footer-item-translation about-none">
-                                                            <button type="button" class="btn-door"></button>
-                                                            <button type="button"
-                                                                class="translation-btn participate">Участвовать</button>
+                                                    <div class="setting-transfer-tickets">
+                                                        <h4 class="title-transfer">Вы действительно хотите
+                                                            отредактировать трансляцию?</h4>
+                                                        <div class="wrapper-btn-transfer">
+                                                            <a href="" class="transfer-btn yes-setting-item">Да</a>
+                                                            <a href=""
+                                                                class="transfer-btn no-setting active-setting">Нет</a>
                                                         </div>
                                                     </div>
                                                 </div>
+                                                <div class="public-footer footer-none-active">
+                                                    <button type="button"
+                                                        class="translation-btn public-change">Опубликовать</button>
+                                                    <button type="button" class="close-public-change"></button>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="list-item scroll-pane swiper-container swiper-afisha-v swiper-slide">
-                                        <div class="swiper-wrapper">
-                                            <div class="swiper-slide">
-                                                <div class="container-list-item">
-                                                    <div class="header-afisha">
-                                                        <h3>Медийная реклама для продуктовых компаний</h3>
-                                                        <ul class="list-info-translation">
-                                                            <li class="item-info">
-                                                                <h4 class="name-item">дата:</h4>
-                                                                <span class="data">01.02.19</span>
-                                                                <span class="day-week">(пятница)</span>
-                                                            </li>
-                                                            <li class="item-info">
-                                                                <h4 class="name-item">время:</h4>
-                                                                <span class="time">19:00</span>
-                                                                <span class="zone">(+2 Киев)</span>
-                                                            </li>
-                                                            <li class="item-info">
-                                                                <h4 class="name-item">цена билета:</h4>
-                                                                <span class="price">500 грн</span>
-                                                            </li>
-                                                            <li class="item-info">
-                                                                <h4 class="name-item">продано билетов:</h4>
-                                                                <span class="buy">25</span>
-                                                            </li>
-                                                        </ul>
+                                    </li>
+                                    <li class="list-item scroll-pane">
+                                        <div class="container-list-item">
+                                            <div class="header-afisha">
+                                                <h3>Сеть межпроцессорного обмена ангара и современных систем ИИ</h3>
+                                                <ul class="list-info-translation">
+                                                    <li class="item-info">
+                                                        <h4 class="name-item">дата:</h4>
+                                                        <span class="data">25.01.19</span>
+                                                        <span class="day-week">(пятница)</span>
+                                                    </li>
+                                                    <li class="item-info">
+                                                        <h4 class="name-item">время:</h4>
+                                                        <span class="time">16:00</span>
+                                                        <span class="zone">(+2 Киев)</span>
+                                                    </li>
+                                                    <li class="item-info">
+                                                        <h4 class="name-item">цена билета:</h4>
+                                                        <span class="price">бесплатно</span>
+                                                    </li>
+                                                    <li class="item-info">
+                                                        <h4 class="name-item">предварительная аудитория</h4>
+                                                        <span class="people">75 чел</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="containeer-about-translation">
+                                                <div class="wrapper-baner-translation">
+                                                    <div class="img-translation">
+                                                        <img src="image/banner-2.jpg" alt="img translation">
                                                     </div>
-                                                    <div class="containeer-about-translation">
-                                                        <div class="wrapper-baner-translation">
-                                                            <div class="img-translation">
-                                                                <img src="image/banner.jpg" alt="img translation">
-                                                            </div>
-                                                        </div>
-                                                        <div class="block-about-traslation">
-                                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                                Donec
-                                                                convallis massa in est lobortis volutpat. Nam posuere mi
-                                                                id
-                                                                ultrices pellentesque. In faucibus id ipsum vel
-                                                                facilisis.
-                                                                Nullam dignissim libero non dolor elementum scelerisque.
-                                                                Vivamus
-                                                                blandit efficitur tellus, sed mattis mi. Ut in mi et
-                                                                augue
-                                                                mattis consequat.</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="footer-list">
-                                                        <div class="block-time-translation">
-                                                            <h4 class="name-info-title">Начнется через:</h4>
-                                                            <span class="about-translation-time">10 дней 7 час. 13
-                                                                мин.</span>
+                                                </div>
+                                                <div class="block-about-traslation">
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                                                        convallis massa in est lobortis volutpat. Nam posuere mi id
+                                                        ultrices pellentesque. In faucibus id ipsum vel facilisis. Ut in
+                                                        mi et augue mattis consequat.</p>
+                                                </div>
+                                            </div>
+                                            <div class="footer-list">
+                                                <div class="block-time-translation">
+                                                    <h4 class="name-info-title">Начнется через:</h4>
+                                                    <span class="about-translation-time">1 день 2 час. 53 мин.</span>
+                                                </div>
+                                                <div class="footer-item-translation">
+                                                    <div class="active-broadcast time-broadcast-tikets">
+                                                        <div class="content-atention">
+                                                            <p class="text-attention">У Вас уже запланирована трансляция
+                                                                на около это время <span class="brackets"> (<span
+                                                                        class="name-this-translation">Медийная реклама
+                                                                        для продуктовых компаний</span>)</span></p>
                                                         </div>
                                                         <div class="footer-item-translation">
-                                                            <div class="wrapper-payment-list payment-tikets">
-                                                                <div class="container-payment">
-                                                                    <ul class="payment-list">
-                                                                        <li class="payment card">
-                                                                            <a href="" class="active-pay-option">
-                                                                                <span>516879841516848</span>
-                                                                            </a>
-                                                                        </li>
-                                                                        <li class="payment onstrim-check">
-                                                                            <a href="">
-                                                                                <span>cчет OnStrim (500&#8372)</span>
-                                                                            </a>
-                                                                        </li>
-                                                                    </ul>
-                                                                    <button type="button" class="add-payment">+</button>
-                                                                </div>
-                                                                <div class="wrapper-card">
-                                                                    <button type="button"
-                                                                        class="close-card-btn"></button>
-                                                                    <div class="payment-cart">
-                                                                        <div class="container-payment-card">
-                                                                            <h5 class="title-card">имя банка</h5>
-                                                                            <div class="chip">
-                                                                                <img src="image/chip.png"
-                                                                                    alt="card-chip">
-                                                                            </div>
-                                                                            <input type="text" class="card-number"
-                                                                                id="txtCardNumber1"
-                                                                                placeholder="ВВЕДИТЕ НОМЕР КАРТЫ"
-                                                                                maxlength="19">
-                                                                            <div class="footer-card">
-                                                                                <div class="wrapper-data-card">
-                                                                                    <input type="text" class="data-card"
-                                                                                        id="dataCard1"
-                                                                                        placeholder="мм/гг"
-                                                                                        maxlength="5">
-                                                                                </div>
-                                                                                <div class="wrapper-data-card">
-                                                                                    <input type="password"
-                                                                                        class="cvv-card"
-                                                                                        placeholder="CVV код"
-                                                                                        maxlength="3">
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
+                                                            <div class="footer-alternative">
+                                                                <h4>Все равно купить билет?</h4>
+                                                                <div class="wrapper-button-answer">
+                                                                    <a href="" class="btn-answer btn-answer-yes">Да</a>
+                                                                    <a href=""
+                                                                        class="btn-answer btn-answer-no close-broadcast-active">Нет</a>
                                                                 </div>
                                                             </div>
-                                                            <div class="wrapper-btn-footer-translation">
-                                                                <button type="button" class="btn-door"></button>
-                                                                <button type="button"
-                                                                    class="translation-btn pay-ticket">Купить
-                                                                    билет</button>
-                                                            </div>
                                                         </div>
+                                                    </div>
+                                                    <div class="wrapper-btn-footer-translation">
+                                                        <button type="button" class="btn-door"></button>
+                                                        <button type="button"
+                                                            class="translation-btn participate">Участвовать</button>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="list-item swiper-container swiper-afisha-v swiper-slide">
-                                        <div class="swiper-wrapper">
-                                            <div class="swiper-slide">
-                                                <div class="container-list-item">
-                                                    <div class="header-afisha">
-                                                        <h3>Сеть межпроцессорного обмена ангара и современных систем ИИ
-                                                        </h3>
-                                                        <ul class="list-info-translation">
-                                                            <li class="item-info">
-                                                                <h4 class="name-item">дата:</h4>
-                                                                <span class="data">25.01.19</span>
-                                                                <span class="day-week">(пятница)</span>
-                                                            </li>
-                                                            <li class="item-info">
-                                                                <h4 class="name-item">время:</h4>
-                                                                <span class="time">16:00</span>
-                                                                <span class="zone">(+2 Киев)</span>
-                                                            </li>
-                                                            <li class="item-info">
-                                                                <h4 class="name-item">цена билета:</h4>
-                                                                <span class="price">бесплатно</span>
-                                                            </li>
-                                                            <li class="item-info">
-                                                                <h4 class="name-item">предварительная аудитория</h4>
-                                                                <span class="people">75 чел</span>
-                                                            </li>
-                                                        </ul>
+                                    </li>
+                                    <li class="list-item  and-translation-item scroll-pane">
+                                        <div class="container-list-item">
+                                            <div class="header-afisha">
+                                                <h3>Сеть межпроцессорного обмена ангара и современных систем ИИ</h3>
+                                            </div>
+                                            <div class="containeer-about-translation">
+                                                <p class="and-translation">трансляция закончилась
+                                                    <span>15.01.2019</span></p>
+                                                <ul class="list-info-translation list-none">
+                                                    <li class="item-info">
+                                                        <h4 class="name-item">дата:</h4>
+                                                        <span class="data">25.01.19</span>
+                                                        <span class="day-week">(пятница)</span>
+                                                    </li>
+                                                    <li class="item-info">
+                                                        <h4 class="name-item">время:</h4>
+                                                        <span class="time">16:00</span>
+                                                        <span class="zone">(+2 Киев)</span>
+                                                    </li>
+                                                    <li class="item-info">
+                                                        <h4 class="name-item">цена билета:</h4>
+                                                        <span class="price">бесплатно</span>
+                                                    </li>
+                                                    <li class="item-info">
+                                                        <h4 class="name-item">предварительная аудитория</h4>
+                                                        <span class="people">75 чел</span>
+                                                    </li>
+                                                </ul>
+                                                <div class="wrapper-baner-translation">
+                                                    <div class="img-translation">
+                                                        <img src="image/and.jpg" alt="img translation">
                                                     </div>
-                                                    <div class="containeer-about-translation">
-                                                        <div class="wrapper-baner-translation">
-                                                            <div class="img-translation">
-                                                                <img src="image/banner-2.jpg" alt="img translation">
+                                                    <div class="before-translation">
+                                                        <h3>Общаяя оценка трансляции</h3>
+                                                        <span class="assessment">5.5</span>
+                                                    </div>
+                                                </div>
+                                                <div class="participants-people">
+                                                    <h5 class="title-participants">в трансляции участвовало:</h5>
+                                                    <span class="quantity">250 чел.</span>
+                                                </div>
+                                                <div class="block-about-traslation about-none">
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                                                        convallis massa in est lobortis volutpat. Nam posuere mi id
+                                                        ultrices pellentesque. In faucibus id ipsum vel facilisis. Ut in
+                                                        mi et augue mattis consequat.</p>
+                                                </div>
+                                                <div class="wrapper-list-reviews ">
+                                                    <ul class="reviews-list">
+                                                        <li class="reviews">
+                                                            <div class="header-reviews">
+                                                                <div class="person-reviews">
+                                                                    <div class="wrapper-img-reviews">
+                                                                        <img src="image/img-icon.jpg" alt="img reviews">
+                                                                    </div>
+                                                                    <h3 class="name-reviews">Denis Denis</h3>
+                                                                </div>
+                                                                <span class="date-reviews">10.03.19</span>
+                                                                <div class="reiting-commentators">10</div>
                                                             </div>
-                                                        </div>
-                                                        <div class="block-about-traslation">
-                                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                                Donec
+                                                            <p class="comments">Lorem ipsum dolor sit amet, consectetur
+                                                                adipiscing elit. Donec convallis massa in est lobortis
+                                                                volutpat. Nam posuere mi id ultrices pellentesque.</p>
+                                                        </li>
+                                                        <li class="reviews">
+                                                            <div class="header-reviews">
+                                                                <div class="person-reviews">
+                                                                    <div class="wrapper-img-reviews">
+                                                                        <img src="image/img-icon.jpg" alt="img reviews">
+                                                                    </div>
+                                                                    <h3 class="name-reviews">Ms. Parkinson</h3>
+                                                                </div>
+                                                                <span class="date-reviews">15.03.19</span>
+                                                                <div class="reiting-commentators negative-reiting">1
+                                                                </div>
+                                                            </div>
+                                                            <p class="comments">Lorem ipsum dolor sit amet, consectetur
+                                                                adipiscing elit. Donec convallis massa in est lobortis
+                                                                volutpat. Nam posuere mi id ultrices pellentesque. Donec
                                                                 convallis massa in est lobortis volutpat. Nam posuere mi
-                                                                id
-                                                                ultrices pellentesque. In faucibus id ipsum vel
-                                                                facilisis. Ut in
-                                                                mi et augue mattis consequat.</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="footer-list">
-                                                        <div class="block-time-translation">
-                                                            <h4 class="name-info-title">Начнется через:</h4>
-                                                            <span class="about-translation-time">1 день 2 час. 53
-                                                                мин.</span>
-                                                        </div>
-                                                        <div class="footer-item-translation">
-                                                            <div class="wrapper-btn-footer-translation">
-                                                                <button type="button" class="btn-door"></button>
-                                                                <button type="button"
-                                                                    class="translation-btn participate">Участвовать</button>
+                                                                id ultrices pellentesque.</p>
+                                                        </li>
+                                                        <li class="reviews">
+                                                            <div class="header-reviews">
+                                                                <div class="person-reviews">
+                                                                    <div class="wrapper-img-reviews">
+                                                                        <img src="image/img-icon.jpg" alt="img reviews">
+                                                                    </div>
+                                                                    <h3 class="name-reviews">Denis Denis</h3>
+                                                                </div>
+                                                                <span class="date-reviews">10.03.19</span>
+                                                                <div class="reiting-commentators">10</div>
                                                             </div>
-                                                        </div>
-                                                    </div>
+                                                            <p class="comments">Lorem ipsum dolor sit amet, consectetur
+                                                                adipiscing elit. Donec convallis massa in est lobortis
+                                                                volutpat. Nam posuere mi id ultrices pellentesque.</p>
+                                                        </li>
+                                                        <li class="reviews">
+                                                            <div class="header-reviews">
+                                                                <div class="person-reviews">
+                                                                    <div class="wrapper-img-reviews">
+                                                                        <img src="image/img-icon.jpg" alt="img reviews">
+                                                                    </div>
+                                                                    <h3 class="name-reviews">Ms. Parkinson</h3>
+                                                                </div>
+                                                                <span class="date-reviews">15.03.19</span>
+                                                                <div class="reiting-commentators negative-reiting">1
+                                                                </div>
+                                                            </div>
+                                                            <p class="comments">Lorem ipsum dolor sit amet, consectetur
+                                                                adipiscing elit. Donec convallis massa in est lobortis
+                                                                volutpat. Nam posuere mi id ultrices pellentesque.</p>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="footer-list">
+                                                <div class="block-time-translation about-none">
+                                                    <h4 class="name-info-title">Начнется через:</h4>
+                                                    <span class="about-translation-time">1 день 2 час. 53 мин.</span>
+                                                </div>
+                                                <div class="footer-item-translation about-none">
+                                                    <button type="button" class="btn-door"></button>
+                                                    <button type="button"
+                                                        class="translation-btn participate">Участвовать</button>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div
-                                        class="list-item and-translation-item scroll-pane swiper-afisha-v swiper-slide">
-                                        <div class="swiper-wrapper">
-                                            <div class="swiper-slide">
-                                                <div class="container-list-item">
-                                                    <div class="header-afisha">
-                                                        <h3>Сеть межпроцессорного обмена ангара и современных систем ИИ
-                                                        </h3>
+                                    </li>
+                                    <li class="list-item scroll-pane">
+                                        <div class="container-list-item">
+                                            <div class="header-afisha">
+                                                <h3>Медийная реклама для продуктовых компаний</h3>
+                                                <ul class="list-info-translation">
+                                                    <li class="item-info">
+                                                        <h4 class="name-item">дата:</h4>
+                                                        <span class="data">01.02.19</span>
+                                                        <span class="day-week">(пятница)</span>
+                                                    </li>
+                                                    <li class="item-info">
+                                                        <h4 class="name-item">время:</h4>
+                                                        <span class="time">19:00</span>
+                                                        <span class="zone">(+2 Киев)</span>
+                                                    </li>
+                                                    <li class="item-info">
+                                                        <h4 class="name-item">цена билета:</h4>
+                                                        <span class="price">500 грн</span>
+                                                    </li>
+                                                    <li class="item-info">
+                                                        <h4 class="name-item">продано билетов:</h4>
+                                                        <span class="buy">25</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="containeer-about-translation">
+                                                <div class="wrapper-baner-translation">
+                                                    <div class="img-translation">
+                                                        <img src="image/banner.jpg" alt="img translation">
                                                     </div>
-                                                    <div class="containeer-about-translation">
-                                                        <p class="and-translation">трансляция закончилась
-                                                            <span>15.01.2019</span></p>
-                                                        <ul class="list-info-translation list-none">
-                                                            <li class="item-info">
-                                                                <h4 class="name-item">дата:</h4>
-                                                                <span class="data">25.01.19</span>
-                                                                <span class="day-week">(пятница)</span>
-                                                            </li>
-                                                            <li class="item-info">
-                                                                <h4 class="name-item">время:</h4>
-                                                                <span class="time">16:00</span>
-                                                                <span class="zone">(+2 Киев)</span>
-                                                            </li>
-                                                            <li class="item-info">
-                                                                <h4 class="name-item">цена билета:</h4>
-                                                                <span class="price">бесплатно</span>
-                                                            </li>
-                                                            <li class="item-info">
-                                                                <h4 class="name-item">предварительная аудитория</h4>
-                                                                <span class="people">75 чел</span>
-                                                            </li>
-                                                        </ul>
-                                                        <div class="wrapper-baner-translation">
-                                                            <div class="img-translation">
-                                                                <img src="image/and.jpg" alt="img translation">
-                                                            </div>
-                                                            <div class="before-translation">
-                                                                <h3>Общаяя оценка трансляции</h3>
-                                                                <span class="assessment">5.5</span>
-                                                            </div>
-                                                        </div>
-                                                        <div class="participants-people">
-                                                            <h5 class="title-participants">в трансляции участвовало:
-                                                            </h5>
-                                                            <span class="quantity">250 чел.</span>
-                                                        </div>
-                                                        <div class="block-about-traslation about-none">
-                                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                                Donec
-                                                                convallis massa in est lobortis volutpat. Nam posuere mi
-                                                                id
-                                                                ultrices pellentesque. In faucibus id ipsum vel
-                                                                facilisis. Ut in
-                                                                mi et augue mattis consequat.</p>
-                                                        </div>
-                                                        <div class="wrapper-list-reviews">
-                                                            <ul class="reviews-list">
-                                                                <li class="reviews">
-                                                                    <div class="header-reviews">
-                                                                        <div class="person-reviews">
-                                                                            <div class="wrapper-img-reviews">
-                                                                                <img src="image/img-icon.jpg"
-                                                                                    alt="img reviews">
-                                                                            </div>
-                                                                            <h3 class="name-reviews">Denis Denis</h3>
-                                                                        </div>
-                                                                        <span class="date-reviews">10.03.19</span>
-                                                                        <div class="reiting-commentators">10</div>
-                                                                    </div>
-                                                                    <p class="comments">Lorem ipsum dolor sit amet,
-                                                                        consectetur
-                                                                        adipiscing elit. Donec convallis massa in est
-                                                                        lobortis
-                                                                        volutpat. Nam posuere mi id ultrices
-                                                                        pellentesque.</p>
+                                                </div>
+                                                <div class="block-about-traslation">
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                                                        convallis massa in est lobortis volutpat. Nam posuere mi id
+                                                        ultrices pellentesque. In faucibus id ipsum vel facilisis.
+                                                        Nullam dignissim libero non dolor elementum scelerisque. Vivamus
+                                                        blandit efficitur tellus, sed mattis mi. Ut in mi et augue
+                                                        mattis consequat.</p>
+                                                </div>
+                                            </div>
+                                            <div class="footer-list">
+                                                <div class="block-time-translation">
+                                                    <h4 class="name-info-title">Начнется через:</h4>
+                                                    <span class="about-translation-time">10 дней 7 час. 13 мин.</span>
+                                                </div>
+                                                <div class="footer-item-translation">
+                                                    <div class="wrapper-payment-list payment-tikets">
+                                                        <div class="container-payment">
+                                                            <ul class="payment-list">
+                                                                <li class="payment card">
+                                                                    <a href="" class="active-pay-option">
+                                                                        <span>516879841516848</span>
+                                                                    </a>
                                                                 </li>
-                                                                <li class="reviews">
-                                                                    <div class="header-reviews">
-                                                                        <div class="person-reviews">
-                                                                            <div class="wrapper-img-reviews">
-                                                                                <img src="image/img-icon.jpg"
-                                                                                    alt="img reviews">
-                                                                            </div>
-                                                                            <h3 class="name-reviews">Ms. Parkinson</h3>
-                                                                        </div>
-                                                                        <span class="date-reviews">15.03.19</span>
-                                                                        <div
-                                                                            class="reiting-commentators negative-reiting">
-                                                                            1
-                                                                        </div>
-                                                                    </div>
-                                                                    <p class="comments">Lorem ipsum dolor sit amet,
-                                                                        consectetur
-                                                                        adipiscing elit. Donec convallis massa in est
-                                                                        lobortis
-                                                                        volutpat. Nam posuere mi id ultrices
-                                                                        pellentesque. Donec
-                                                                        convallis massa in est lobortis volutpat. Nam
-                                                                        posuere mi
-                                                                        id ultrices pellentesque.</p>
-                                                                </li>
-                                                                <li class="reviews">
-                                                                    <div class="header-reviews">
-                                                                        <div class="person-reviews">
-                                                                            <div class="wrapper-img-reviews">
-                                                                                <img src="image/img-icon.jpg"
-                                                                                    alt="img reviews">
-                                                                            </div>
-                                                                            <h3 class="name-reviews">Denis Denis</h3>
-                                                                        </div>
-                                                                        <span class="date-reviews">10.03.19</span>
-                                                                        <div class="reiting-commentators">10</div>
-                                                                    </div>
-                                                                    <p class="comments">Lorem ipsum dolor sit amet,
-                                                                        consectetur
-                                                                        adipiscing elit. Donec convallis massa in est
-                                                                        lobortis
-                                                                        volutpat. Nam posuere mi id ultrices
-                                                                        pellentesque.</p>
-                                                                </li>
-                                                                <li class="reviews">
-                                                                    <div class="header-reviews">
-                                                                        <div class="person-reviews">
-                                                                            <div class="wrapper-img-reviews">
-                                                                                <img src="image/img-icon.jpg"
-                                                                                    alt="img reviews">
-                                                                            </div>
-                                                                            <h3 class="name-reviews">Ms. Parkinson</h3>
-                                                                        </div>
-                                                                        <span class="date-reviews">15.03.19</span>
-                                                                        <div
-                                                                            class="reiting-commentators negative-reiting">
-                                                                            1
-                                                                        </div>
-                                                                    </div>
-                                                                    <p class="comments">Lorem ipsum dolor sit amet,
-                                                                        consectetur
-                                                                        adipiscing elit. Donec convallis massa in est
-                                                                        lobortis
-                                                                        volutpat. Nam posuere mi id ultrices
-                                                                        pellentesque.</p>
+                                                                <li class="payment onstrim-check">
+                                                                    <a href="">
+                                                                        <span>cчет OnStrim (500&#8372)</span>
+                                                                    </a>
                                                                 </li>
                                                             </ul>
+                                                            <button type="button" class="add-payment">+</button>
                                                         </div>
-                                                    </div>
-                                                    <div class="footer-list">
-                                                        <div class="block-time-translation about-none">
-                                                            <h4 class="name-info-title">Начнется через:</h4>
-                                                            <span class="about-translation-time">1 день 2 час. 53
-                                                                мин.</span>
-                                                        </div>
-                                                        <div class="footer-item-translation about-none">
-                                                            <button type="button" class="btn-door"></button>
-                                                            <button type="button"
-                                                                class="translation-btn participate">Участвовать</button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="list-item swiper-container swiper-afisha-v swiper-slide">
-                                        <div class="swiper-wrapper">
-                                            <div class="swiper-slide">
-                                                <div class="container-list-item">
-                                                    <div class="header-afisha">
-                                                        <h3>Медийная реклама для продуктовых компаний</h3>
-                                                        <ul class="list-info-translation">
-                                                            <li class="item-info">
-                                                                <h4 class="name-item">дата:</h4>
-                                                                <span class="data">01.02.19</span>
-                                                                <span class="day-week">(пятница)</span>
-                                                            </li>
-                                                            <li class="item-info">
-                                                                <h4 class="name-item">время:</h4>
-                                                                <span class="time">19:00</span>
-                                                                <span class="zone">(+2 Киев)</span>
-                                                            </li>
-                                                            <li class="item-info">
-                                                                <h4 class="name-item">цена билета:</h4>
-                                                                <span class="price">500 грн</span>
-                                                            </li>
-                                                            <li class="item-info">
-                                                                <h4 class="name-item">продано билетов:</h4>
-                                                                <span class="buy">25</span>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="containeer-about-translation">
-                                                        <div class="wrapper-baner-translation">
-                                                            <div class="img-translation">
-                                                                <img src="image/banner.jpg" alt="img translation">
-                                                            </div>
-                                                        </div>
-                                                        <div class="block-about-traslation">
-                                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                                Donec
-                                                                convallis massa in est lobortis volutpat. Nam posuere mi
-                                                                id
-                                                                ultrices pellentesque. In faucibus id ipsum vel
-                                                                facilisis.
-                                                                Nullam dignissim libero non dolor elementum scelerisque.
-                                                                Vivamus
-                                                                blandit efficitur tellus, sed mattis mi. Ut in mi et
-                                                                augue
-                                                                mattis consequat.</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="footer-list">
-                                                        <div class="block-time-translation">
-                                                            <h4 class="name-info-title">Начнется через:</h4>
-                                                            <span class="about-translation-time">10 дней 7 час. 13
-                                                                мин.</span>
-                                                        </div>
-                                                        <div class="footer-item-translation">
-                                                            <button type="button" class="btn-door"></button>
-                                                            <button type="button"
-                                                                class="translation-btn pay-ticket">Купить
-                                                                билет</button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="list-item swiper-container swiper-afisha-v swiper-slide">
-                                        <div class="swiper-wrapper">
-                                            <div class="swiper-slide">
-                                                <div class="container-list-item">
-                                                    <div class="header-afisha">
-                                                        <h3>Медийная реклама для продуктовых компаний</h3>
-                                                        <ul class="list-info-translation">
-                                                            <li class="item-info">
-                                                                <h4 class="name-item">дата:</h4>
-                                                                <span class="data">01.02.19</span>
-                                                                <span class="day-week">(пятница)</span>
-                                                            </li>
-                                                            <li class="item-info">
-                                                                <h4 class="name-item">время:</h4>
-                                                                <span class="time">19:00</span>
-                                                                <span class="zone">(+2 Киев)</span>
-                                                            </li>
-                                                            <li class="item-info">
-                                                                <h4 class="name-item">цена билета:</h4>
-                                                                <span class="price">500 грн</span>
-                                                            </li>
-                                                            <li class="item-info">
-                                                                <h4 class="name-item">продано билетов:</h4>
-                                                                <span class="buy">25</span>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="containeer-about-translation">
-                                                        <div class="wrapper-baner-translation">
-                                                            <div class="img-translation">
-                                                                <img src="image/banner.jpg" alt="img translation">
-                                                            </div>
-                                                        </div>
-                                                        <div class="block-about-traslation">
-                                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                                Donec
-                                                                convallis massa in est lobortis volutpat. Nam posuere mi
-                                                                id
-                                                                ultrices pellentesque. In faucibus id ipsum vel
-                                                                facilisis.
-                                                                Nullam dignissim libero non dolor elementum scelerisque.
-                                                                Vivamus
-                                                                blandit efficitur tellus, sed mattis mi. Ut in mi et
-                                                                augue
-                                                                mattis consequat.</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="footer-list">
-                                                        <div class="block-time-translation">
-                                                            <h4 class="name-info-title">Начнется через:</h4>
-                                                            <span class="about-translation-time">10 дней 7 час. 13
-                                                                мин.</span>
-                                                        </div>
-                                                        <div class="footer-item-translation">
-                                                            <button type="button" class="btn-door"></button>
-                                                            <button type="button"
-                                                                class="translation-btn pay-ticket">Купить
-                                                                билет</button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="list-item swiper-container swiper-afisha-v swiper-slide">
-                                        <div class="swiper-wrapper">
-                                            <div class="swiper-slide">
-                                                <div class="container-list-item">
-                                                    <div class="header-afisha">
-                                                        <h3>Сеть межпроцессорного обмена ангара и современных систем ИИ
-                                                        </h3>
-                                                        <ul class="list-info-translation">
-                                                            <li class="item-info">
-                                                                <h4 class="name-item">дата:</h4>
-                                                                <span class="data">25.01.19</span>
-                                                                <span class="day-week">(пятница)</span>
-                                                            </li>
-                                                            <li class="item-info">
-                                                                <h4 class="name-item">время:</h4>
-                                                                <span class="time">16:00</span>
-                                                                <span class="zone">(+2 Киев)</span>
-                                                            </li>
-                                                            <li class="item-info">
-                                                                <h4 class="name-item">цена билета:</h4>
-                                                                <span class="price">бесплатно</span>
-                                                            </li>
-                                                            <li class="item-info">
-                                                                <h4 class="name-item">предварительная аудитория</h4>
-                                                                <span class="people">75 чел</span>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="containeer-about-translation">
-                                                        <div class="wrapper-baner-translation">
-                                                            <div class="img-translation">
-                                                                <img src="image/banner-2.jpg" alt="img translation">
-                                                            </div>
-                                                        </div>
-                                                        <div class="block-about-traslation">
-                                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                                Donec
-                                                                convallis massa in est lobortis volutpat. Nam posuere mi
-                                                                id
-                                                                ultrices pellentesque. In faucibus id ipsum vel
-                                                                facilisis. Ut in
-                                                                mi et augue mattis consequat.</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="footer-list">
-                                                        <div class="block-time-translation">
-                                                            <h4 class="name-info-title">Начнется через:</h4>
-                                                            <span class="about-translation-time">1 день 2 час. 53
-                                                                мин.</span>
-                                                        </div>
-                                                        <div class="footer-item-translation">
-                                                            <button type="button" class="btn-door"></button>
-                                                            <button type="button"
-                                                                class="translation-btn participate">Участвовать</button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div
-                                        class="list-item and-translation-item scroll-pane swiper-container swiper-afisha-v swiper-slide">
-                                        <div class="swiper-wrapper">
-                                            <div class="swiper-slide">
-                                                <div class="container-list-item">
-                                                    <div class="header-afisha">
-                                                        <h3>Сеть межпроцессорного обмена ангара и современных систем ИИ
-                                                        </h3>
-                                                    </div>
-                                                    <div class="containeer-about-translation">
-                                                        <p class="and-translation">трансляция закончилась
-                                                            <span>15.01.2019</span></p>
-                                                        <ul class="list-info-translation list-none">
-                                                            <li class="item-info">
-                                                                <h4 class="name-item">дата:</h4>
-                                                                <span class="data">25.01.19</span>
-                                                                <span class="day-week">(пятница)</span>
-                                                            </li>
-                                                            <li class="item-info">
-                                                                <h4 class="name-item">время:</h4>
-                                                                <span class="time">16:00</span>
-                                                                <span class="zone">(+2 Киев)</span>
-                                                            </li>
-                                                            <li class="item-info">
-                                                                <h4 class="name-item">цена билета:</h4>
-                                                                <span class="price">бесплатно</span>
-                                                            </li>
-                                                            <li class="item-info">
-                                                                <h4 class="name-item">предварительная аудитория</h4>
-                                                                <span class="people">75 чел</span>
-                                                            </li>
-                                                        </ul>
-                                                        <div class="wrapper-baner-translation">
-                                                            <div class="img-translation">
-                                                                <img src="image/and.jpg" alt="img translation">
-                                                            </div>
-                                                            <div class="before-translation">
-                                                                <h3>Общаяя оценка трансляции</h3>
-                                                                <span class="assessment">5.5</span>
-                                                            </div>
-                                                        </div>
-                                                        <div class="participants-people">
-                                                            <h5 class="title-participants">в трансляции участвовало:
-                                                            </h5>
-                                                            <span class="quantity">250 чел.</span>
-                                                        </div>
-                                                        <div class="block-about-traslation about-none">
-                                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                                Donec
-                                                                convallis massa in est lobortis volutpat. Nam posuere mi
-                                                                id
-                                                                ultrices pellentesque. In faucibus id ipsum vel
-                                                                facilisis. Ut in
-                                                                mi et augue mattis consequat.</p>
-                                                        </div>
-                                                        <div class="wrapper-list-reviews">
-                                                            <ul class="reviews-list">
-                                                                <li class="reviews">
-                                                                    <div class="header-reviews">
-                                                                        <div class="person-reviews">
-                                                                            <div class="wrapper-img-reviews">
-                                                                                <img src="image/img-icon.jpg"
-                                                                                    alt="img reviews">
-                                                                            </div>
-                                                                            <h3 class="name-reviews">Denis Denis</h3>
-                                                                        </div>
-                                                                        <span class="date-reviews">10.03.19</span>
-                                                                        <div class="reiting-commentators">10</div>
+                                                        <div class="wrapper-card">
+                                                            <button type="button" class="close-card-btn"></button>
+                                                            <div class="payment-cart">
+                                                                <div class="container-payment-card">
+                                                                    <h5 class="title-card">имя банка</h5>
+                                                                    <div class="chip">
+                                                                        <img src="image/chip.png" alt="card-chip">
                                                                     </div>
-                                                                    <p class="comments">Lorem ipsum dolor sit amet,
-                                                                        consectetur
-                                                                        adipiscing elit. Donec convallis massa in est
-                                                                        lobortis
-                                                                        volutpat. Nam posuere mi id ultrices
-                                                                        pellentesque.</p>
-                                                                </li>
-                                                                <li class="reviews">
-                                                                    <div class="header-reviews">
-                                                                        <div class="person-reviews">
-                                                                            <div class="wrapper-img-reviews">
-                                                                                <img src="image/img-icon.jpg"
-                                                                                    alt="img reviews">
-                                                                            </div>
-                                                                            <h3 class="name-reviews">Ms. Parkinson</h3>
+                                                                    <input type="text" class="card-number"
+                                                                        id="txtCardNumber1"
+                                                                        placeholder="ВВЕДИТЕ НОМЕР КАРТЫ"
+                                                                        maxlength="19">
+                                                                    <div class="footer-card">
+                                                                        <div class="wrapper-data-card">
+                                                                            <input type="text" class="data-card"
+                                                                                id="dataCard1" placeholder="мм/гг"
+                                                                                maxlength="5">
                                                                         </div>
-                                                                        <span class="date-reviews">15.03.19</span>
-                                                                        <div
-                                                                            class="reiting-commentators negative-reiting">
-                                                                            1
+                                                                        <div class="wrapper-data-card">
+                                                                            <input type="password" class="cvv-card"
+                                                                                placeholder="CVV код" maxlength="3">
                                                                         </div>
                                                                     </div>
-                                                                    <p class="comments">Lorem ipsum dolor sit amet,
-                                                                        consectetur
-                                                                        adipiscing elit. Donec convallis massa in est
-                                                                        lobortis
-                                                                        volutpat. Nam posuere mi id ultrices
-                                                                        pellentesque. Donec
-                                                                        convallis massa in est lobortis volutpat. Nam
-                                                                        posuere mi
-                                                                        id ultrices pellentesque.</p>
-                                                                </li>
-                                                                <li class="reviews">
-                                                                    <div class="header-reviews">
-                                                                        <div class="person-reviews">
-                                                                            <div class="wrapper-img-reviews">
-                                                                                <img src="image/img-icon.jpg"
-                                                                                    alt="img reviews">
-                                                                            </div>
-                                                                            <h3 class="name-reviews">Denis Denis</h3>
-                                                                        </div>
-                                                                        <span class="date-reviews">10.03.19</span>
-                                                                        <div class="reiting-commentators">10</div>
-                                                                    </div>
-                                                                    <p class="comments">Lorem ipsum dolor sit amet,
-                                                                        consectetur
-                                                                        adipiscing elit. Donec convallis massa in est
-                                                                        lobortis
-                                                                        volutpat. Nam posuere mi id ultrices
-                                                                        pellentesque.</p>
-                                                                </li>
-                                                                <li class="reviews">
-                                                                    <div class="header-reviews">
-                                                                        <div class="person-reviews">
-                                                                            <div class="wrapper-img-reviews">
-                                                                                <img src="image/img-icon.jpg"
-                                                                                    alt="img reviews">
-                                                                            </div>
-                                                                            <h3 class="name-reviews">Ms. Parkinson</h3>
-                                                                        </div>
-                                                                        <span class="date-reviews">15.03.19</span>
-                                                                        <div
-                                                                            class="reiting-commentators negative-reiting">
-                                                                            1
-                                                                        </div>
-                                                                    </div>
-                                                                    <p class="comments">Lorem ipsum dolor sit amet,
-                                                                        consectetur
-                                                                        adipiscing elit. Donec convallis massa in est
-                                                                        lobortis
-                                                                        volutpat. Nam posuere mi id ultrices
-                                                                        pellentesque.</p>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                    <div class="footer-list">
-                                                        <div class="block-time-translation about-none">
-                                                            <h4 class="name-info-title">Начнется через:</h4>
-                                                            <span class="about-translation-time">1 день 2 час. 53
-                                                                мин.</span>
-                                                        </div>
-                                                        <div class="footer-item-translation about-none">
-                                                            <button type="button" class="btn-door"></button>
-                                                            <button type="button"
-                                                                class="translation-btn participate">Участвовать</button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="list-item swiper-container swiper-afisha-v swiper-slide">
-                                        <div class="swiper-wrapper">
-                                            <div class="swiper-slide">
-                                                <div class="container-list-item">
-                                                    <div class="header-afisha">
-                                                        <h3>Медийная реклама для продуктовых компаний</h3>
-                                                        <ul class="list-info-translation">
-                                                            <li class="item-info">
-                                                                <h4 class="name-item">дата:</h4>
-                                                                <span class="data">01.02.19</span>
-                                                                <span class="day-week">(пятница)</span>
-                                                            </li>
-                                                            <li class="item-info">
-                                                                <h4 class="name-item">время:</h4>
-                                                                <span class="time">19:00</span>
-                                                                <span class="zone">(+2 Киев)</span>
-                                                            </li>
-                                                            <li class="item-info">
-                                                                <h4 class="name-item">цена билета:</h4>
-                                                                <span class="price">500 грн</span>
-                                                            </li>
-                                                            <li class="item-info">
-                                                                <h4 class="name-item">продано билетов:</h4>
-                                                                <span class="buy">25</span>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="containeer-about-translation">
-                                                        <div class="wrapper-baner-translation">
-                                                            <div class="img-translation">
-                                                                <img src="image/banner.jpg" alt="img translation">
+                                                                </div>
                                                             </div>
                                                         </div>
-                                                        <div class="block-about-traslation">
-                                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                                Donec
-                                                                convallis massa in est lobortis volutpat. Nam posuere mi
-                                                                id
-                                                                ultrices pellentesque. In faucibus id ipsum vel
-                                                                facilisis.
-                                                                Nullam dignissim libero non dolor elementum scelerisque.
-                                                                Vivamus
-                                                                blandit efficitur tellus, sed mattis mi. Ut in mi et
-                                                                augue
-                                                                mattis consequat.</p>
-                                                        </div>
                                                     </div>
-                                                    <div class="footer-list">
-                                                        <div class="block-time-translation">
-                                                            <h4 class="name-info-title">Начнется через:</h4>
-                                                            <span class="about-translation-time">10 дней 7 час. 13
-                                                                мин.</span>
-                                                        </div>
-                                                        <div class="footer-item-translation">
-                                                            <button type="button" class="btn-door"></button>
-                                                            <button type="button"
-                                                                class="translation-btn pay-ticket">Купить
-                                                                билет</button>
-                                                        </div>
+                                                    <div class="wrapper-btn-footer-translation">
+                                                        <button type="button" class="btn-door"></button>
+                                                        <button type="button" class="translation-btn pay-ticket">Купить
+                                                            билет</button>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
+                                    </li>
+                                    <li class="list-item">
+                                        <div class="container-list-item">
+                                            <div class="header-afisha">
+                                                <h3>Сеть межпроцессорного обмена ангара и современных систем ИИ</h3>
+                                                <ul class="list-info-translation">
+                                                    <li class="item-info">
+                                                        <h4 class="name-item">дата:</h4>
+                                                        <span class="data">25.01.19</span>
+                                                        <span class="day-week">(пятница)</span>
+                                                    </li>
+                                                    <li class="item-info">
+                                                        <h4 class="name-item">время:</h4>
+                                                        <span class="time">16:00</span>
+                                                        <span class="zone">(+2 Киев)</span>
+                                                    </li>
+                                                    <li class="item-info">
+                                                        <h4 class="name-item">цена билета:</h4>
+                                                        <span class="price">бесплатно</span>
+                                                    </li>
+                                                    <li class="item-info">
+                                                        <h4 class="name-item">предварительная аудитория</h4>
+                                                        <span class="people">75 чел</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="containeer-about-translation">
+                                                <div class="wrapper-baner-translation">
+                                                    <div class="img-translation">
+                                                        <img src="image/banner-2.jpg" alt="img translation">
+                                                    </div>
+                                                </div>
+                                                <div class="block-about-traslation">
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                                                        convallis massa in est lobortis volutpat. Nam posuere mi id
+                                                        ultrices pellentesque. In faucibus id ipsum vel facilisis. Ut in
+                                                        mi et augue mattis consequat.</p>
+                                                </div>
+                                            </div>
+                                            <div class="footer-list">
+                                                <div class="block-time-translation">
+                                                    <h4 class="name-info-title">Начнется через:</h4>
+                                                    <span class="about-translation-time">1 день 2 час. 53 мин.</span>
+                                                </div>
+                                                <div class="footer-item-translation">
+                                                    <div class="wrapper-btn-footer-translation">
+                                                        <button type="button" class="btn-door"></button>
+                                                        <button type="button"
+                                                            class="translation-btn participate">Участвовать</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-item and-translation-item scroll-pane">
+                                        <div class="container-list-item">
+                                            <div class="header-afisha">
+                                                <h3>Сеть межпроцессорного обмена ангара и современных систем ИИ</h3>
+                                            </div>
+                                            <div class="containeer-about-translation">
+                                                <p class="and-translation">трансляция закончилась
+                                                    <span>15.01.2019</span></p>
+                                                <ul class="list-info-translation list-none">
+                                                    <li class="item-info">
+                                                        <h4 class="name-item">дата:</h4>
+                                                        <span class="data">25.01.19</span>
+                                                        <span class="day-week">(пятница)</span>
+                                                    </li>
+                                                    <li class="item-info">
+                                                        <h4 class="name-item">время:</h4>
+                                                        <span class="time">16:00</span>
+                                                        <span class="zone">(+2 Киев)</span>
+                                                    </li>
+                                                    <li class="item-info">
+                                                        <h4 class="name-item">цена билета:</h4>
+                                                        <span class="price">бесплатно</span>
+                                                    </li>
+                                                    <li class="item-info">
+                                                        <h4 class="name-item">предварительная аудитория</h4>
+                                                        <span class="people">75 чел</span>
+                                                    </li>
+                                                </ul>
+                                                <div class="wrapper-baner-translation">
+                                                    <div class="img-translation">
+                                                        <img src="image/and.jpg" alt="img translation">
+                                                    </div>
+                                                    <div class="before-translation">
+                                                        <h3>Общаяя оценка трансляции</h3>
+                                                        <span class="assessment">5.5</span>
+                                                    </div>
+                                                </div>
+                                                <div class="participants-people">
+                                                    <h5 class="title-participants">в трансляции участвовало:</h5>
+                                                    <span class="quantity">250 чел.</span>
+                                                </div>
+                                                <div class="block-about-traslation about-none">
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                                                        convallis massa in est lobortis volutpat. Nam posuere mi id
+                                                        ultrices pellentesque. In faucibus id ipsum vel facilisis. Ut in
+                                                        mi et augue mattis consequat.</p>
+                                                </div>
+                                                <div class="wrapper-list-reviews">
+                                                    <ul class="reviews-list">
+                                                        <li class="reviews">
+                                                            <div class="header-reviews">
+                                                                <div class="person-reviews">
+                                                                    <div class="wrapper-img-reviews">
+                                                                        <img src="image/img-icon.jpg" alt="img reviews">
+                                                                    </div>
+                                                                    <h3 class="name-reviews">Denis Denis</h3>
+                                                                </div>
+                                                                <span class="date-reviews">10.03.19</span>
+                                                                <div class="reiting-commentators">10</div>
+                                                            </div>
+                                                            <p class="comments">Lorem ipsum dolor sit amet, consectetur
+                                                                adipiscing elit. Donec convallis massa in est lobortis
+                                                                volutpat. Nam posuere mi id ultrices pellentesque.</p>
+                                                        </li>
+                                                        <li class="reviews">
+                                                            <div class="header-reviews">
+                                                                <div class="person-reviews">
+                                                                    <div class="wrapper-img-reviews">
+                                                                        <img src="image/img-icon.jpg" alt="img reviews">
+                                                                    </div>
+                                                                    <h3 class="name-reviews">Ms. Parkinson</h3>
+                                                                </div>
+                                                                <span class="date-reviews">15.03.19</span>
+                                                                <div class="reiting-commentators negative-reiting">1
+                                                                </div>
+                                                            </div>
+                                                            <p class="comments">Lorem ipsum dolor sit amet, consectetur
+                                                                adipiscing elit. Donec convallis massa in est lobortis
+                                                                volutpat. Nam posuere mi id ultrices pellentesque. Donec
+                                                                convallis massa in est lobortis volutpat. Nam posuere mi
+                                                                id ultrices pellentesque.</p>
+                                                        </li>
+                                                        <li class="reviews">
+                                                            <div class="header-reviews">
+                                                                <div class="person-reviews">
+                                                                    <div class="wrapper-img-reviews">
+                                                                        <img src="image/img-icon.jpg" alt="img reviews">
+                                                                    </div>
+                                                                    <h3 class="name-reviews">Denis Denis</h3>
+                                                                </div>
+                                                                <span class="date-reviews">10.03.19</span>
+                                                                <div class="reiting-commentators">10</div>
+                                                            </div>
+                                                            <p class="comments">Lorem ipsum dolor sit amet, consectetur
+                                                                adipiscing elit. Donec convallis massa in est lobortis
+                                                                volutpat. Nam posuere mi id ultrices pellentesque.</p>
+                                                        </li>
+                                                        <li class="reviews">
+                                                            <div class="header-reviews">
+                                                                <div class="person-reviews">
+                                                                    <div class="wrapper-img-reviews">
+                                                                        <img src="image/img-icon.jpg" alt="img reviews">
+                                                                    </div>
+                                                                    <h3 class="name-reviews">Ms. Parkinson</h3>
+                                                                </div>
+                                                                <span class="date-reviews">15.03.19</span>
+                                                                <div class="reiting-commentators negative-reiting">1
+                                                                </div>
+                                                            </div>
+                                                            <p class="comments">Lorem ipsum dolor sit amet, consectetur
+                                                                adipiscing elit. Donec convallis massa in est lobortis
+                                                                volutpat. Nam posuere mi id ultrices pellentesque.</p>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="footer-list">
+                                                <div class="block-time-translation about-none">
+                                                    <h4 class="name-info-title">Начнется через:</h4>
+                                                    <span class="about-translation-time">1 день 2 час. 53 мин.</span>
+                                                </div>
+                                                <div class="footer-item-translation about-none">
+                                                    <button type="button" class="btn-door"></button>
+                                                    <button type="button"
+                                                        class="translation-btn participate">Участвовать</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-item">
+                                        <div class="container-list-item">
+                                            <div class="header-afisha">
+                                                <h3>Медийная реклама для продуктовых компаний</h3>
+                                                <ul class="list-info-translation">
+                                                    <li class="item-info">
+                                                        <h4 class="name-item">дата:</h4>
+                                                        <span class="data">01.02.19</span>
+                                                        <span class="day-week">(пятница)</span>
+                                                    </li>
+                                                    <li class="item-info">
+                                                        <h4 class="name-item">время:</h4>
+                                                        <span class="time">19:00</span>
+                                                        <span class="zone">(+2 Киев)</span>
+                                                    </li>
+                                                    <li class="item-info">
+                                                        <h4 class="name-item">цена билета:</h4>
+                                                        <span class="price">500 грн</span>
+                                                    </li>
+                                                    <li class="item-info">
+                                                        <h4 class="name-item">продано билетов:</h4>
+                                                        <span class="buy">25</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="containeer-about-translation">
+                                                <div class="wrapper-baner-translation">
+                                                    <div class="img-translation">
+                                                        <img src="image/banner.jpg" alt="img translation">
+                                                    </div>
+                                                </div>
+                                                <div class="block-about-traslation">
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                                                        convallis massa in est lobortis volutpat. Nam posuere mi id
+                                                        ultrices pellentesque. In faucibus id ipsum vel facilisis.
+                                                        Nullam dignissim libero non dolor elementum scelerisque. Vivamus
+                                                        blandit efficitur tellus, sed mattis mi. Ut in mi et augue
+                                                        mattis consequat.</p>
+                                                </div>
+                                            </div>
+                                            <div class="footer-list">
+                                                <div class="block-time-translation">
+                                                    <h4 class="name-info-title">Начнется через:</h4>
+                                                    <span class="about-translation-time">10 дней 7 час. 13 мин.</span>
+                                                </div>
+                                                <div class="footer-item-translation">
+                                                    <button type="button" class="btn-door"></button>
+                                                    <button type="button" class="translation-btn pay-ticket">Купить
+                                                        билет</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-item">
+                                        <div class="container-list-item">
+                                            <div class="header-afisha">
+                                                <h3>Медийная реклама для продуктовых компаний</h3>
+                                                <ul class="list-info-translation">
+                                                    <li class="item-info">
+                                                        <h4 class="name-item">дата:</h4>
+                                                        <span class="data">01.02.19</span>
+                                                        <span class="day-week">(пятница)</span>
+                                                    </li>
+                                                    <li class="item-info">
+                                                        <h4 class="name-item">время:</h4>
+                                                        <span class="time">19:00</span>
+                                                        <span class="zone">(+2 Киев)</span>
+                                                    </li>
+                                                    <li class="item-info">
+                                                        <h4 class="name-item">цена билета:</h4>
+                                                        <span class="price">500 грн</span>
+                                                    </li>
+                                                    <li class="item-info">
+                                                        <h4 class="name-item">продано билетов:</h4>
+                                                        <span class="buy">25</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="containeer-about-translation">
+                                                <div class="wrapper-baner-translation">
+                                                    <div class="img-translation">
+                                                        <img src="image/banner.jpg" alt="img translation">
+                                                    </div>
+                                                </div>
+                                                <div class="block-about-traslation">
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                                                        convallis massa in est lobortis volutpat. Nam posuere mi id
+                                                        ultrices pellentesque. In faucibus id ipsum vel facilisis.
+                                                        Nullam dignissim libero non dolor elementum scelerisque. Vivamus
+                                                        blandit efficitur tellus, sed mattis mi. Ut in mi et augue
+                                                        mattis consequat.</p>
+                                                </div>
+                                            </div>
+                                            <div class="footer-list">
+                                                <div class="block-time-translation">
+                                                    <h4 class="name-info-title">Начнется через:</h4>
+                                                    <span class="about-translation-time">10 дней 7 час. 13 мин.</span>
+                                                </div>
+                                                <div class="footer-item-translation">
+                                                    <button type="button" class="btn-door"></button>
+                                                    <button type="button" class="translation-btn pay-ticket">Купить
+                                                        билет</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-item">
+                                        <div class="container-list-item">
+                                            <div class="header-afisha">
+                                                <h3>Сеть межпроцессорного обмена ангара и современных систем ИИ</h3>
+                                                <ul class="list-info-translation">
+                                                    <li class="item-info">
+                                                        <h4 class="name-item">дата:</h4>
+                                                        <span class="data">25.01.19</span>
+                                                        <span class="day-week">(пятница)</span>
+                                                    </li>
+                                                    <li class="item-info">
+                                                        <h4 class="name-item">время:</h4>
+                                                        <span class="time">16:00</span>
+                                                        <span class="zone">(+2 Киев)</span>
+                                                    </li>
+                                                    <li class="item-info">
+                                                        <h4 class="name-item">цена билета:</h4>
+                                                        <span class="price">бесплатно</span>
+                                                    </li>
+                                                    <li class="item-info">
+                                                        <h4 class="name-item">предварительная аудитория</h4>
+                                                        <span class="people">75 чел</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="containeer-about-translation">
+                                                <div class="wrapper-baner-translation">
+                                                    <div class="img-translation">
+                                                        <img src="image/banner-2.jpg" alt="img translation">
+                                                    </div>
+                                                </div>
+                                                <div class="block-about-traslation">
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                                                        convallis massa in est lobortis volutpat. Nam posuere mi id
+                                                        ultrices pellentesque. In faucibus id ipsum vel facilisis. Ut in
+                                                        mi et augue mattis consequat.</p>
+                                                </div>
+                                            </div>
+                                            <div class="footer-list">
+                                                <div class="block-time-translation">
+                                                    <h4 class="name-info-title">Начнется через:</h4>
+                                                    <span class="about-translation-time">1 день 2 час. 53 мин.</span>
+                                                </div>
+                                                <div class="footer-item-translation">
+                                                    <button type="button" class="btn-door"></button>
+                                                    <button type="button"
+                                                        class="translation-btn participate">Участвовать</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-item and-translation-item scroll-pane">
+                                        <div class="container-list-item">
+                                            <div class="header-afisha">
+                                                <h3>Сеть межпроцессорного обмена ангара и современных систем ИИ</h3>
+                                            </div>
+                                            <div class="containeer-about-translation">
+                                                <p class="and-translation">трансляция закончилась
+                                                    <span>15.01.2019</span></p>
+                                                <ul class="list-info-translation list-none">
+                                                    <li class="item-info">
+                                                        <h4 class="name-item">дата:</h4>
+                                                        <span class="data">25.01.19</span>
+                                                        <span class="day-week">(пятница)</span>
+                                                    </li>
+                                                    <li class="item-info">
+                                                        <h4 class="name-item">время:</h4>
+                                                        <span class="time">16:00</span>
+                                                        <span class="zone">(+2 Киев)</span>
+                                                    </li>
+                                                    <li class="item-info">
+                                                        <h4 class="name-item">цена билета:</h4>
+                                                        <span class="price">бесплатно</span>
+                                                    </li>
+                                                    <li class="item-info">
+                                                        <h4 class="name-item">предварительная аудитория</h4>
+                                                        <span class="people">75 чел</span>
+                                                    </li>
+                                                </ul>
+                                                <div class="wrapper-baner-translation">
+                                                    <div class="img-translation">
+                                                        <img src="image/and.jpg" alt="img translation">
+                                                    </div>
+                                                    <div class="before-translation">
+                                                        <h3>Общаяя оценка трансляции</h3>
+                                                        <span class="assessment">5.5</span>
+                                                    </div>
+                                                </div>
+                                                <div class="participants-people">
+                                                    <h5 class="title-participants">в трансляции участвовало:</h5>
+                                                    <span class="quantity">250 чел.</span>
+                                                </div>
+                                                <div class="block-about-traslation about-none">
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                                                        convallis massa in est lobortis volutpat. Nam posuere mi id
+                                                        ultrices pellentesque. In faucibus id ipsum vel facilisis. Ut in
+                                                        mi et augue mattis consequat.</p>
+                                                </div>
+                                                <div class="wrapper-list-reviews">
+                                                    <ul class="reviews-list">
+                                                        <li class="reviews">
+                                                            <div class="header-reviews">
+                                                                <div class="person-reviews">
+                                                                    <div class="wrapper-img-reviews">
+                                                                        <img src="image/img-icon.jpg" alt="img reviews">
+                                                                    </div>
+                                                                    <h3 class="name-reviews">Denis Denis</h3>
+                                                                </div>
+                                                                <span class="date-reviews">10.03.19</span>
+                                                                <div class="reiting-commentators">10</div>
+                                                            </div>
+                                                            <p class="comments">Lorem ipsum dolor sit amet, consectetur
+                                                                adipiscing elit. Donec convallis massa in est lobortis
+                                                                volutpat. Nam posuere mi id ultrices pellentesque.</p>
+                                                        </li>
+                                                        <li class="reviews">
+                                                            <div class="header-reviews">
+                                                                <div class="person-reviews">
+                                                                    <div class="wrapper-img-reviews">
+                                                                        <img src="image/img-icon.jpg" alt="img reviews">
+                                                                    </div>
+                                                                    <h3 class="name-reviews">Ms. Parkinson</h3>
+                                                                </div>
+                                                                <span class="date-reviews">15.03.19</span>
+                                                                <div class="reiting-commentators negative-reiting">1
+                                                                </div>
+                                                            </div>
+                                                            <p class="comments">Lorem ipsum dolor sit amet, consectetur
+                                                                adipiscing elit. Donec convallis massa in est lobortis
+                                                                volutpat. Nam posuere mi id ultrices pellentesque. Donec
+                                                                convallis massa in est lobortis volutpat. Nam posuere mi
+                                                                id ultrices pellentesque.</p>
+                                                        </li>
+                                                        <li class="reviews">
+                                                            <div class="header-reviews">
+                                                                <div class="person-reviews">
+                                                                    <div class="wrapper-img-reviews">
+                                                                        <img src="image/img-icon.jpg" alt="img reviews">
+                                                                    </div>
+                                                                    <h3 class="name-reviews">Denis Denis</h3>
+                                                                </div>
+                                                                <span class="date-reviews">10.03.19</span>
+                                                                <div class="reiting-commentators">10</div>
+                                                            </div>
+                                                            <p class="comments">Lorem ipsum dolor sit amet, consectetur
+                                                                adipiscing elit. Donec convallis massa in est lobortis
+                                                                volutpat. Nam posuere mi id ultrices pellentesque.</p>
+                                                        </li>
+                                                        <li class="reviews">
+                                                            <div class="header-reviews">
+                                                                <div class="person-reviews">
+                                                                    <div class="wrapper-img-reviews">
+                                                                        <img src="image/img-icon.jpg" alt="img reviews">
+                                                                    </div>
+                                                                    <h3 class="name-reviews">Ms. Parkinson</h3>
+                                                                </div>
+                                                                <span class="date-reviews">15.03.19</span>
+                                                                <div class="reiting-commentators negative-reiting">1
+                                                                </div>
+                                                            </div>
+                                                            <p class="comments">Lorem ipsum dolor sit amet, consectetur
+                                                                adipiscing elit. Donec convallis massa in est lobortis
+                                                                volutpat. Nam posuere mi id ultrices pellentesque.</p>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="footer-list">
+                                                <div class="block-time-translation about-none">
+                                                    <h4 class="name-info-title">Начнется через:</h4>
+                                                    <span class="about-translation-time">1 день 2 час. 53 мин.</span>
+                                                </div>
+                                                <div class="footer-item-translation about-none">
+                                                    <button type="button" class="btn-door"></button>
+                                                    <button type="button"
+                                                        class="translation-btn participate">Участвовать</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-item">
+                                        <div class="container-list-item">
+                                            <div class="header-afisha">
+                                                <h3>Медийная реклама для продуктовых компаний</h3>
+                                                <ul class="list-info-translation">
+                                                    <li class="item-info">
+                                                        <h4 class="name-item">дата:</h4>
+                                                        <span class="data">01.02.19</span>
+                                                        <span class="day-week">(пятница)</span>
+                                                    </li>
+                                                    <li class="item-info">
+                                                        <h4 class="name-item">время:</h4>
+                                                        <span class="time">19:00</span>
+                                                        <span class="zone">(+2 Киев)</span>
+                                                    </li>
+                                                    <li class="item-info">
+                                                        <h4 class="name-item">цена билета:</h4>
+                                                        <span class="price">500 грн</span>
+                                                    </li>
+                                                    <li class="item-info">
+                                                        <h4 class="name-item">продано билетов:</h4>
+                                                        <span class="buy">25</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="containeer-about-translation">
+                                                <div class="wrapper-baner-translation">
+                                                    <div class="img-translation">
+                                                        <img src="image/banner.jpg" alt="img translation">
+                                                    </div>
+                                                </div>
+                                                <div class="block-about-traslation">
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                                                        convallis massa in est lobortis volutpat. Nam posuere mi id
+                                                        ultrices pellentesque. In faucibus id ipsum vel facilisis.
+                                                        Nullam dignissim libero non dolor elementum scelerisque. Vivamus
+                                                        blandit efficitur tellus, sed mattis mi. Ut in mi et augue
+                                                        mattis consequat.</p>
+                                                </div>
+                                            </div>
+                                            <div class="footer-list">
+                                                <div class="block-time-translation">
+                                                    <h4 class="name-info-title">Начнется через:</h4>
+                                                    <span class="about-translation-time">10 дней 7 час. 13 мин.</span>
+                                                </div>
+                                                <div class="footer-item-translation">
+                                                    <button type="button" class="btn-door"></button>
+                                                    <button type="button" class="translation-btn pay-ticket">Купить
+                                                        билет</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                         <div class="wrapper-list-afisha-tickets">
