@@ -1366,16 +1366,22 @@ button {
     overflow-y: hidden;
 }
 
-.block-about-traslation {
-    max-height: 30px;
-}
-
 .block-about-traslation p {
     font-size: 12px;
     white-space: pre-line;
-    max-height: 30px;
+    /* max-height: 30px;
     overflow-y: hidden;
-    text-overflow: ellipsis;
+    text-overflow: ellipsis; */
+}
+
+.block-about-traslation .more{
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+
+.block-about-traslation .more:hover{
+    color: #ccff00;
 }
 
 .about-translation-time {
@@ -2792,7 +2798,7 @@ div.scrollWrapper {
     display: -webkit-box;
     display: flex;
     position: absolute;
-    bottom: 0;
+    bottom: 5px;
     -webkit-box-pack: end;
     justify-content: flex-end;
 }
@@ -6923,11 +6929,11 @@ transition: all .5s;
     flex-direction: column;
     -webkit-box-align: center;
     align-items: center;
-    -webkit-box-pack: justify;
-    justify-content: space-between;
+    -webkit-box-pack: end;
+            justify-content: flex-end;
     height: 100%;
     width: unset;
-    max-height: 250px;
+    max-height:28vh;
 }
 
 .active-small-height .small-height-left .icon-footer {
@@ -7005,6 +7011,7 @@ transition: all .5s;
 .active-small-height .close-frame {
     display: block;
     z-index: 10;
+    right: 5px;
 }
 
 .active-small-height .active-pay-donut {
@@ -7049,7 +7056,7 @@ transition: all .5s;
 
 .wrapper-setting-game {
     display: none;
-    height: 55vh;
+    height: 56vh;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     flex-direction: column;

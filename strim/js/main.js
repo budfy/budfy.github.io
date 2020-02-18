@@ -24,7 +24,7 @@ $(document).ready(function () {
     $(window).resize(calcSize);
 
     $(window).on("orientationchange", function(event) {
-        setTimeout(calcSize(), 2000);
+        setTimeout(calcSize, 300);
     });
 
     $(".burger__menu").click(function () {
@@ -314,7 +314,7 @@ $(document).ready(function () {
 
     $(".add-new-video-strimer").on('click', function () {
         $(".wrapper-wideo-players").toggleClass("active-new-vindow");
-        setTimeout(calcSize(), 2000);
+        setTimeout(calcSize, 300);
     });
 
     $(".count").on('click', function () {
@@ -651,7 +651,7 @@ $(document).ready(function () {
             $(this).closest('.content').find('.wrapper-about-frame').addClass('active-frame');
             $('.active-frame').slideDown(500);
             $(this).closest('.content').find('.wrapper-stream-content').addClass('active-frame-height');
-            setTimeout(calcSize(), 2000);
+            setTimeout(calcSize, 300);
         }
     });
 
@@ -664,7 +664,7 @@ $(document).ready(function () {
         event.preventDefault();
         $(this).closest('.container-stream').find('.autorization-frame').slideToggle(500);
         $(this).closest('.container-stream').find('.wrapper-stream-content').toggleClass('active-frame-height');
-        setTimeout(calcSize(), 2000);
+        setTimeout(calcSize, 300);
     });
 
     $('.start-translation').on('click', function (event) {
@@ -681,7 +681,7 @@ $(document).ready(function () {
         $(this).closest('.container-stream').find('.wrapper-frame-content').slideToggle(500);
         $(this).closest('.container-stream').find('.wrapper-about-frame').toggleClass('active-small-height');
         $(this).closest('.container-stream').find('.wrapper-stream-content').toggleClass('active-frame-height');
-        setTimeout(calcSize(), 2000);
+        setTimeout(calcSize, 300);
     });
 
 
@@ -871,23 +871,14 @@ $(document).ready(function () {
     $('.language-overlay').on("click", function(){
         $('.list-language').fadeTo(500, 0);
         $('.language').removeClass('language-active');
-    })
-
-    var swiperAfisha = new Swiper('.swiper-afisha-h', {
-        // Optional parameters
-        slidersperview: 'auto',
-        spaceBetween: '5px',
-        //mousewheel: true,
-        freeMode: true,
-        loop: false,
-        // slideToClickedSlide: true,
     });
 
-    var swiperAfishaInner = new Swiper('.swiper-afisha-v', {
-        direction: 'vertical',
-        mousewheel: true,
-        freeMode: true,
-        loop: false,
-    })
+    $('.block-about-traslation>p').liTextLength({
+        length: 200,        //Видимое кол-во символов
+        afterLength: '...', //Текст после видимого содержания   
+        fullText:true,      //Добавить ссылку для отображения скрытого текста
+        moreText: ' >>>',  //Текст ссылки до показа скрытого содержания
+        lessText: ' <<<'   //Текст ссылки после показа скрытого содержания
+      });
 
 });
