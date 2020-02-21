@@ -87,11 +87,12 @@
         width: 30%;
     }
 
-    .video-strim, .next-strim .video-strim{
+    .video-strim,
+    .next-strim .video-strim {
         max-width: 350px;
     }
 
-    .chat-setting-wrapper .message-person{
+    .chat-setting-wrapper .message-person {
         max-width: 80%;
     }
 }
@@ -586,7 +587,8 @@
     .right-block-whatch {
         max-width: 305px;
     }
-/* 
+
+    /* 
     .wrapper-container-pay {
         max-width: 281px;
     } */
@@ -1084,7 +1086,7 @@
     }
 
     .card-number {
-        font-size: 11px;
+        font-size: 9px;
         margin-top: 3px;
     }
 
@@ -1092,13 +1094,13 @@
         margin-top: 3px;
     }
 
-    .payment-cart {
+    /* .payment-cart {
         height: 68px;
-    }
+    } */
 
-    .chip img {
+    /* .chip img {
         max-width: 15px;
-    }
+    } */
 
     .wrapper-card {
         width: 155px;
@@ -1260,20 +1262,21 @@
 
 }
 
-@media only screen and (max-width: 1152px) and (min-width: 320px), (max-height: 1000px) {
-    .next-strim{
+@media only screen and (max-width: 1152px) and (min-width: 320px),
+(max-height: 1000px) {
+    .next-strim {
         width: 35%;
     }
 
-    .wrapper-right-list-whatch .wrapper-whatching{
+    .wrapper-right-list-whatch .wrapper-whatching {
         height: 115px;
     }
 
-    .wrapper-picker{
+    .wrapper-picker {
         margin-top: 5px;
     }
 
-    .chat-setting-wrapper{
+    .chat-setting-wrapper {
         right: 0;
         left: auto;
         width: 28%;
@@ -1281,7 +1284,7 @@
         bottom: unset;
     }
 
-    .chat-setting-wrapper .content-list-chat{
+    .chat-setting-wrapper .content-list-chat {
         height: 120px;
     }
 }
@@ -1318,14 +1321,14 @@
         line-height: 15px;
     }
 
-    .active-frame-height{
+    .active-frame-height {
         height: calc(46vh - 102px);
     }
 
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 320px) {
-    
+
     .list-strim-about {
         margin-left: 0;
     }
@@ -1653,6 +1656,7 @@
 
     .message-strimer {
         font-size: 12px;
+        padding: 5px;
     }
 
     .edit-input-form {
@@ -1797,7 +1801,7 @@
         min-height: 21vh;
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
-                flex-direction: row;
+        flex-direction: row;
     }
 
     .active-small-height .active-pay-donut .pay-and-coment-block {
@@ -2147,32 +2151,34 @@
         margin: 20px 0;
     }
 
-    .next-strim{
+    .next-strim {
         width: 29%;
     }
 
-    .sount-input>.checkbox-custom:checked+.checkbox-custom-label>.checkbox-custom-label-span::after, .audio-container .checkbox-custom:checked+.checkbox-custom-label>.checkbox-custom-label-span::after{
+    .sount-input>.checkbox-custom:checked+.checkbox-custom-label>.checkbox-custom-label-span::after,
+    .audio-container .checkbox-custom:checked+.checkbox-custom-label>.checkbox-custom-label-span::after {
         top: -3px;
     }
 
-    .checkbox-custom:checked+.checkbox-custom-label>.checkbox-custom-label-span::after{
+    .checkbox-custom:checked+.checkbox-custom-label>.checkbox-custom-label-span::after {
         top: -2px;
     }
 
-    .chat-setting-wrapper{
+    .chat-setting-wrapper {
         height: 33%;
     }
 
-    .chat-setting-wrapper .chat-wrapper{
+    .chat-setting-wrapper .chat-wrapper {
         height: 100%;
     }
 }
 
 @media only screen and (max-width: 1023px) and (min-width: 320px) {
-    
-    .translation, .wrapper-start-translation  {
+
+    .translation,
+    .wrapper-start-translation {
         display: none !important;
-    } 
+    }
 
     .no-bg .about-frame {
         height: 80vh;
@@ -2183,119 +2189,120 @@
 }
 
 @media only screen and (max-width: 850px) and (min-width: 320px) and (max-height: 850px) {
-    
+
     .list-stream {
         margin-left: -30px;
     }
-    
+
     .item-stream {
         width: 100%;
         max-width: unset;
         max-height: unset;
     }
-    
-    .item-link-menu, .help{
+
+    .item-link-menu,
+    .help {
         margin: 0 auto;
     }
-    
+
     .item-footer {
         width: 100%;
     }
-    
+
     .name-stream {
         font-size: 10px;
     }
-    
-    .container-answer p{
+
+    .container-answer p {
         font-size: 10px;
     }
-    
+
     .title-stream {
         float: left;
     }
-    
+
     .btn-search {
         width: 14px;
         height: 14px;
     }
-    
+
     .search-container {
         height: 22px;
         left: -5px;
     }
-    
+
     .frame {
         font-size: 20px;
     }
-    
+
     .frame-container {
         margin-left: 5px;
     }
-    
+
     .rules {
         max-width: 55px;
         line-height: 10px;
         font-size: 11px;
     }
-    
+
     .search-container {
         max-width: 150px;
     }
-    
+
     .wrapper-about-frame {
         overflow-y: auto;
         height: 100vh;
     }
-    
+
     .big-stream-container {
         height: -webkit-fit-content;
         height: -moz-fit-content;
         height: fit-content;
     }
-    
+
     .no-bg .about-frame {
         height: 100%;
         -webkit-box-pack: start;
         justify-content: flex-start;
     }
-    
+
     .wrapper-wideo-players {
         height: -webkit-fit-content;
         height: -moz-fit-content;
         height: fit-content;
     }
-    
+
     .content {
         max-height: calc(100vh - 78px);
         height: 100%;
         overflow-y: auto;
     }
-    
+
     .chat-wrapper {
         height: 35%;
         overflow-y: auto;
         position: relative;
     }
 
-    .active-small-height .chat-wrapper{
+    .active-small-height .chat-wrapper {
         height: 100%;
     }
-    
+
     .content-list-chat {
         height: unset;
         position: static;
     }
-    
+
     .container-info-about-strim-video {
         width: 100%;
     }
-    
+
     .wrapper-content-player {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         flex-direction: column;
     }
-    
+
     .right-block-whatch {
         width: 100%;
         max-width: unset;
@@ -2303,33 +2310,33 @@
         height: -moz-fit-content;
         height: fit-content;
     }
-    
+
     .list-whatch {
         display: -webkit-box;
         display: flex;
         flex-wrap: wrap;
     }
-    
+
     .wrapper-container-pay {
         max-width: unset;
     }
-    
+
     .wrapper-container-pay button {
         max-width: unset;
     }
-    
+
     .autorization {
         height: 100vh;
     }
-    
+
     .active-registration-form .wrapper-registration {
         height: 95%;
     }
-    
+
     .container-save {
         margin: 0 auto;
     }
-    
+
     .checkbox-custom:checked+.checkbox-custom-label::after {
         left: 4px;
         top: 3px;
@@ -2354,24 +2361,25 @@
 }
 
 @media only screen and (max-width: 808px) and (min-width: 320px) {
-    
+
     .content {
         max-height: calc(100vh - 53px);
         height: 100%;
     }
-    
+
     .list-stream {
         -webkit-box-pack: center;
         justify-content: center;
     }
-    
+
     .logo img,
     .logo {
         max-width: 180px;
         height: auto;
     }
 
-    .header, .left-content-stream {
+    .header,
+    .left-content-stream {
         padding: 10px;
     }
 
@@ -2558,15 +2566,15 @@
         right: 30px;
     }
 
-    .notifications-wrapper{
+    .notifications-wrapper {
         overflow: auto;
     }
 
-    .notifications-list{
+    .notifications-list {
         min-width: 800px;
     }
 
-    .title-block-notifications{
+    .title-block-notifications {
         min-width: 120px;
         max-width: 120px;
         margin-right: 0;
@@ -2582,11 +2590,11 @@
         max-width: 150px;
     }
 
-    .date-broadcast{
+    .date-broadcast {
         min-width: 100px;
     }
 
-    .status-translation{
+    .status-translation {
         min-width: 113px;
     }
 
@@ -2596,7 +2604,7 @@
         min-width: 160px;
     }
 
-    .choice{
+    .choice {
         width: 80px;
     }
 
@@ -3254,7 +3262,7 @@
         width: 100%;
     }
 
-    .content-chat-question{
+    .content-chat-question {
         padding-bottom: 0;
         height: 100%;
     }
@@ -3327,7 +3335,7 @@
         margin-left: 10px;
     }
 
-    .content-admin .account-info{
+    .content-admin .account-info {
         width: 35%;
     }
 
@@ -3340,7 +3348,7 @@
         font-size: 30px;
     }
 
-    .content-admin .name-account-profile{
+    .content-admin .name-account-profile {
         font-size: 20px;
     }
 }
@@ -3361,11 +3369,9 @@
         width: 100%;
     }
 
-    .active-small-height .bottom-pay-info {
-        
-    }
+    .active-small-height .bottom-pay-info {}
 
-    .active-small-height .wrapper-whatching{
+    .active-small-height .wrapper-whatching {
         display: none;
     }
 }
@@ -3373,6 +3379,7 @@
 @media only screen and (max-width: 500px) and (min-width: 320px) {
     .left-content-stream {
         width: 35px;
+        padding: 10px 0;
     }
 
     .menu-left__icon {
@@ -3458,24 +3465,24 @@
         max-width: unset;
     }
 
-    .content-admin .panel-translation-setting{
+    .content-admin .panel-translation-setting {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
-                flex-direction: column;
+        flex-direction: column;
     }
 
     .content-admin .account-info {
         width: 100%;
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
-                flex-direction: row;
+        flex-direction: row;
     }
 
     .content-admin .text-name-account {
         text-align: left;
         margin-left: 10px;
         -webkit-box-align: start;
-                align-items: flex-start;
+        align-items: flex-start;
     }
 
     .list-stream {
@@ -3487,21 +3494,22 @@
         margin: 0;
     }
 
-    .title-name-chater-title{
+    .title-name-chater-title {
         position: relative;
     }
 
-    .number-message{
-        width: 12px;
-        height: 12px;
-        font-size: 7px;
+    .number-message {
+        width: 27px;
+        height: 27px;
         position: absolute;
-        top: 0;
-        left: -29px;
-        margin: 0;   
+        top: -6px;
+        left: -37px;
+        margin: 0;
+        opacity: .5;
+        font-size: 20px;
     }
 
-    .active-small-height .payment-list{
+    .active-small-height .payment-list {
         display: none;
     }
 }
@@ -3559,17 +3567,17 @@
         margin-top: 5px;
     }
 
-    .language{
+    .language {
         min-width: 40px;
     }
 
     .lang-btn {
         height: 11px;
         -webkit-box-pack: center;
-                justify-content: center;
+        justify-content: center;
     }
 
-    .lang-btn img{
+    .lang-btn img {
         border-radius: 2px;
     }
 
@@ -3579,30 +3587,31 @@
         font-size: 11px;
     }
 
-    .lang-name:before, .lang-name:after {
+    .lang-name:before,
+    .lang-name:after {
         top: 100%;
         -webkit-transform: translateY(0);
-                transform: translateY(0);
+        transform: translateY(0);
     }
 
     .lang-name:before {
         left: 0;
         -webkit-transform: rotate(45deg);
-                transform: rotate(45deg);
+        transform: rotate(45deg);
         right: unset;
     }
 
     .lang-name:after {
         right: 0;
         -webkit-transform: rotate(-45deg);
-                transform: rotate(-45deg);
+        transform: rotate(-45deg);
     }
 
-    .language-active .lang-name:before{
+    .language-active .lang-name:before {
         left: 3px;
     }
 
-    .language-active .lang-name:after{
+    .language-active .lang-name:after {
         right: 4px;
     }
 
@@ -3611,33 +3620,37 @@
         padding: 5px;
     }
 
-    .container-save label{
+    .container-save label {
         font-size: 12px;
     }
 
-    .item-sub-title{
+    .item-sub-title {
         height: 13px;
     }
 
-    .item-sub-title a{
+    .item-sub-title a {
         font-size: 10px;
         padding: 0;
     }
 
-    .wrapper-left-chat-list{
+    .wrapper-left-chat-list {
         max-width: 115px;
     }
 
-    .wrapper-about-chater{
+    .wrapper-about-chater {
         width: 95px;
     }
 
-    .delete{
+    .delete {
         margin-right: 0;
     }
 
     .title-name-chater-title {
         font-size: 10px;
+    }
+
+    .number-message {
+        top: -8px;
     }
 }
 
@@ -3659,10 +3672,12 @@
 }
 
 @media only screen and (max-height: 1000px) and (min-height: 320px) {
-    .afisha-list .list-item{
+    .afisha-list .list-item {
         overflow-y: auto;
     }
-    .footer-item-translation, .public-footer.footer-none-active{
+
+    .footer-item-translation,
+    .public-footer.footer-none-active {
         width: 100%;
     }
 }
@@ -3685,53 +3700,53 @@
 
     .wrapper-registration {
         -webkit-transform: translateY(91%);
-                transform: translateY(91%);
+        transform: translateY(91%);
     }
 
-    .autorization-frame .input-form-input{
+    .autorization-frame .input-form-input {
         margin-bottom: 5px;
     }
 
     .active-registration-form .wrapper-registration {
         -webkit-transform: translateY(-10%);
-                transform: translateY(-10%);
+        transform: translateY(-10%);
     }
 
-    .container-title-strim-footer{
+    .container-title-strim-footer {
         height: 45px;
     }
-    
-    .whatch-stream-player .icon-footer{
+
+    .whatch-stream-player .icon-footer {
         width: 25px;
         height: 25px;
     }
 
-    .whatch-stream-player .number-count{
+    .whatch-stream-player .number-count {
         font-size: 15px;
     }
 
-    .icon-container-strim{
+    .icon-container-strim {
         display: -webkit-box;
         display: flex;
     }
 
-    .block-write{
+    .block-write {
         padding: 5px 0 0 0;
     }
 
-    .no-bg .about-frame{
+    .no-bg .about-frame {
         padding: 5px 0;
     }
 
-    .whatch-stream-player .name-stream{
+    .whatch-stream-player .name-stream {
         font-size: 12px;
     }
 
-    .wrapper-chat-list-right{
+    .wrapper-chat-list-right {
         height: calc(100% - 50px);
     }
 
-    .container-message-information input{
+    .container-message-information input {
         height: 20px;
         font-size: 12px;
     }
@@ -3748,24 +3763,28 @@
     .help {
         font-size: 12px;
         padding: 5px 0;
-        margin: 0 auto;
+        margin: auto;
     }
 
-    .icon-container-strim{
+    .help {
+        margin: 5px auto;
+    }
+
+    .icon-container-strim {
         display: -webkit-box;
         display: flex;
         min-height: unset;
     }
 
-    .whatch-stream-player .name-stream{
+    .whatch-stream-player .name-stream {
         font-size: 10px;
     }
 
-    .container-title-strim-footer{
+    .container-title-strim-footer {
         height: 30px;
     }
 
-    .title-name-chater{
+    .title-name-chater {
         height: 22px;
     }
 
@@ -3774,17 +3793,42 @@
         width: 20px;
     }
 
-    .img-avatar-wrapper img{
+    .img-avatar-wrapper img {
         -o-object-fit: cover;
-           object-fit: cover;
+        object-fit: cover;
     }
 
-    .error-info-form{
+    .error-info-form {
         font-size: 11px;
     }
 
-    .restore-password-btn{
+    .restore-password-btn {
         font-size: 12px;
         margin-top: 5px;
+    }
+
+    .wrapper-whatching {
+        max-height: 5vh;
+    }
+
+    .number-message {
+        width: 20px;
+        height: 20px;
+        left: -30px;
+        top: -5px;
+        font-size: 11px;
+    }
+
+    .save-me {
+        margin-bottom: 0;
+    }
+
+    .active-registration-form .wrapper-registration {
+        -webkit-transform: translateY(0%);
+        transform: translateY(0%);
+    }
+
+    .active-registration-form {
+        height: 250px;
     }
 }
