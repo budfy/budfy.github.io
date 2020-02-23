@@ -29,11 +29,17 @@
     }
 }
 
+
+
+
 @media only screen and (max-width: 3840px) and (min-width: 320px) {
     .item-strim-about {
         width: calc((100% / 5) - 30px);
     }
 }
+
+
+
 
 @media only screen and (max-width: 2270px) and (min-width: 320px) {
     .item-strim-about {
@@ -73,6 +79,9 @@
     }
 }
 
+
+
+
 @media only screen and (max-width: 1920px) and (min-width: 320px) {
     .wrapper-list-admin {
         overflow-y: auto;
@@ -96,6 +105,9 @@
         max-width: 80%;
     }
 }
+
+
+
 
 @media only screen and (max-width: 1700px) and (min-width: 320px) {
 
@@ -156,9 +168,9 @@
         height: 80vw;
     } */
 
-    .list-item {
+    /* .list-item {
         height: 475px;
-    }
+    } */
 
     .container-video,
     .container-video img,
@@ -208,6 +220,9 @@
     }
 }
 
+
+
+
 @media only screen and (max-width: 1585px) and (min-width: 320px) {
 
     .scroll-payment-js {
@@ -237,6 +252,9 @@
         margin-left: auto;
     }
 }
+
+
+
 
 @media only screen and (max-width: 1440px) and (min-width: 320px) {
 
@@ -397,9 +415,9 @@
         line-height: 16px;
     }
 
-    .list-item {
+    /* .list-item {
         width: 372px;
-    }
+    } */
 
     .container-list-item {
         width: 366px;
@@ -872,9 +890,9 @@
         height: 50vh;
     } */
 
-    .wrapper-setting-game {
+    /* .wrapper-setting-game {
         height: 55vh;
-    }
+    } */
 
     .edit-about-translation {
         height: 70px;
@@ -1189,8 +1207,7 @@
         height: 53vh;
     }
 
-    .about-frame,
-    .regulations-block {
+    .about-frame {
         height: 53vh;
     }
 
@@ -1202,9 +1219,9 @@
         margin-right: 0;
     }
 
-    .list-item {
+    /* .list-item {
         height: 375px;
-    }
+    } */
 
     .edit-about-translation {
         height: 60px;
@@ -1232,14 +1249,14 @@
         height: 98px;
     }
 
-    .notifications-wrapper,
+    /* .notifications-wrapper,
     .wrapper-list-afisha,
     .wrapper-list-afisha-tickets,
     .finance-wrapper,
     .setting-frame-wrapper,
     .wrapper-setting-game {
         height: 48vh;
-    }
+    } */
 
     .description-block {
         max-width: 153px;
@@ -1978,12 +1995,93 @@
         font-size: 12px;
     }
 
-    .list-item {
-        height: 352px;
+    .container-afisha {
+        height: calc(100vw - 150px);
+        width: 55vh;
     }
 
+    /* .list-item {
+        height: 352px;
+    } */
+
     .choice-status a {
-        font-size: 14px;
+        font-size: 12px;
+    }
+
+    .edit-name,
+    .edit-data-input,
+    .edit-time-input,
+    .edit-price-input,
+    .edit-about-translation,
+    .nick-name,
+    .one-nick-name {
+        font-size: 12px;
+    }
+
+    .edit-data label,
+    .edit-time label,
+    .edit-price label {
+        font-size: 12px;
+    }
+
+    .free-status-price {
+        font-size: 12px;
+    }
+
+    .edit-poster-item p {
+        font-size: 12px;
+    }
+
+    .item-info h4,
+    .item-info span {
+        font-size: 12px;
+        margin-bottom: 2px;
+    }
+
+    .edit-image,
+    .edit-image-bg {
+        font-size: 30px;
+    }
+
+    .edit-image::before {
+        width: 25px;
+        height: 25px;
+        top: 100%;
+    }
+
+    .and-translation {
+        font-size: 12px;
+    }
+
+    .your-mark {
+        margin: 0;
+    }
+
+    #review_stars1 label {
+        width: 11px;
+        height: 14px;
+    }
+
+    #review_stars1 input~label i {
+        font-size: 9px;
+    }
+
+    #review_stars1 input:checked~label i {
+        color: #ffea00;
+        font-size: 8px;
+    }
+
+    .reviews .comments {
+        font-size: 10px;
+    }
+
+    .title-participants,
+    .quantity {
+        font-size: 12px;
+    }
+
+    .container-list-item {
+        width: 250px;
     }
 
     .active-small-height .whatch-stream-player .item-footer {
@@ -2016,7 +2114,7 @@
     }
 
     .list-item h3 {
-        font-size: 14px;
+        font-size: 12px;
         text-align: center;
         line-height: 13px;
     }
@@ -2200,10 +2298,10 @@
         max-height: unset;
     }
 
-    .item-link-menu,
+    /* .item-link-menu,
     .help {
         margin: 0 auto;
-    }
+    } */
 
     .item-footer {
         width: 100%;
@@ -2433,10 +2531,9 @@
     }
 
     .item-link-menu {
-        font-size: 15px;
+        font-size: 13px;
         padding: 10px 0;
         font-weight: normal;
-        text-align: center;
     }
 
     .container-video-strim {
@@ -2453,8 +2550,7 @@
     }
 
     .help {
-        font-size: 14px;
-        text-align: center;
+        font-size: 13px;
     }
 
     .item-menu {
@@ -2485,18 +2581,10 @@
         max-width: 200px;
     }
 
-    .container-afisha {
-        height: 100vw;
-    }
-
     .list-item {
         height: 100%;
         width: unset;
         overflow-y: auto;
-    }
-
-    .container-list-item {
-        width: calc(100vw - 60px);
     }
 
     .list-item h3 {
@@ -2507,22 +2595,18 @@
         margin-top: 15px;
     }
 
-    .wrapper-list-afisha {
-        width: 100vw;
-    }
-
     .edit-poster-item {
         height: 130px;
     }
 
-    .block-about-traslation p {
+    /* .block-about-traslation p {
         font-size: 16px;
     }
 
     .item-info h4,
     .item-info span {
         font-size: 16px;
-    }
+    } */
 
     .img-translation {
         max-height: 175px;
@@ -2630,18 +2714,6 @@
 
     .autorization {
         height: 63vh;
-    }
-
-    .container-afisha {
-        -webkit-transform: rotate(0deg);
-        transform: rotate(0deg);
-        overflow: auto;
-        height: 50vh;
-    }
-
-    .afisha-list {
-        -webkit-transform: rotate(0deg);
-        transform: rotate(0deg);
     }
 
     .big-stream-container {
@@ -3512,6 +3584,19 @@
     .active-small-height .payment-list {
         display: none;
     }
+
+    .wrapper-list-afisha,
+    .wrapper-list-afisha-tickets {
+        -webkit-box-align: start;
+        align-items: flex-start;
+    }
+
+    .container-afisha {
+        height: unset;
+        -webkit-box-pack: start;
+        justify-content: flex-start;
+
+    }
 }
 
 @media only screen and (max-width: 450px) and (min-width: 320px) {
@@ -3585,34 +3670,6 @@
         padding-right: 0;
         padding-bottom: 5px;
         font-size: 11px;
-    }
-
-    .lang-name:before,
-    .lang-name:after {
-        top: 100%;
-        -webkit-transform: translateY(0);
-        transform: translateY(0);
-    }
-
-    .lang-name:before {
-        left: 0;
-        -webkit-transform: rotate(45deg);
-        transform: rotate(45deg);
-        right: unset;
-    }
-
-    .lang-name:after {
-        right: 0;
-        -webkit-transform: rotate(-45deg);
-        transform: rotate(-45deg);
-    }
-
-    .language-active .lang-name:before {
-        left: 3px;
-    }
-
-    .language-active .lang-name:after {
-        right: 4px;
     }
 
     .list-language {

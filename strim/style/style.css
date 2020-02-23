@@ -1252,12 +1252,13 @@ button {
     display: flex;
     -webkit-transform: rotate(-270deg);
     transform: rotate(-270deg);
-    width: 97%;
+    width: 90%;
+    height: 52vh;
 }
 
 .list-item {
     overflow: hidden;
-    width: 400px;
+    /* width: 400px; */
     display: -webkit-box;
     display: flex;
     -webkit-box-orient: vertical;
@@ -3616,8 +3617,8 @@ div.scrollWrapper {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     flex-direction: column;
-    -webkit-transform: translateY(100%);
-    transform: translateY(100%);
+    -webkit-transform: translateY(110%);
+    transform: translateY(110%);
     -webkit-transition: .5s;
     transition: .5s;
 }
@@ -4209,7 +4210,7 @@ div.scrollWrapper {
     display: -webkit-box;
     display: flex;
     -webkit-box-align: center;
-    align-items: flex-start;
+    align-items: center;
     text-transform: uppercase;
     margin-left: auto;
     position: relative;
@@ -4252,33 +4253,6 @@ div.scrollWrapper {
     position: relative;
     padding-right: 20px;
     text-transform: uppercase;
-}
-
-.lang-name:before, .lang-name:after{
-content: "";
-position: absolute;
-height: 1px;
-width: 10px;
-background-color: #fff;
-top: 50%;
-}
-
-.lang-name:before{
-    -webkit-transform: translateY(-50%) rotate(45deg);
-            transform: translateY(-50%) rotate(45deg);
-            right: 6px;
-}
-
-.lang-name:after{
-    -webkit-transform: translateY(-50%) rotate(-45deg);
-            transform: translateY(-50%) rotate(-45deg);
-            right: 0px;
-}
-
-.language-active .lang-name:after{
-    -webkit-transform: translateY(-50%) rotate(-45deg);
-            transform: translateY(-50%) rotate(-45deg);
-            right: 6px;
 }
 
 .list-language {
@@ -7053,11 +7027,17 @@ transition: all .5s;
 .wrapper-list-afisha,
 .wrapper-list-afisha-tickets {
     position: relative;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+            justify-content: center;
 }
 
 .wrapper-setting-game {
     display: none;
-    height: 56vh;
+    /* height: 56vh; */
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     flex-direction: column;
@@ -7137,7 +7117,7 @@ transition: all .5s;
     transform: translateY(-300%);
     -webkit-transition: .7s;
     transition: .7s;
-    overflow-y: hidden;
+    /* overflow: hidden; */
 }
 
 .active-finance .wrapper-content-chat-content {
@@ -7592,7 +7572,7 @@ transition: all .5s;
 
 .container-afisha {
     overflow-x: hidden;
-    height: 83vw;
+    height: calc(100vw - 229px);
     display: -webkit-box;
     display: flex;
     -webkit-box-pack: center;
@@ -7600,11 +7580,7 @@ transition: all .5s;
     overflow-y: auto;
     -webkit-transform: rotate(270deg);
     transform: rotate(270deg);
-}
-
-.wrapper-list-afisha .container-afisha {
-    display: -webkit-box;
-    display: flex;
+    width: 53vh;
 }
 
 .notifications-wrapper {
