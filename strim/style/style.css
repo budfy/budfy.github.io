@@ -2709,10 +2709,14 @@ div.scrollWrapper {
 
 .wrapper-left-chat-list {
     border-right: 1px solid #597210;
-    max-width: 250px;
     width: 100%;
     overflow-y: auto;
     margin-left: 15px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    max-height: 150px;
+    display: none;
 }
 
 .wrapper-content-chat-content {

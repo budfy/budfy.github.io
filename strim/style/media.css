@@ -2587,13 +2587,13 @@
         overflow-y: auto;
     }
 
-    .list-item h3 {
+    /* .list-item h3 {
         color: #CCFF00;
         font-size: 16px;
         text-align: center;
         line-height: 110%;
         margin-top: 15px;
-    }
+    } */
 
     .edit-poster-item {
         height: 130px;
@@ -3450,7 +3450,6 @@
 
 @media only screen and (max-width: 500px) and (min-width: 320px) {
     .left-content-stream {
-        width: 35px;
         padding: 10px 0;
     }
 
@@ -3464,28 +3463,6 @@
 
     .active-link .menu-left__icon {
         fill: #CCFF00;
-    }
-
-    .item-menu__text {
-        display: none;
-    }
-
-    .help {
-        border: 1px solid #ffffff;
-        border-radius: 50%;
-        width: 20px;
-        height: 20px;
-        padding-top: 2px;
-    }
-
-    .help-wide {
-        display: none;
-    }
-
-    .help-mobile {
-        display: block;
-        position: relative;
-        text-align: center;
     }
 
     .footer-none-active {
@@ -3589,14 +3566,78 @@
     .wrapper-list-afisha-tickets {
         -webkit-box-align: start;
         align-items: flex-start;
+        -webkit-box-pack: start;
+                justify-content: flex-start;
     }
 
     .container-afisha {
-        height: unset;
-        -webkit-box-pack: start;
-        justify-content: flex-start;
-
+            height: unset;
+            -webkit-box-pack: start;
+            justify-content: flex-start;
+            width: calc(100vw - 150px);
+            -webkit-transform: none;
+                    transform: none;
     }
+
+    .afisha-list {
+        display: -webkit-box;
+        display: flex;
+        -webkit-transform: none;
+                transform: none;
+        width: 100%;
+        height: unset;
+        overflow: auto;
+    }
+
+    .container-list-item {
+        width: calc(100vw - 150px);
+    }
+
+    .settings-btn {
+        width: 15px;
+        height: 15px;
+        right: 30px;
+        top: 10px;
+    }
+
+    .delete-btn-list {
+        width: 15px;
+        height: 15px;
+        top: 10px;
+    }
+
+    .wrapper-btn-footer-translation .purchased {
+        position: absolute;
+        left: 15px;
+        bottom: 7px;
+        font-size: 10px;
+        max-width: 100px;
+    }
+
+    .reiting-commentators {
+        width: 15px;
+        height: 15px;
+        font-size: 10px;
+        opacity: .6;
+    }
+
+    .date-reviews {
+        margin-right: 0;
+    }
+
+    .menu-left {
+        padding-left: 10px;
+    }
+
+    .translation-btn {
+        font-size: 11px;
+    }
+
+    .public-footer .btn-close{
+        width: 10px;
+        height: 10px;
+    }
+
 }
 
 @media only screen and (max-width: 450px) and (min-width: 320px) {
@@ -3688,10 +3729,6 @@
     .item-sub-title a {
         font-size: 10px;
         padding: 0;
-    }
-
-    .wrapper-left-chat-list {
-        max-width: 115px;
     }
 
     .wrapper-about-chater {
@@ -3820,11 +3857,10 @@
     .help {
         font-size: 12px;
         padding: 5px 0;
-        margin: auto;
     }
 
     .help {
-        margin: 5px auto;
+        margin: 0;
     }
 
     .icon-container-strim {

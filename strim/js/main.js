@@ -695,6 +695,7 @@ $(document).ready(function () {
         $(this).closest('.about-frame').find('.big-center-info').removeClass('active-finance');
         $(this).closest('.about-frame').find('.big-center-info').removeClass('active-frame-list');
         $(this).closest('.about-frame').find('.active-game-list').slideUp();
+        $('.wrapper-left-chat-list').slideUp();
     });
 
     $('.message-link').on('click', function () {
@@ -705,6 +706,7 @@ $(document).ready(function () {
         $(this).closest('.about-frame').find('.big-center-info').removeClass('active-finance');
         $(this).closest('.about-frame').find('.big-center-info').removeClass('active-frame-list');
         $(this).closest('.about-frame').find('.active-game-list').slideUp();
+        $('.wrapper-left-chat-list').slideToggle();
     });
 
     $('.schedule-link').on('click', function () {
@@ -715,6 +717,7 @@ $(document).ready(function () {
         $(this).closest('.about-frame').find('.big-center-info').removeClass('active-finance');
         $(this).closest('.about-frame').find('.big-center-info').removeClass('active-frame-list');
         $(this).closest('.about-frame').find('.active-game-list').slideUp();
+        $('.wrapper-left-chat-list').slideUp();
     });
 
     $('.tickets-link').on('click', function () {
@@ -725,6 +728,7 @@ $(document).ready(function () {
         $(this).closest('.about-frame').find('.big-center-info').removeClass('active-finance');
         $(this).closest('.about-frame').find('.big-center-info').removeClass('active-frame-list');
         $(this).closest('.about-frame').find('.active-game-list').slideUp();
+        $('.wrapper-left-chat-list').slideUp();
     });
 
     $('.finance-link').on('click', function () {
@@ -735,6 +739,7 @@ $(document).ready(function () {
         $(this).closest('.about-frame').find('.big-center-info').removeClass('active-message-block');
         $(this).closest('.about-frame').find('.big-center-info').removeClass('active-frame-list');
         $(this).closest('.about-frame').find('.active-game-list').slideUp();
+        $('.wrapper-left-chat-list').slideUp();
     });
     $('.about-frame-link').on('click', function () {
         $(this).closest('.about-frame').find('.big-center-info').addClass('active-frame-list');
@@ -744,6 +749,7 @@ $(document).ready(function () {
         $(this).closest('.about-frame').find('.big-center-info').removeClass('active-notifications');
         $(this).closest('.about-frame').find('.big-center-info').removeClass('active-message-block');
         $(this).closest('.about-frame').find('.active-game-list').slideUp();
+        $('.wrapper-left-chat-list').slideUp();
     });
 
     $('.setting-stream').on('click', function () {
