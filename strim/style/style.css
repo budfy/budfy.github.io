@@ -2711,7 +2711,6 @@ div.scrollWrapper {
     border-right: 1px solid #597210;
     width: 100%;
     overflow-y: auto;
-    margin-left: 15px;
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;

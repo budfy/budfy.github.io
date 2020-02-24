@@ -1829,11 +1829,6 @@
         min-width: 233px;
     }
 
-    .wrapper-left-chat-list {
-        max-width: 193px;
-        margin-left: 10px;
-    }
-
     .setting-frame {
         height: 85vh !important;
     }
@@ -2102,6 +2097,7 @@
 
     .active-violations .violations-block {
         margin-left: 0;
+        height: 100%;
     }
 
     .notifications-wrapper,
@@ -2525,10 +2521,9 @@
         flex-direction: column;
     }
 
-    .wrapper-left-chat-list {
-        margin-left: 0;
+    /* .wrapper-left-chat-list {
         max-width: 145px;
-    }
+    } */
 
     .item-link-menu {
         font-size: 13px;
@@ -2733,7 +2728,7 @@
         height: 21vh;
     }
 
-    .active-small-height {
+    .active-small-height>div{
         height: 21vh;
     }
 
@@ -2827,7 +2822,7 @@
     }
 
     .active-small-height .about-frame {
-        height: 23vh !important;
+        height: 23vh;
         display: -webkit-box !important;
         display: flex !important;
         -webkit-box-orient: horizontal !important;
@@ -3446,6 +3441,11 @@
     .active-small-height .wrapper-whatching {
         display: none;
     }
+
+    .exit-btn {
+        top: -5px;
+        font-size: 14px;
+    }
 }
 
 @media only screen and (max-width: 500px) and (min-width: 320px) {
@@ -3558,8 +3558,33 @@
         font-size: 20px;
     }
 
+    .active-small-height.wrapper-about-frame{
+        height: calc(67vh - 52px);
+    }
+
+    .active-small-height.no-bg .about-frame{
+        height: calc(67vh - 52px);
+    }
+
+    .active-small-height .right-block-whatch {
+        display: none;
+    }
+    
+    .active-small-height .big-stream-container {
+        width: 100%;
+    }
+
+    .active-small-height .chat-wrapper {
+        display: none;
+    }
+
     .active-small-height .payment-list {
         display: none;
+    }
+
+    .wrapper-container-pay {
+        margin: 0;
+        padding: 0;
     }
 
     .wrapper-list-afisha,
@@ -3638,34 +3663,128 @@
         height: 10px;
     }
 
+    .wrapper-photo {
+        height: 35px;
+        width: 35px;
+    }
+
+    .add-photo-btn {
+        font-size: 30px;
+    }
+
+    .name-acount {
+        font-size: 15px;
+    }
+
+    .new-my-message label {
+        font-size: 10px;
+    }
+
+    .container-change-password {
+        margin: 5px 0;
+    }
+
+    .title-change-password {
+        font-size: 12px;
+    }
+
+    .title-bg-frame {
+        font-size: 10px;
+        text-transform: uppercase;
+        opacity: 0.3;
+    }
+
+    .change-bg {
+        font-size: 12px;
+        padding: 0;
+    }
+
+    .container-list-card {
+        margin: 5px 0;
+    }
+
+    .item-card h3 {
+        font-size: 12px;
+    }
+
+    .item-card {
+        margin-bottom: 5px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+                flex-direction: column;
+    }
+
+    .btn-change {
+        font-size: 12px;
+    }
+
+    .name-streamer {
+        font-size: 18px;
+    }
+
+    .subscribe {
+        font-size: 11px;
+    }
+    
+    .setting-frame-wrapper {
+        margin-left: 1px;
+    }
+
+    .setting-stream {
+        height: 20px;
+        width: 20px;
+    }
+
+    .reiting {
+        right: 3px;
+        width: 25px;
+        height: 25px;
+    }
+    
+    .reiting span {
+        font-size: 15px;
+    }
+
+    .center-info-account {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+                flex-direction: column;
+        font-size: 10px;
+        text-align: left;
+    }
+
+    .center-info-account p {
+        font-size: 10px;
+        text-align: left;
+        margin: 5px 0;
+        line-height: 110%;
+    }
+
+    .center-info-account p span {
+        margin: 0 2px;
+    }
+
+    .bottom-block-about-frame textarea {
+        font-size: 9px;
+    }
+
+    .container-social {
+        margin: 0;
+    }
+
+    .close-frame {
+        width: 10px;
+        height: 10px;
+    }
+
+    .title-acount {
+        margin-left: 3px;
+    }
+
 }
 
 @media only screen and (max-width: 450px) and (min-width: 320px) {
     .frame {
-        font-size: 10px;
-    }
-
-    .name-streamer {
-        font-size: 20px;
-    }
-
-    .wrapper-photo {
-        height: 50px;
-        width: 50px;
-    }
-
-    .name-acount {
-        font-size: 20px;
-    }
-
-    .new-my-message label,
-    .title-change-password,
-    .title-bg-frame,
-    .language h3 {
-        font-size: 14px;
-    }
-
-    .item-card h3 {
         font-size: 10px;
     }
 
@@ -3901,7 +4020,11 @@
     }
 
     .wrapper-whatching {
-        max-height: 5vh;
+        max-height: 23px;
+    }
+
+    .bottom-pay-info {
+        margin: 0;
     }
 
     .number-message {
@@ -3923,5 +4046,87 @@
 
     .active-registration-form {
         height: 250px;
+    }
+
+    .active-frame-height {
+        height: 320px;
+    }
+
+    .whatch-stream-player .item-footer {
+        padding: 0;
+    }
+
+    .violations {
+        font-size: 10px;
+    } 
+    
+    .violations::-webkit-input-placeholder {
+        font-size: 10px;
+    } 
+    
+    .violations::-moz-placeholder {
+        font-size: 10px;
+    } 
+    
+    .violations:-ms-input-placeholder {
+        font-size: 10px;
+    } 
+    
+    .violations::-ms-input-placeholder {
+        font-size: 10px;
+    } 
+    
+    .violations::placeholder {
+        font-size: 10px;
+    }
+
+    .send-violations-btn {
+        font-size: 12px;
+        min-width: 80px;
+    }
+
+    .close-violations {
+        width: 7px;
+        height: 7px;
+    }
+
+    .chat-wrapper {
+        height: 46%;
+    }
+}
+
+@media only screen and (max-height: 450px) {
+    
+    .active-registration-form {
+        height: 220px;
+    }
+    
+    .active-registration-form .wrapper-registration{
+        -webkit-transform: translateY(-5%);
+                transform: translateY(-5%);
+        height: 90%;
+    }
+    
+    .registration, .sign-in-btn {
+        font-size: 12px;
+    }
+
+    .checkbox-custom-label {
+        margin: 0;
+    }
+
+    .checkbox-custom+.checkbox-custom-label>.checkbox-custom-label-span::before {
+        width: 10px;
+        height: 10px;
+    }
+
+    .checkbox-custom:checked+.checkbox-custom-label>.checkbox-custom-label-span::after {
+        width: 10px;
+        height: 10px;
+        top: 2px;
+    }
+
+    .chat-wrapper {
+        height: 40%;
     }
 }
