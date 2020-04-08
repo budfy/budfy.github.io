@@ -66,7 +66,8 @@ $(document).ready(function () {
 
 	function setParentSize(setupSize) {
 		let setupWidth = setupSize.width(),
-			setupHeight = setupSize.height();
+			setupHeight = setupSize.height(),
+			top = Math.round((setupWidth - setupHeight + 15) / 2);
 		$(setupSize).children(".container-afisha").width(setupHeight);
 		$(setupSize).children(".container-afisha").height(setupWidth);
 		$(setupSize)
@@ -76,10 +77,15 @@ $(document).ready(function () {
 		$(setupSize)
 			.children(".container-afisha")
 			.children(".afisha-list")
-			.height(setupHeight - 15);
+			.height(setupHeight - 15)
+			.css("top", top);
 	}
 
-	$(window).resize(calcSize);
+	$(window).resize( function () {
+setParentSize($(".wrapper-list-afisha"));
+setParentSize($(".wrapper-list-afisha-tickets"));
+calcSize();
+	});
 
 	$(window).on("orientationchange", function (event) {
 		setTimeout(calcSize, 300);

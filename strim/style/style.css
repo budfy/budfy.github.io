@@ -1,9 +1,7 @@
 /** @format */
 
 * {
-	font-size: 14px;
 	color: #ffffff;
-	font-family: "Montserrat", sans-serif;
 	box-sizing: border-box;
 }
 
@@ -94,8 +92,9 @@ video {
 	padding: 0;
 	border: 0;
 	font: inherit;
-	font-size: 100%;
+
 	vertical-align: baseline;
+
 }
 
 @-webkit-keyframes autofill {
@@ -115,6 +114,12 @@ body {
 	line-height: 1;
 	height: 100%;
 	min-height: 100vh;
+}
+
+body{
+		font-family: "Montserrat", sans-serif;
+			font-size: 14px;
+			line-height: 1.2;
 }
 
 ol,
@@ -1284,7 +1289,6 @@ button {
 	-webkit-transform: rotate(-270deg);
 	transform: rotate(-270deg);
 	position: absolute;
-	top: 265px;
 }
 
 .list-item {
@@ -1376,7 +1380,7 @@ button {
 
 .wrapper-baner-translation {
 	position: relative;
-	width: 100%;
+	width: 100%;;;
 }
 
 .wrapper-baner-translation:before {
@@ -3705,6 +3709,8 @@ div.scrollWrapper {
 .edit-poster-item {
 	height: 205px;
 	text-align: center;
+	margin-top: 5px;
+	padding-top: 10px;
 }
 
 .edit-poster p {
@@ -7674,6 +7680,7 @@ div.scrollWrapper {
 	align-items: center;
 	-webkit-box-pack: center;
 	justify-content: center;
+	overflow: hidden;
 }
 
 .wrapper-setting-game {
@@ -8227,7 +8234,6 @@ div.scrollWrapper {
 
 .container-afisha {
 	overflow-x: hidden;
-	height: calc(100vw - 229px);
 	display: -webkit-box;
 	display: flex;
 	-webkit-box-pack: center;
@@ -8235,7 +8241,7 @@ div.scrollWrapper {
 	overflow-y: auto;
 	-webkit-transform: rotate(270deg);
 	transform: rotate(270deg);
-	width: 53vh;
+	position: relative;
 }
 
 .notifications-wrapper {

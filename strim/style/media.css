@@ -2070,14 +2070,10 @@
 		height: 100%;
 	}
 
-	.notifications-wrapper,
-	.wrapper-list-afisha,
-	.wrapper-list-afisha-tickets,
-	.finance-wrapper,
-	.setting-frame-wrapper,
-	.wrapper-setting-game {
+
+.notifications-wrapper, .finance-wrapper, .setting-frame-wrapper, .wrapper-setting-game {
 		height: 55vh;
-	}
+}
 
 	.list-item h3 {
 		font-size: 12px;
@@ -2541,8 +2537,7 @@
 	.finance-wrapper,
 	.setting-frame-wrapper,
 	.wrapper-setting-game {
-		height: 100%;
-		overflow-y: auto;
+		height: 100%;;
 	}
 
 	.item-question {
